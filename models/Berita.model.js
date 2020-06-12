@@ -1,9 +1,18 @@
 const mongoose = require("mongoose");
 const Berita = mongoose.Schema({
-  title: String,
-  excerpt: String,
-  url: String,
-  thumbnail: String,
+  news: [
+    {
+      title: String,
+      excerpt: String,
+      source: String,
+      url: String,
+      thumbnail: String,
+      date: {
+        type: Date,
+        default: Date.now,
+      },
+    },
+  ],
   date: {
     type: Date,
     default: Date.now,
