@@ -1,0 +1,81 @@
+{
+  "jenis-wilayah": "Kabupaten",
+  "nama-wilayah": "Gunung Kidul",
+  "kecamatan": [
+    {
+      "id": 11,
+      "nama-kecamatan": "Gedangsari",
+      "kode-pos": 55863
+    },
+    {
+      "id": 14,
+      "nama-kecamatan": "Girisubo",
+      "kode-pos": 55883
+    },
+    {
+      "id": 23,
+      "nama-kecamatan": "Karangmojo",
+      "kode-pos": 55891
+    },
+    {
+      "id": 38,
+      "nama-kecamatan": "Ngawen",
+      "kode-pos": 55853
+    },
+    {
+      "id": 40,
+      "nama-kecamatan": "Nglipar",
+      "kode-pos": 55852
+    },
+    {
+      "id": 44,
+      "nama-kecamatan": "Paliyan",
+      "kode-pos": 55871
+    },
+    {
+      "id": 46,
+      "nama-kecamatan": "Panggang",
+      "kode-pos": 55872
+    },
+    {
+      "id": 48,
+      "nama-kecamatan": "Patuk",
+      "kode-pos": 55862
+    },
+    {
+      "id": 51,
+      "nama-kecamatan": "Playen",
+      "kode-pos": 55861
+    },
+    {
+      "id": 53,
+      "nama-kecamatan": "Ponjong",
+      "kode-pos": 55892
+    },
+    {
+      "id": 56,
+      "nama-kecamatan": "Purwosari",
+      "kode-pos": 55872
+    },
+    {
+      "id": 62,
+      "nama-kecamatan": "Semanu",
+      "kode-pos": 55893
+    },
+    {
+      "id": 63,
+      "nama-kecamatan": "Semin",
+      "kode-pos": 55854
+    },
+    {
+      "id": 69,
+      "nama-kecamatan": "Tanjungsari",
+      "kode-pos": 55881
+    },
+    {
+      "id": 78,
+      "nama-kecamatan": "Wonosari",
+      "kode-pos": 55851
+    }
+  ]
+}
