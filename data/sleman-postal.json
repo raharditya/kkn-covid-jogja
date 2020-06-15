@@ -1,0 +1,91 @@
+{
+  "jenis-wilayah": "Kabupaten",
+  "nama-wilayah": "Sleman",
+  "kecamatan": [
+    {
+      "id": 4,
+      "nama-kecamatan": "Berbah",
+      "kode-pos": 55573
+    },
+    {
+      "id": 5,
+      "nama-kecamatan": "Cangkringan",
+      "kode-pos": 55583
+    },
+    {
+      "id": 7,
+      "nama-kecamatan": "Depok",
+      "kode-pos": 55283
+    },
+    {
+      "id": 10,
+      "nama-kecamatan": "Gamping",
+      "kode-pos": 55592
+    },
+    {
+      "id": 15,
+      "nama-kecamatan": "Godean",
+      "kode-pos": 55264
+    },
+    {
+      "id": 21,
+      "nama-kecamatan": "Kalasan",
+      "kode-pos": 55571
+    },
+    {
+      "id": 32,
+      "nama-kecamatan": "Minggir",
+      "kode-pos": 55562
+    },
+    {
+      "id": 33,
+      "nama-kecamatan": "Mlati",
+      "kode-pos": 55288
+    },
+    {
+      "id": 34,
+      "nama-kecamatan": "Moyudan",
+      "kode-pos": 55563
+    },
+    {
+      "id": 36,
+      "nama-kecamatan": "Ngaglik",
+      "kode-pos": 55581
+    },
+    {
+      "id": 39,
+      "nama-kecamatan": "Ngemplak",
+      "kode-pos": 55584
+    },
+    {
+      "id": 42,
+      "nama-kecamatan": "Pakem",
+      "kode-pos": 55582
+    },
+    {
+      "id": 54,
+      "nama-kecamatan": "Prambanan",
+      "kode-pos": 55572
+    },
+    {
+      "id": 66,
+      "nama-kecamatan": "Seyegan",
+      "kode-pos": 55561
+    },
+    {
+      "id": 67,
+      "nama-kecamatan": "Sleman",
+      "kode-pos": 55515
+    },
+    {
+      "id": 72,
+      "nama-kecamatan": "Tempel",
+      "kode-pos": 55552
+    },
+    {
+      "id": 74,
+      "nama-kecamatan": "Turi",
+      "kode-pos": 55551
+    }
+  ]
+}
