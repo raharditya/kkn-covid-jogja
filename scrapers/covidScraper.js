@@ -35,7 +35,7 @@ async function scrape() {
     console.log(push);
     // console.log(bantulPostal.nama);
     //   await page.screenshot({ path: "kode-pos.png" });
-    page.close();
+    await page.close();
   }
   await browser.close();
 }
