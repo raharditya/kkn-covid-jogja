@@ -1,91 +1,91 @@
 {
-  "jenis-wilayah": "Kabupaten",
-  "nama-wilayah": "Bantul",
+  "jenisWilayah": "Kabupaten",
+  "namaWilayah": "Bantul",
   "kecamatan": [
     {
       "id": 1,
-      "nama-kecamatan": "Bambang Lipuro",
-      "kode-pos": 55764
+      "namaKecamatan": "Bambang Lipuro",
+      "kodePos": 55764
     },
     {
       "id": 2,
-      "nama-kecamatan": "Banguntapan",
-      "kode-pos": 55198
+      "namaKecamatan": "Banguntapan",
+      "kodePos": 55198
     },
     {
       "id": 3,
-      "nama-kecamatan": "Bantul",
-      "kode-pos": 55715
+      "namaKecamatan": "Bantul",
+      "kodePos": 55715
     },
     {
       "id": 8,
-      "nama-kecamatan": "Dlingo",
-      "kode-pos": 55783
+      "namaKecamatan": "Dlingo",
+      "kodePos": 55783
     },
     {
       "id": 18,
-      "nama-kecamatan": "Imogiri",
-      "kode-pos": 55782
+      "namaKecamatan": "Imogiri",
+      "kodePos": 55782
     },
     {
       "id": 19,
-      "nama-kecamatan": "Jetis",
-      "kode-pos": 55781
+      "namaKecamatan": "Jetis",
+      "kodePos": 55781
     },
     {
       "id": 24,
-      "nama-kecamatan": "Kasihan",
-      "kode-pos": 55184
+      "namaKecamatan": "Kasihan",
+      "kodePos": 55184
     },
     {
       "id": 28,
-      "nama-kecamatan": "Kretek",
-      "kode-pos": 55772
+      "namaKecamatan": "Kretek",
+      "kodePos": 55772
     },
     {
       "id": 41,
-      "nama-kecamatan": "Pajangan",
-      "kode-pos": 55751
+      "namaKecamatan": "Pajangan",
+      "kodePos": 55751
     },
     {
       "id": 45,
-      "nama-kecamatan": "Pandak",
-      "kode-pos": 55761
+      "namaKecamatan": "Pandak",
+      "kodePos": 55761
     },
     {
       "id": 50,
-      "nama-kecamatan": "Piyungan",
-      "kode-pos": 55792
+      "namaKecamatan": "Piyungan",
+      "kodePos": 55792
     },
     {
       "id": 52,
-      "nama-kecamatan": "Pleret",
-      "kode-pos": 55791
+      "namaKecamatan": "Pleret",
+      "kodePos": 55791
     },
     {
       "id": 55,
-      "nama-kecamatan": "Pundong",
-      "kode-pos": 55771
+      "namaKecamatan": "Pundong",
+      "kodePos": 55771
     },
     {
       "id": 59,
-      "nama-kecamatan": "Sanden",
-      "kode-pos": 55763
+      "namaKecamatan": "Sanden",
+      "kodePos": 55763
     },
     {
       "id": 61,
-      "nama-kecamatan": "Sedayu",
-      "kode-pos": 55752
+      "namaKecamatan": "Sedayu",
+      "kodePos": 55752
     },
     {
       "id": 65,
-      "nama-kecamatan": "Sewon",
-      "kode-pos": 55188
+      "namaKecamatan": "Sewon",
+      "kodePos": 55188
     },
     {
       "id": 68,
-      "nama-kecamatan": "Srandakan",
-      "kode-pos": 55762
+      "namaKecamatan": "Srandakan",
+      "kodePos": 55762
     }
   ]
 }
