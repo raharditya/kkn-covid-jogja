@@ -1,19 +1,43 @@
 const puppeteer = require("puppeteer");
+const cheerio = require("cheerio");
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
+const bantulPostal = require("../data/bantul-postal.json");
+// const data = JSON.parse(bantulPostal);
 
-  await page.goto("https://sebaran-covid19.jogjaprov.go.id/kodepos");
-  await page.type("#fname", "55792");
+async function scrape() {
+  const browser = await puppeteer.launch({ headless: false });
 
-  await Promise.all([
-    page.click(".btn"),
-    page.waitForNavigation({ waitUntil: "networkidle0" }),
-  ]);
+  for (let i = 0; i < bantulPostal.kecamatan.length; i++) {
+    const page = await browser.newPage();
+    await page.goto("https://sebaran-covid19.jogjaprov.go.id/kodepos");
+    await page.type("#fname", bantulPostal.kecamatan[i].kodePos.toString());
 
-  let bodyHTML = await page.evaluate(() => document.body.innerHTML);
-  console.log(bodyHTML);
-  await page.screenshot({ path: "kode-pos.png" });
+    await Promise.all([
+      page.click(".btn"),
+      page.waitForNavigation({ waitUntil: "networkidle0" }),
+    ]);
+
+    let bodyHTML = await page.evaluate(() => document.body.innerHTML);
+
+    const $ = cheerio.load(bodyHTML);
+
+    const positif = $("#positif").text();
+    const odp = $("#odp").text();
+    const pdp = $("#pdp").text();
+
+    const push = {
+      kecamatan: bantulPostal.kecamatan[i].namaKecamatan,
+      positif,
+      odp,
+      pdp,
+    };
+
+    console.log(push);
+    // console.log(bantulPostal.nama);
+    //   await page.screenshot({ path: "kode-pos.png" });
+    page.close();
+  }
   await browser.close();
-})();
+}
+
+scrape();
