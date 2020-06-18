@@ -3,6 +3,9 @@ const App = express();
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+const detikScraper = require("./scrapers/detikScraper");
+const berita = require("./routes/api/Berita");
+
 const PORT = process.env.PORT || 4500;
 
 (async function dbConnect() {
@@ -18,7 +21,7 @@ const PORT = process.env.PORT || 4500;
   }
 })();
 
-const berita = require("./routes/api/Berita");
+detikScraper();
 
 App.use("/", berita);
 
