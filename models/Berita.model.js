@@ -4,13 +4,10 @@ const Berita = mongoose.Schema({
     detik: [
       {
         title: String,
+        date: String,
         excerpt: String,
         url: String,
         thumbnail: String,
-        date: {
-          type: Date,
-          default: Date.now,
-        },
       },
     ],
     suara: [
@@ -19,49 +16,33 @@ const Berita = mongoose.Schema({
         excerpt: String,
         url: String,
         thumbnail: String,
-        date: {
-          type: Date,
-          default: Date.now,
-        },
       },
     ],
     tribunnews: [
       {
         title: String,
+        date: String,
         excerpt: String,
-        source: String,
         url: String,
         thumbnail: String,
-        date: {
-          type: Date,
-          default: Date.now,
-        },
       },
     ],
     kompas: [
       {
         title: String,
+        date: String,
         excerpt: String,
-        source: String,
         url: String,
         thumbnail: String,
-        date: {
-          type: Date,
-          default: Date.now,
-        },
       },
     ],
     cnbc: [
       {
         title: String,
-        excerpt: String,
-        source: String,
+        date: String,
+        label: String,
         url: String,
         thumbnail: String,
-        date: {
-          type: Date,
-          default: Date.now,
-        },
       },
     ],
   },
