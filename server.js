@@ -21,8 +21,8 @@ const PORT = process.env.PORT || 4500;
   }
 })();
 
-startScrape();
+// startScrape();
 
-App.use("/", berita);
+App.use("/api/berita", berita);
 
 App.listen(PORT, () => console.log(`Server started at ${PORT}`));
