@@ -16,34 +16,32 @@ function detikScraper() {
           const title = $(el).find(".title").text();
           const date = $(el).find(".date").text();
           const excerpt = $(el).find(".title").next().text();
-          //   const excerptPush = excerpt.split(",");
           const url = $(el).find("a").attr("href");
           const thumbnail = $(el).find("img").attr("src");
 
+          const datePush = date.split(",");
+
           detikNews.push({
-            title: title,
-            date: date,
-            excerpt: excerpt,
-            url: url,
-            thumbnail: thumbnail,
+            title,
+            date: datePush[1].trim(),
+            excerpt,
+            url,
+            thumbnail,
           });
         });
 
         try {
           const detikPush = new Berita({
-            source: {
-              detik: detikNews,
-            },
+            source: "Detik News",
+            news: detikNews,
           });
 
           detikPush.save();
 
-          console.log("Data saved to database");
+          console.log("DetikNews saved to database");
         } catch (err) {
           console.error(err);
         }
-
-        console.log(detikNews);
       }
     }
   );
