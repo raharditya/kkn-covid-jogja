@@ -3,7 +3,7 @@ const App = express();
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const detikScraper = require("./scrapers/detikScraper");
+const startScrape = require("./scrapers/startScrape");
 const berita = require("./routes/api/Berita");
 
 const PORT = process.env.PORT || 4500;
@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 4500;
   }
 })();
 
-detikScraper();
+startScrape();
 
 App.use("/", berita);
 
