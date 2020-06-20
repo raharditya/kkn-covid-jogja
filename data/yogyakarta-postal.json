@@ -1,76 +1,76 @@
 {
-  "jenis-wilayah": "Kota",
-  "nama-wilayah": "Yogyakarta",
+  "jenisWilayah": "Kota",
+  "namaWilayah": "Yogyakarta",
   "kecamatan": [
     {
       "id": 6,
-      "nama-kecamatan": "Danurejan",
-      "kode-pos": 55213
+      "namaKecamatan": "Danurejan",
+      "kodePos": 55213
     },
     {
       "id": 12,
-      "nama-kecamatan": "Gedong Tengen",
-      "kode-pos": 55272
+      "namaKecamatan": "Gedong Tengen",
+      "kodePos": 55272
     },
     {
       "id": 16,
-      "nama-kecamatan": "Gondokusuman",
-      "kode-pos": 55225
+      "namaKecamatan": "Gondokusuman",
+      "kodePos": 55225
     },
     {
       "id": 17,
-      "nama-kecamatan": "Gondomanan",
-      "kode-pos": 55122
+      "namaKecamatan": "Gondomanan",
+      "kodePos": 55122
     },
     {
       "id": 20,
-      "nama-kecamatan": "Jetis",
-      "kode-pos": 55233
+      "namaKecamatan": "Jetis",
+      "kodePos": 55233
     },
     {
       "id": 26,
-      "nama-kecamatan": "Kotagede",
-      "kode-pos": 55173
+      "namaKecamatan": "Kotagede",
+      "kodePos": 55173
     },
     {
       "id": 27,
-      "nama-kecamatan": "Kraton",
-      "kode-pos": 55133
+      "namaKecamatan": "Kraton",
+      "kodePos": 55133
     },
     {
       "id": 30,
-      "nama-kecamatan": "Mantrijeron",
-      "kode-pos": 55143
+      "namaKecamatan": "Mantrijeron",
+      "kodePos": 55143
     },
     {
       "id": 31,
-      "nama-kecamatan": "Mergangsan",
-      "kode-pos": 55153
+      "namaKecamatan": "Mergangsan",
+      "kodePos": 55153
     },
     {
       "id": 37,
-      "nama-kecamatan": "Ngampilan",
-      "kode-pos": 55262
+      "namaKecamatan": "Ngampilan",
+      "kodePos": 55262
     },
     {
       "id": 43,
-      "nama-kecamatan": "Pakualaman",
-      "kode-pos": 55112
+      "namaKecamatan": "Pakualaman",
+      "kodePos": 55112
     },
     {
       "id": 70,
-      "nama-kecamatan": "Tegalrejo",
-      "kode-pos": 55244
+      "namaKecamatan": "Tegalrejo",
+      "kodePos": 55244
     },
     {
       "id": 75,
-      "nama-kecamatan": "Umbulharjo",
-      "kode-pos": 55167
+      "namaKecamatan": "Umbulharjo",
+      "kodePos": 55167
     },
     {
       "id": 77,
-      "nama-kecamatan": "Wirobrajan",
-      "kode-pos": 55253
+      "namaKecamatan": "Wirobrajan",
+      "kodePos": 55253
     }
   ]
 }

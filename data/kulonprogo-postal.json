@@ -1,66 +1,66 @@
 {
-  "jenis-wilayah": "Kabupaten",
-  "nama-wilayah": "Kulon Progo",
+  "jenisWilayah": "Kabupaten",
+  "namaWilayah": "Kulon Progo",
   "kecamatan": [
     {
       "id": 9,
-      "nama-kecamatan": "Galur",
-      "kode-pos": 55661
+      "namaKecamatan": "Galur",
+      "kodePos": 55661
     },
     {
       "id": 13,
-      "nama-kecamatan": "Girimulyo",
-      "kode-pos": 55674
+      "namaKecamatan": "Girimulyo",
+      "kodePos": 55674
     },
     {
       "id": 22,
-      "nama-kecamatan": "Kalibawang",
-      "kode-pos": 55672
+      "namaKecamatan": "Kalibawang",
+      "kodePos": 55672
     },
     {
       "id": 25,
-      "nama-kecamatan": "Kokap",
-      "kode-pos": 55653
+      "namaKecamatan": "Kokap",
+      "kodePos": 55653
     },
     {
       "id": 29,
-      "nama-kecamatan": "Lendah",
-      "kode-pos": 55663
+      "namaKecamatan": "Lendah",
+      "kodePos": 55663
     },
     {
       "id": 35,
-      "nama-kecamatan": "Nanggulan",
-      "kode-pos": 55671
+      "namaKecamatan": "Nanggulan",
+      "kodePos": 55671
     },
     {
       "id": 47,
-      "nama-kecamatan": "Panjatan",
-      "kode-pos": 55655
+      "namaKecamatan": "Panjatan",
+      "kodePos": 55655
     },
     {
       "id": 49,
-      "nama-kecamatan": "Pengasih",
-      "kode-pos": 55652
+      "namaKecamatan": "Pengasih",
+      "kodePos": 55652
     },
     {
       "id": 58,
-      "nama-kecamatan": "Samigaluh",
-      "kode-pos": 55673
+      "namaKecamatan": "Samigaluh",
+      "kodePos": 55673
     },
     {
       "id": 64,
-      "nama-kecamatan": "Sentolo",
-      "kode-pos": 55664
+      "namaKecamatan": "Sentolo",
+      "kodePos": 55664
     },
     {
       "id": 71,
-      "nama-kecamatan": "Temon",
-      "kode-pos": 55654
+      "namaKecamatan": "Temon",
+      "kodePos": 55654
     },
     {
       "id": 76,
-      "nama-kecamatan": "Wates",
-      "kode-pos": 55651
+      "namaKecamatan": "Wates",
+      "kodePos": 55651
     }
   ]
 }
