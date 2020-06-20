@@ -12,7 +12,11 @@ const PORT = process.env.PORT || 4500;
   try {
     mongoose.connect(
       process.env.DB_SECRET,
-      { useNewUrlParser: true, useUnifiedTopology: true },
+      {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useFindAndModify: false,
+      },
       () => console.log(`DB Connected!`)
     );
   } catch (err) {
