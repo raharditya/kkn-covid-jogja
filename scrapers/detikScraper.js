@@ -31,12 +31,14 @@ function detikScraper() {
         });
 
         try {
-          const detikPush = new Berita({
-            source: "Detik News",
-            news: detikNews,
-          });
-
-          detikPush.save();
+          await Berita.findOneAndUpdate(
+            { source: "Detik News" },
+            {
+              source: "Detik News",
+              news: detikNews,
+            },
+            { upsert: true }
+          );
 
           console.log("DetikNews saved to database");
         } catch (err) {
