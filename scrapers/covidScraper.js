@@ -1,6 +1,8 @@
 const puppeteer = require("puppeteer");
 const cheerio = require("cheerio");
 
+const CovidKab = require("../models/CovidKab.model");
+
 const bantulPostal = require("../data/bantul-postal.json");
 const gunungkidulPostal = require("../data/gunungkidul-postal.json");
 const kulonprogoPostal = require("../data/kulonprogo-postal.json");
@@ -59,14 +61,21 @@ async function scrape() {
       kabData.odpKab = kabData.odpKab + parseInt(odpKec);
       kabData.pdpKab = kabData.pdpKab + parseInt(pdpKec);
 
-      // console.log(push);
       await page.close();
     }
 
-    console.log(kabData);
+    // console.log(kabData);
+    try {
+      await CovidKab.findOneAndUpdate({ nameKab: kabData.nameKab }, kabData, {
+        upsert: true,
+      });
+      console.log(`${kabData.nameKab} data updated to DB`);
+    } catch (err) {
+      console.error(err);
+    }
   }
 
   await browser.close();
 }
 
-scrape();
+module.exports = scrape;
