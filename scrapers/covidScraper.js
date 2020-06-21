@@ -19,6 +19,14 @@ async function scrape() {
   const browser = await puppeteer.launch();
 
   for (let curr = 0; curr < scrapeAll.length; curr++) {
+    let kabData = {
+      nameKab: `${scrapeAll[curr].jenisWilayah} ${scrapeAll[curr].namaWilayah}`,
+      activeKab: 0,
+      odpKab: 0,
+      pdpKab: 0,
+      kecamatan: [],
+    };
+
     for (let i = 0; i < scrapeAll[curr].kecamatan.length; i++) {
       const page = await browser.newPage();
       await page.goto("https://sebaran-covid19.jogjaprov.go.id/kodepos");
@@ -36,20 +44,26 @@ async function scrape() {
 
       const $ = cheerio.load(bodyHTML);
 
-      const positif = $("#positif").text();
-      const odp = $("#odp").text();
-      const pdp = $("#pdp").text();
+      const activeKec = $("#positif").text();
+      const odpKec = $("#odp").text();
+      const pdpKec = $("#pdp").text();
 
-      const push = {
-        kecamatan: scrapeAll[curr].kecamatan[i].namaKecamatan,
-        positif,
-        odp,
-        pdp,
-      };
+      kabData.kecamatan.push({
+        nameKec: scrapeAll[curr].kecamatan[i].namaKecamatan,
+        activeKec: parseInt(activeKec),
+        odpKec: parseInt(odpKec),
+        pdpKec: parseInt(pdpKec),
+      });
 
-      console.log(push);
+      kabData.activeKab = kabData.activeKab + parseInt(activeKec);
+      kabData.odpKab = kabData.odpKab + parseInt(odpKec);
+      kabData.pdpKab = kabData.pdpKab + parseInt(pdpKec);
+
+      // console.log(push);
       await page.close();
     }
+
+    console.log(kabData);
   }
 
   await browser.close();
