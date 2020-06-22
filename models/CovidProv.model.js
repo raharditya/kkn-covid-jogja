@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const CovidProv = mongoose.Schema({
+  nameProv: String,
   activeProv: Number,
   recoveredProv: Number,
   deathProv: Number,
