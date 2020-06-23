@@ -1,0 +1,7 @@
+{
+  "name": "kkn-covid-jogja",
+  "version": 1.0,
+  "env": {
+    "DB_SECRET": "@mongo-secret"
+  }
+}
