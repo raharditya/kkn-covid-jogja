@@ -1,6 +1,29 @@
 const express = require("express");
 const router = express.Router();
 const CovidProvModel = require("../../models/CovidProv.model");
+const CovidKabModel = require("../../models/CovidKab.model");
+
+router.get("/provinsi", async (req, res) => {
+  try {
+    const covidProv = CovidProvModel.findOne({ nameProv: "DIY" });
+
+    res.json(covidProv);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+router.get("/kabupaten", async (req, res) => {
+  try {
+    const covidKab = CovidKabModel.find();
+
+    res.json(covidKab);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Internal Server Error");
+  }
+});
 
 router.post("/", async (req, res) => {
   const activeDaily = req.body.activeDaily;
