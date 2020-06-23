@@ -1,10 +1,13 @@
 const express = require("express");
 const App = express();
 const mongoose = require("mongoose");
+const CronJob = require("cron").CronJob;
 require("dotenv").config();
 
 const startScrape = require("./scrapers/startScrape");
-const berita = require("./routes/api/Berita");
+const covidScrape = require("./scrapers/covidScraper");
+const berita = require("./routes/api/berita");
+const covid = require("./routes/api/covid");
 
 const PORT = process.env.PORT || 4500;
 
@@ -25,8 +28,24 @@ const PORT = process.env.PORT || 4500;
   }
 })();
 
-// startScrape();
+const newsScrapeCron = new CronJob(
+  "0 0 0,2,4,6,8,10,12,14,16,18,20,22 * * *",
+  () => startScrape(),
+  null,
+  false,
+  "Asia/Jakarta"
+);
+const covidScrapeCron = new CronJob(
+  "0 0 17 * * *",
+  () => covidScrape(),
+  null,
+  false,
+  "Asia/Jakarta"
+);
+newsScrapeCron.start();
+covidScrapeCron.start();
 
 App.use("/api/berita", berita);
+App.use("/api/covid", covid);
 
 App.listen(PORT, () => console.log(`Server started at ${PORT}`));
