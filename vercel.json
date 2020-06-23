@@ -1,6 +1,6 @@
 {
   "name": "kkn-covid-jogja",
-  "version": 1.0,
+  "version": 2,
   "env": {
     "DB_SECRET": "@mongo-secret"
   }
