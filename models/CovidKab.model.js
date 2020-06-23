@@ -13,6 +13,10 @@ const CovidKab = mongoose.Schema({
     },
   ],
   lastUpdate: String,
+  dateFetched: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
 module.exports = mongoose.model("CovidKab", CovidKab);

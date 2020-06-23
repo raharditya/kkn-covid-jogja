@@ -27,6 +27,7 @@ async function scrape() {
       odpKab: 0,
       pdpKab: 0,
       kecamatan: [],
+      lastUpdate: "",
     };
 
     for (let i = 0; i < scrapeAll[curr].kecamatan.length; i++) {
@@ -49,6 +50,9 @@ async function scrape() {
       const activeKec = $("#positif").text();
       const odpKec = $("#odp").text();
       const pdpKec = $("#pdp").text();
+      const update = $(".dataupdate").children().closest("p").text();
+
+      const updateProc = update.split("\n");
 
       kabData.kecamatan.push({
         nameKec: scrapeAll[curr].kecamatan[i].namaKecamatan,
@@ -57,6 +61,7 @@ async function scrape() {
         pdpKec: parseInt(pdpKec),
       });
 
+      kabData.lastUpdate = updateProc[0].trim();
       kabData.activeKab = kabData.activeKab + parseInt(activeKec);
       kabData.odpKab = kabData.odpKab + parseInt(odpKec);
       kabData.pdpKab = kabData.pdpKab + parseInt(pdpKec);
