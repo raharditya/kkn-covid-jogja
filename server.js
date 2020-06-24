@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const startScrape = require("./scrapers/startScrape");
 const covidScrape = require("./scrapers/covidScraper");
-const berita = require("./routes/api/berita");
+const berita = require("./routes/api/Berita" || "./routes/api/berita");
 const covid = require("./routes/api/covid");
 
 const PORT = process.env.PORT || 4500;
@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 4500;
 })();
 
 const newsScrapeCron = new CronJob(
-  "0 0 0,2,4,6,8,10,12,14,16,18,20,22 * * *",
+  "0 0 */2 * * *",
   () => startScrape(),
   null,
   false,
@@ -44,6 +44,20 @@ const covidScrapeCron = new CronJob(
 );
 newsScrapeCron.start();
 covidScrapeCron.start();
+
+App.get("/", (req, res) => {
+  res.send(
+    "Welcome to the backend for my next project. \nGo to /api/berita for the news API \nGo to /api/covid/provinsi for covid data by Province in Yogyalarta \nGo to /api/covid/kabupaten for covid data by Regency in Yogyalarta"
+  );
+});
+
+App.get("/api", (req, res) => {
+  res.json({
+    newsApi: "./berita",
+    covidProvinceApi: "./covid/provinsi",
+    covidRegencyApi: "./covid/kabupaten",
+  });
+});
 
 App.use("/api/berita", berita);
 App.use("/api/covid", covid);
