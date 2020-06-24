@@ -5,7 +5,7 @@ const CovidKabModel = require("../../models/CovidKab.model");
 
 router.get("/provinsi", async (req, res) => {
   try {
-    const covidProv = CovidProvModel.findOne({ nameProv: "DIY" });
+    const covidProv = await CovidProvModel.findOne({ nameProv: "DIY" });
 
     res.json(covidProv);
   } catch (err) {
@@ -16,7 +16,7 @@ router.get("/provinsi", async (req, res) => {
 
 router.get("/kabupaten", async (req, res) => {
   try {
-    const covidKab = CovidKabModel.find();
+    const covidKab = await CovidKabModel.find();
 
     res.json(covidKab);
   } catch (err) {
@@ -66,3 +66,5 @@ router.post("/", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+module.exports = router;
