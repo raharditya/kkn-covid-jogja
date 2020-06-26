@@ -53,6 +53,7 @@ function kompasScraper() {
             {
               source: "Kompas News",
               news: kompasNews,
+              timeFetched: new Date(),
             },
             { upsert: true }
           );

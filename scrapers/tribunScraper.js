@@ -41,6 +41,7 @@ function tribunScraper() {
             {
               source: "Tribun News",
               news: tribunNews,
+              timeFetched: new Date(),
             },
             { upsert: true }
           );

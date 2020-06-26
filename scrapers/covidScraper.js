@@ -28,6 +28,7 @@ async function scrape() {
       pdpKab: 0,
       kecamatan: [],
       lastUpdate: "",
+      timeFetched: new Date(),
     };
 
     for (let i = 0; i < scrapeAll[curr].kecamatan.length; i++) {
