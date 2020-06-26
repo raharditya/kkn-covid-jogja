@@ -13,7 +13,7 @@ const CovidKab = mongoose.Schema({
     },
   ],
   lastUpdate: String,
-  dateFetched: {
+  timeFetched: {
     type: Date,
     default: Date.now,
   },

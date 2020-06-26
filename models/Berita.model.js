@@ -11,7 +11,7 @@ const Berita = mongoose.Schema({
       thumbnail: String,
     },
   ],
-  date: {
+  timeFetched: {
     type: Date,
     default: Date.now,
   },
