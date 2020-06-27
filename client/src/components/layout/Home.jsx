@@ -1,6 +1,7 @@
 import React from "react";
 
 import HomeNav from "../HomeNav";
+import PageHeader from "../PageHeader";
 import SectionHeader from "../SectionHeader";
 import ProvinceStats from "../ProvinceStats";
 
@@ -8,9 +9,7 @@ export default function Home() {
   return (
     <div class="page-wrapper">
       <div class="page-inner-wrapper">
-        <header>
-          <h2 class="page-title">Beranda</h2>
-        </header>
+        <PageHeader title="Beranda" />
 
         <HomeNav />
 
@@ -26,7 +25,12 @@ export default function Home() {
           <div className="placeholder"></div>
 
           <div class="more-wrapper">
-            <a href="#" class="chart-more">
+            <a
+              href="https://corona.jogjaprov.go.id/data-statistik"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="chart-more"
+            >
               Lebih Lengkap
             </a>
           </div>
