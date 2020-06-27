@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="328" height="168" viewBox="0 0 328 168">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="328" height="168" transform="translate(-388 1726)" fill="#e8f5f1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(388 -1726)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="74" cy="74" r="74" transform="translate(-426 1718)" fill="#e8f5f1"/>
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="83" height="77" rx="4" transform="translate(-49.385 1834.606) rotate(120)" fill="#d2fff1"/>
+    <g id="Group_15" data-name="Group 15" transform="matrix(0.695, -0.719, 0.719, 0.695, -1335.424, 373.155)">
+      <rect id="Rectangle_82" data-name="Rectangle 82" width="33.227" height="5.917" rx="2.959" transform="translate(-183.388 1784.724) rotate(120)" fill="#d2fff1"/>
+      <rect id="Rectangle_83" data-name="Rectangle 83" width="33.227" height="5.917" rx="2.959" transform="translate(-181.349 1808.502) rotate(-150)" fill="#d2fff1"/>
+    </g>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M-394,247a13.754,13.754,0,0,1-9.9-4.194,14.392,14.392,0,0,1-4.1-10.125c0-.225.005-.454.016-.681h27.968c.011.238.016.466.016.681a14.392,14.392,0,0,1-4.1,10.125A13.753,13.753,0,0,1-394,247Z" transform="matrix(0.788, 0.616, -0.616, 0.788, 206.901, 1917.611)" fill="#d2fff1"/>
+  </g>
+</svg>
