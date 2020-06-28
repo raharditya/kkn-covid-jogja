@@ -10,7 +10,7 @@ function PageHeader(props) {
   return (
     <header>
       <h2 class="page-title">{props.title}</h2>
-      {outputSub}
+      {outputSub()}
     </header>
   );
 }
