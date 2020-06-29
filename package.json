@@ -18,6 +18,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.18",
     "puppeteer": "^3.3.0",
+    "react-transition-group": "^4.4.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
