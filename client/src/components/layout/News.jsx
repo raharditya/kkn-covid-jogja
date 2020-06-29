@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+
+import AppNav from "../AppNav";
 import PageHeader from "../PageHeader";
 import NewsMenu from "../NewsMenu";
 import NewsSelect from "../NewsSelect";
@@ -20,11 +22,12 @@ function useFetch() {
 }
 
 export default function News() {
-  useFetch();
+  // useFetch();
 
   return (
     <div class="page-wrapper">
       <div class="page-inner-wrapper berita-inner">
+        <AppNav />
         <div class="header-static-section">
           <PageHeader
             title="Berita"
