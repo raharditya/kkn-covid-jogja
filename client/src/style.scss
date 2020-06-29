@@ -24,9 +24,44 @@ body {
 
 .page-wrapper {
   background-color: $MAIN-BG;
-  width: 56.25vh;
+  max-width: 56.25vh;
   min-height: 100vh;
   margin: auto;
+  overflow: hidden;
+}
+
+.app-nav {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 53vh;
+  height: 70px;
+  border-radius: 15px;
+  z-index: 10;
+  background-color: $OUTSIDE-BG;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 6px 10px $SHADOW;
+  transition: all 500ms ease-in-out;
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fas {
+    font-size: 1.4em;
+    color: $DEFOCUSED-TEXT;
+  }
+
+  a {
+    color: $BLACK-TEXT;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-top: 5px;
+  }
 }
 
 .page-inner-wrapper {
@@ -315,4 +350,40 @@ body {
       font-size: 1.4rem;
     }
   }
+}
+
+.home-province-enter {
+  position: absolute;
+  width: 100%;
+  transform: translateX(-120%);
+}
+.home-province-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.home-province-exit {
+  position: absolute;
+  width: 100%;
+  transform: translateX(0%);
+}
+.home-province-exit-active {
+  transform: translateX(-120%);
+  transition: all 500ms ease;
+}
+
+.home-regency-enter {
+  transform: translateX(120%);
+  width: 100%;
+}
+.home-regency-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.home-regency-exit {
+  position: absolute;
+  width: 100%;
+}
+.home-regency-exit-active {
+  transform: translateX(120%);
+  transition: all 500ms ease;
 }

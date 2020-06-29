@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function HomeNav() {
+export default function HomeNav(props) {
   return (
     <nav>
       <ul class="home-nav">
-        <li>Provinsi</li>
-        <li>Kabupaten</li>
+        <li onClick={() => props.homeNavHandle("province")}>Provinsi</li>
+        <li onClick={() => props.homeNavHandle("regency")}>Kabupaten</li>
       </ul>
     </nav>
   );
