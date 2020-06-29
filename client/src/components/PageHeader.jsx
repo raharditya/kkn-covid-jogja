@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 function PageHeader(props) {
   const outputSub = () => {
     if (props.subtitle) {
-      return <p class="page-subtitle">{props.subtitle}</p>;
+      return <p className="page-subtitle">{props.subtitle}</p>;
     }
   };
   return (
     <header>
-      <h2 class="page-title">{props.title}</h2>
+      <h2 className="page-title">{props.title}</h2>
       {outputSub()}
     </header>
   );

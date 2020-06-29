@@ -6,7 +6,7 @@ export default function AppNav() {
     <nav className="app-nav">
       <div className="nav-item">
         <NavLink exact to="/" activeStyle={{ color: "#433a3a" }}>
-          <i class="fas fa-home"></i>
+          <i className="fas fa-home"></i>
         </NavLink>
         <NavLink exact to="/" activeStyle={{ fontWeight: "bold" }}>
           Beranda
@@ -14,7 +14,7 @@ export default function AppNav() {
       </div>
       <div className="nav-item">
         <NavLink exact to="/berita" activeStyle={{ color: "#433a3a" }}>
-          <i class="fas fa-newspaper"></i>
+          <i className="fas fa-newspaper"></i>
         </NavLink>
         <NavLink exact to="/berita" activeStyle={{ fontWeight: "bold" }}>
           Berita
@@ -22,7 +22,7 @@ export default function AppNav() {
       </div>
       <div className="nav-item">
         <NavLink exact to="/edukasi" activeStyle={{ color: "#433a3a" }}>
-          <i class="fas fa-book"></i>
+          <i className="fas fa-book"></i>
         </NavLink>
         <NavLink exact to="/edukasi" activeStyle={{ fontWeight: "bold" }}>
           Edukasi
