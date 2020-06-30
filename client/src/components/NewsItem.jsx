@@ -2,11 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function NewsItem(props) {
-  const withDate = () => {
-    if (props.date) {
-      return <small className="berita-date">{props.date}</small>;
-    }
-  };
   return (
     <div className="berita-item">
       <h3 className="berita-title">
@@ -14,7 +9,17 @@ function NewsItem(props) {
           {props.title}
         </a>
       </h3>
-      {withDate()}
+
+      {props.label ? (
+        <small className="berita-date">
+          {`${props.date} - ${props.label}`}
+        </small>
+      ) : props.date ? (
+        <small className="berita-date">{props.date}</small>
+      ) : (
+        ""
+      )}
+
       <p className="berita-excerpt">{props.excerpt}</p>
     </div>
   );
@@ -23,6 +28,7 @@ function NewsItem(props) {
 NewsItem.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
+  label: PropTypes.string,
   excerpt: PropTypes.string,
   url: PropTypes.string,
 };
