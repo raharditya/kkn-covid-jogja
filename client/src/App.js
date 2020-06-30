@@ -3,19 +3,49 @@ import "./style.scss";
 import Home from "./components/layout/Home";
 import News from "./components/layout/News";
 import Info from "./components/layout/Info";
+import AppNav from "./components/AppNav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { CSSTransition } from "react-transition-group";
 
 function App() {
   return (
     <Router>
+      <AppNav />
       <Route path="/" exact>
-        <Home />
+        {({ match }) => (
+          <CSSTransition
+            in={match != null}
+            timeout={800}
+            unmountOnExit
+            classNames="page"
+          >
+            <Home />
+          </CSSTransition>
+        )}
       </Route>
       <Route path="/berita" exact>
-        <News />
+        {({ match }) => (
+          <CSSTransition
+            in={match != null}
+            timeout={800}
+            unmountOnExit
+            classNames="page"
+          >
+            <News />
+          </CSSTransition>
+        )}
       </Route>
       <Route path="/edukasi" exact>
-        <Info />
+        {({ match }) => (
+          <CSSTransition
+            in={match != null}
+            timeout={800}
+            unmountOnExit
+            classNames="page"
+          >
+            <Info />
+          </CSSTransition>
+        )}
       </Route>
     </Router>
   );
