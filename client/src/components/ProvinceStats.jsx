@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { ReactComponent as Divider } from "../assets/divider.svg";
 
 function ProvinceStats(props) {
   return (
@@ -9,10 +10,12 @@ function ProvinceStats(props) {
           <small>Pasien</small>
           <h3>{props.active}</h3>
         </div>
+        <Divider />
         <div class="stats-item">
           <small>Sembuh</small>
           <h3>{props.recovered}</h3>
         </div>
+        <Divider />
         <div class="stats-item">
           <small>Meninggal</small>
           <h3>{props.deaths}</h3>

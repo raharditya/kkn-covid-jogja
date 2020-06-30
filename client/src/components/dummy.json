@@ -1,0 +1,565 @@
+[
+  {
+    "_id": "5eec69e9fe3b6dd61652013f",
+    "source": "Detik News",
+    "__v": 0,
+    "news": [
+      {
+        "_id": "5ef99172d7ac0a3258ca53fc",
+        "title": "Update Corona di Yogyakarta: 302 Positif, 252 Sembuh, 8 Meninggal",
+        "date": "26 Jun 2020 16:36 WIB",
+        "excerpt": "Update kasus virus Corona (COVID-19) di Daerah Istimewa Yogyakarta (Pemda DIY), kasus positif 302, pasien sembuh 252, meninggal dunia 8 orang.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5069488/update-corona-di-yogyakarta-302-positif-252-sembuh-8-meninggal",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/05/25/94447048-a1bd-43fb-8f42-e4757c54ee97_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca53fd",
+        "title": "Pemda Ralat Informasi: Tanggap Darurat Corona DIY Diperpanjang Sampai 31 Juli",
+        "date": "25 Jun 2020 18:27 WIB",
+        "excerpt": "Pemda DIY meralat pernyataan terkait perpanjangan status tanggap darurat virus Corona hingga tanggal 30 Juli menjadi tanggal 31 Juli.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5068320/pemda-ralat-informasi-tanggap-darurat-corona-diy-diperpanjang-sampai-31-juli",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/06/25/wakil-ketua-sekretariat-gugus-tugas-penanganan-covid-19-diy-biwara-yuswantana-kamis-2562020_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca53fe",
+        "title": "DIY Perpanjang Masa Tanggap Darurat Corona hingga 30 Juli, Ini Alasannya",
+        "date": "25 Jun 2020 16:59 WIB",
+        "excerpt": "Pemerintah Daerah Istimewa Yogyakarta (Pemda DIY) memperpanjang status tanggap darurat pandemi virus Corona (COVID-19) hingga tanggal 30 Juli 2020.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5068101/diy-perpanjang-masa-tanggap-darurat-corona-hingga-30-juli-ini-alasannya",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/06/25/wakil-ketua-sekretariat-gugus-tugas-penanganan-covid-19-diy-biwara-yuswantana-kamis-2562020_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca53ff",
+        "title": "Update Corona di Yogya 25 Juni: 299 Positif, 247 Sembuh, 8 Meninggal",
+        "date": "25 Jun 2020 16:45 WIB",
+        "excerpt": "Pemda DIY menyebut hari ini terdapat penambahan 7 kasus positif virus Corona, satu di antaranya merupakan balita.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5068070/update-corona-di-yogya-25-juni-299-positif-247-sembuh-8-meninggal",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/05/25/67092f1a-c43e-463a-98e0-4115509e76c2_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca5400",
+        "title": "Mengaku Petugas Corona, Residivis Asal Klaten Ini Bawa Kabur 2 Ponsel",
+        "date": "22 Jun 2020 15:15 WIB",
+        "excerpt": "Tiga kali masuk penjara tak bikin Aji kapok. Pria asal Klaten itu kembali berurusan dengan polisi terkait kasus penipuan karena mengaku sebagai satgas Corona.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5063481/mengaku-petugas-corona-residivis-asal-klaten-ini-bawa-kabur-2-ponsel",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/06/22/residivis-asal-klaten-ini-mengaku-jadi-petugas-corona-dan-bawa-kabur-2-ponsel_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca5401",
+        "title": "Update Corona DIY 20 Juni: 285 Positif, 231 Sembuh, 8 Meninggal",
+        "date": "20 Jun 2020 18:43 WIB",
+        "excerpt": "Pemda DIY melaporkan tambahan 8 kasus baru Corona di Yogyakarta menjadi 285 kasus. Selain itu dilaporkan ada penambahan 5 kasus Corona sembuh.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5061665/update-corona-diy-20-juni-285-positif-231-sembuh-8-meninggal",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/05/25/67092f1a-c43e-463a-98e0-4115509e76c2_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca5402",
+        "title": "ORI DIY Terima Aduan soal Bansos-Naiknya Tarif PLN Saat Pandemi Corona",
+        "date": "17 Jun 2020 17:35 WIB",
+        "excerpt": "ORI DIY mencatat ada 44 aduan terkait pandemi virus Corona yang diterima pihaknya. Mayoritas soal distribusi bansos hingga kenaikan tarif PLN.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5057531/ori-diy-terima-aduan-soal-bansos-naiknya-tarif-pln-saat-pandemi-corona",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/06/17/kepala-ori-perwakilan-diy-budhi-masturi-saat-diskusi-publik-launching-kajian-penanganan-covid-19-di-diy-bersama-lbh-dan-idea_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca5403",
+        "title": "Update Corona di Yogya: 273 Positif, 213 Sembuh, dan 8 Meninggal",
+        "date": "16 Jun 2020 18:01 WIB",
+        "excerpt": "Pemda DIY mencatat ada tambahan satu kasus positif dan dua kasus sembuh virus Corona, sehingga saat ini ada 273 positif dan 213 kasus sembuh di DIY.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5056059/update-corona-di-yogya-273-positif-213-sembuh-dan-8-meninggal",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/05/20/4fad5270-f9a1-4373-b133-fe4856f8130f_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca5404",
+        "title": "Tak Perlu Rapid Test, Peserta UTBK SBMPTN di Yogya Wajib Bawa Surat Sehat",
+        "date": "15 Jun 2020 15:57 WIB",
+        "excerpt": "Para calon mahasiswa di Sleman, Daerah Istimewa Yogyakarta (DIY) tak perlu rapid test tapi wajib membawa surat keterangan sehat.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5054250/tak-perlu-rapid-test-peserta-utbk-sbmptn-di-yogya-wajib-bawa-surat-sehat",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2019/07/09/876d8067-9772-45f0-8c6e-ddb34c782439_43.jpeg?w=250&q="
+      },
+      {
+        "_id": "5ef99172d7ac0a3258ca5405",
+        "title": "Sempat Tutup karena Jadi Klaster Corona, Indogrosir Sleman Sudah Buka Lagi",
+        "date": "15 Jun 2020 14:31 WIB",
+        "excerpt": "Indogrosir Sleman yang menjadi salah satu klaster penyebaran virus Corona atau COVID-19 di DIY kembali beroperasi setelah ditutup pada 5 April 2020.",
+        "url": "https://news.detik.com/berita-jawa-tengah/d-5054048/sempat-tutup-karena-jadi-klaster-corona-indogrosir-sleman-sudah-buka-lagi",
+        "thumbnail": "https://akcdn.detik.net.id/community/media/visual/2020/05/14/46910759-e8c4-499c-9ee5-a96dd05ef42c_43.jpeg?w=250&q="
+      }
+    ],
+    "timeFetched": "2020-06-29T07:00:02.104Z"
+  },
+  {
+    "_id": "5eec6dabfe3b6dd616528f05",
+    "source": "CNBC News",
+    "__v": 0,
+    "news": [
+      {
+        "_id": "5ef99171d7ac0a3258ca53c2",
+        "title": "Ini Lho Beda Vaksin Corona A La Moderna & AstraZeneca",
+        "date": "7 menit yang lalu",
+        "label": "Tech",
+        "url": "https://www.cnbcindonesia.com/tech/20200629121418-37-168737/ini-lho-beda-vaksin-corona-a-la-moderna-astrazeneca",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/15/infografis-apakah-vaksin-corona-sudah-ditemukan-ini-updatenya_43.jpeg?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c3",
+        "title": "Jadi Ini Penyebab Kasus Corona RI Terus Naik di Atas 1,000...",
+        "date": "1 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629113742-4-168709/jadi-ini-penyebab-kasus-corona-ri-terus-naik-di-atas-1000",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/14/pesepada-di-car-free-day-cnbc-indonesiamuhammad-sabki-4_43.jpeg?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c4",
+        "title": "Terdampak Covid-19, Apa Perlu Korban PHK Digaji Pemerintah?",
+        "date": "2 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629083249-4-168640/terdampak-covid-19-apa-perlu-korban-phk-digaji-pemerintah",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2019/10/08/0eb0d18b-7f40-44e5-b285-042c2516837b_43.jpeg?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c5",
+        "title": "Gara-Gara Corona, Sampah Plastik Bakal Naik",
+        "date": "3 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629112323-8-168694/gara-gara-corona-sampah-plastik-bakal-naik",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/29/gara-gara-corona-sampah-plastik-bakal-naik-cnbc-indonesia-tv_43.png?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c6",
+        "title": "Lonjakan Kasus Corona & Laporan IMF Picu Harga Minyak Ambles",
+        "date": "3 jam yang lalu",
+        "label": "Market",
+        "url": "https://www.cnbcindonesia.com/market/20200629093344-17-168653/lonjakan-kasus-corona-laporan-imf-picu-harga-minyak-ambles",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2019/02/06/37cb80ac-0efe-4b15-b58f-abe70da01e38_43.jpeg?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c7",
+        "title": "Dengan Nada Tinggi, Jokowi Sebut RI Dalam Situasi Krisis",
+        "date": "3 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629100006-4-168656/dengan-nada-tinggi-jokowi-sebut-ri-dalam-situasi-krisis",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/25/jokowi-kunjungan-ke-jawa-timur-dok-biro-pers-sekretariat-presiden-16_43.jpeg?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c8",
+        "title": "Kasus Corona Sudah di Atas 10 Juta, Harga Emas Siap Terbang!",
+        "date": "4 jam yang lalu",
+        "label": "Market",
+        "url": "https://www.cnbcindonesia.com/market/20200629085942-17-168648/kasus-corona-sudah-di-atas-10-juta-harga-emas-siap-terbang",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/04/16/bb362150-52f3-4230-877f-211a441b4a62_43.jpeg?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53c9",
+        "title": "Covid-19 di AS Terus Meningkat",
+        "date": "4 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629111945-8-168686/covid-19-di-as-terus-meningkat",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/29/covid-19-di-as-terus-meningkat-cnbc-indonesia-tv_43.png?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53ca",
+        "title": "Jadi Negara Tertinggi Kedua Kasus Covid-19, Warga Brasil Demo",
+        "date": "4 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629112122-8-168693/jadi-negara-tertinggi-kedua-kasus-covid-19-warga-brasil-demo",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/29/tertinggi-kedua-warga-brasil-demo-cnbc-indonesia-tv_43.png?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53cb",
+        "title": "Jokowi Marah! Ancam Reshuffle, Ada Corona tapi Kerja Normal",
+        "date": "5 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629083611-4-168638/jokowi-marah-ancam-reshuffle-ada-corona-tapi-kerja-normal",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/29/jokowi_43.png?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53cc",
+        "title": "Covid-19 Sudah Jangkiti 10 Juta Penduduk Bumi",
+        "date": "5 jam yang lalu",
+        "label": "News",
+        "url": "https://www.cnbcindonesia.com/news/20200629111723-8-168685/covid-19-sudah-jangkiti-10-juta-penduduk-bumi",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/29/covid-19-sudah-jangkiti-10-juta-penduduk-bumi-cnbc-indonesia-tv_43.png?w=152&q=90"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53cd",
+        "title": "Vaksin Covid-19 Ditemukan, 2 Ini Kandidat Terkuatnya?",
+        "date": "7 jam yang lalu",
+        "label": "Tech",
+        "url": "https://www.cnbcindonesia.com/tech/20200629064527-37-168622/vaksin-covid-19-ditemukan-2-ini-kandidat-terkuatnya",
+        "thumbnail": "https://akcdn.detik.net.id/visual/2020/06/18/ilustrasi-kandidat-vaksin-covid-19-apsakchai-lalit_43.jpeg?w=152&q=90"
+      }
+    ],
+    "timeFetched": "2020-06-29T07:00:01.132Z"
+  },
+  {
+    "_id": "5eec71a1fe3b6dd6165320c5",
+    "source": "Suara News",
+    "__v": 0,
+    "news": [
+      {
+        "_id": "5ef99171d7ac0a3258ca53e7",
+        "title": "Pasar Kranggan Dibuka Lagi, Gugus Tugas Klarifikasi Temuan 2 Kasus Covid-19",
+        "excerpt": "Heroe Poerwadi mengatakan, Pasar Kranggan sudah beroperasi seperti sedia kala.",
+        "url": "https://jogja.suara.com/read/2020/06/29/084333/pasar-kranggan-dibuka-lagi-gugus-tugas-klarifikasi-temuan-2-kasus-covid-19",
+        "thumbnail": "https://media.suara.com/pictures/653x366/2020/06/29/49660-pasar-kranggan-saat-ditutup-pertengahan-juni-2020-harian-jogja.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e8",
+        "title": "Perjalanan dari Luar Kota, 7 Warga DIY Positif COVID-19",
+        "excerpt": "Delapan Pasien Dalam Pengawasan (PDP) di DIY dinyatakan positif virus corona, Sabtu (20/6/2020).",
+        "url": "https://jogja.suara.com/read/2020/06/20/182933/perjalanan-dari-luar-kota-7-warga-diy-positif-covid-19",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/04/31491-ilustrasi-update-covid-19-pixabaythedarknut.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e9",
+        "title": "Pasien Positif COVID-19 Kulon Progo Tambah 3 Orang, Total 4 Dirawat di RS",
+        "excerpt": "\"Untuk KP-12, 13, dan 14 satu keluarga tapi sama-sama melakukan kontak dengan kasus positif asal Purworejo,\" kata Baning.",
+        "url": "https://jogja.suara.com/read/2020/06/20/180500/pasien-positif-covid-19-kulon-progo-tambah-3-orang-total-4-dirawat-di-rs",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/29/18608-ilustrasi-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53ea",
+        "title": "Jogja Gencarkan Rapid Test Acak, Pekan Depan ke Kafe dan Restoran",
+        "excerpt": "Pemkot Yogyakarta juga mewacanakan kegiatan uji swab acak apabila permohonan mobil PCR ke BNPB disetujui.",
+        "url": "https://jogja.suara.com/read/2020/06/19/081500/jogja-gencarkan-rapid-test-acak-pekan-depan-ke-kafe-dan-restoran",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/01/57422-buruh-rapid-test.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53eb",
+        "title": "Pemkot Jogja Pastikan Biaya Pasien COVID-19 Ditanggung Pemerintah",
+        "excerpt": "Ada beberapa pasien COVID-19 yang belum juga sembuh meski sudah menjalani perawatan selama sekitar dua bulan.",
+        "url": "https://jogja.suara.com/read/2020/06/18/120408/pemkot-jogja-pastikan-biaya-pasien-covid-19-ditanggung-pemerintah",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/28/71316-ilustrasi-pasien-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53ec",
+        "title": "Selain Pasar, Jogja Segera Gelar Rapid Test Acak di Kampus hingga Restoran",
+        "excerpt": "Pengambilan sampel RDT acak di restoran rencananya akan dilakukan pekan ini.",
+        "url": "https://jogja.suara.com/read/2020/06/16/073903/selain-pasar-jogja-segera-gelar-rapid-test-acak-di-kampus-hingga-restoran",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/22/58727-rapid-test-depok.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53ed",
+        "title": "Semua Pasien Covid-19 Sembuh, Kulon Progo Lanjutkan Tracing Pedagang Ikan",
+        "excerpt": "Saat ini ada 18 warga Kulon Progo berstatus Orang Tanpa Gejala (OTG) yang tengah melakukan isolasi mandiri di rumah.",
+        "url": "https://jogja.suara.com/read/2020/06/13/174000/semua-pasien-covid-19-sembuh-kulon-progo-lanjutkan-tracing-pedagang-ikan",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/29/18608-ilustrasi-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53ee",
+        "title": "Pulang dari Sukabumi, 8 Polisi di Jogja Positif COVID-19",
+        "excerpt": "Berdasarkan informasi dari RS rujukan, sebagian besar polisi merupakan Orang Tanpa Gejala (OTG).",
+        "url": "https://jogja.suara.com/read/2020/06/12/182129/pulang-dari-sukabumi-8-polisi-di-jogja-positif-covid-19",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/04/67179-ilustrasi-update-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53ef",
+        "title": "Tertular Pedagang Ikan, 3 Warga DIY Positif COVID-19",
+        "excerpt": "Ketiga pasien baru COVID-19 merupakan warga Gunungkidul.",
+        "url": "https://jogja.suara.com/read/2020/06/06/065000/tertular-pedagang-ikan-3-warga-diy-positif-covid-19",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/04/26033-ilustrasi-isolasi-atau-karantina-covid-19-pixabayfernandozhiminaicela.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f0",
+        "title": "Kurva Covid-19 di DIY Menurun, Pakar Epidemiologi: Jangan Buru-Buru",
+        "excerpt": "Hamam melihat, beberapa kriteria untuk menerapkan new norma; belum sepenuhnya terpenuhi.",
+        "url": "https://jogja.suara.com/read/2020/06/05/164500/kurva-covid-19-di-diy-menurun-pakar-epidemiologi-jangan-buru-buru",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/06/05/63298-pakar-epidemiologi-uaa-hamam-hadi-di-ruang-rapat-uaa-jumat-562020.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f1",
+        "title": "Dua Hari Berturut-turut Tak Ada Kasus Positif COVID-19 Baru di DIY",
+        "excerpt": "Laboratorium FK UGM off, kata Berty.",
+        "url": "https://jogja.suara.com/read/2020/06/02/204331/dua-hari-berturut-turut-tak-ada-kasus-positif-covid-19-baru-di-diy",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/23/67521-obat-virus-corona.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f2",
+        "title": "Kasus Baru Covid-19 Lebih Kecil dari yang Sembuh, DIY Klaim Ini Sebabnya",
+        "excerpt": "Meski kasus sembuh makin banyak dan penambahan kasus positif makin sedikit, Berty mengimbau masyarakat DIY untuk tetap waspada.",
+        "url": "https://jogja.suara.com/read/2020/06/02/131500/kasus-baru-covid-19-lebih-kecil-dari-yang-sembuh-diy-klaim-ini-sebabnya",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/27/82544-ilustrasi-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f3",
+        "title": "Jogja Bakal Tes Acak di Tempat Publik, 250 Alat RDT Disiapkan",
+        "excerpt": "Selain di pasar tradisional, lanjutnya, kegiatan rapid test secara acak tersebut juga akan dilakukan di tempat keramaian lain.",
+        "url": "https://jogja.suara.com/read/2020/06/02/073000/jogja-bakal-tes-acak-di-tempat-publik-250-alat-rdt-disiapkan",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/22/58727-rapid-test-depok.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f4",
+        "title": "Ratusan Masjid di Jogja Tetap Gelar Jamaah Salat Tarawih Saat Wabah Corona",
+        "excerpt": "\"Masih ada 120 masjid yang masih melaksanakan salat tarawih berjamaah,\" ungkap Kepala Satpol PP DIY, Noviar Rahmad.",
+        "url": "https://jogja.suara.com/read/2020/05/06/184000/ratusan-masjid-di-jogja-tetap-gelar-jamaah-salat-tarawih-saat-wabah-corona",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/23/44435-salat-tarawih.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f5",
+        "title": "Update Corona Jogja 4 Mei 2020: Tidak Ada Penambahan Kasus Positif Baru",
+        "excerpt": "Hingga Senin (4/5/2020) tidak ada penambahan kasus positif COVID-19 baru di DIY.",
+        "url": "https://jogja.suara.com/read/2020/05/04/201918/update-corona-jogja-4-mei-2020-tidak-ada-penambahan-kasus-positif-baru",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/04/67179-ilustrasi-update-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f6",
+        "title": "Pemda DIY Prioritaskan Tes pada Kluster Penyebaran COVID-19",
+        "excerpt": "Melalui Surat Gubernur Nomor 78/KEP/2020 diberitahukan kepada ketua Gugus Tugas penanganan COVID-19 untuk memprioritaskan pemeriksaan terhadap kluster tabligh dari Jakarta.",
+        "url": "https://jogja.suara.com/read/2020/05/02/200730/pemda-diy-prioritaskan-tes-pada-kluster-penyebaran-covid-19",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/28/15341-ilustrasi-rapid-test.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f7",
+        "title": "Update Corona Jogja 2 Mei 2020: Tiga Klaster Keagamaan jadi Faktor Utama",
+        "excerpt": "dr. Riris Andono Ahmad menyebut ketiganya yakni Klaster Umat GBIP, Klaster Jamaah Tabligh Sleman dan Klaster Jamaah Tabligh Gunungkidul.",
+        "url": "https://jogja.suara.com/read/2020/05/02/165500/update-corona-jogja-2-mei-2020-tiga-klaster-keagamaan-jadi-faktor-utama",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/05/02/84292-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f8",
+        "title": "Sambut Ramadan, Lima Masjid Besar di Jogja Tak Selenggarakan Salat Tarawih",
+        "excerpt": "Masjid-masjid ini tak selanggarakan jamaah salat tarawih pada hari pertama.",
+        "url": "https://jogja.suara.com/read/2020/04/23/153000/sambut-ramadan-lima-masjid-besar-di-jogja-tak-selenggarakan-salat-tarawih",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/23/13202-masjid-gedhe-kauman.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53f9",
+        "title": "Dua Dokter di Jogja Dinyatakan Positif Corona",
+        "excerpt": "\"Untuk salah satu dokter, suaminya yang bekerja di Jakarta baru pulang ke Yogyakarta, dan satu dokter lainnya terpapar dari pasien,\" ungkap Heroe.",
+        "url": "https://jogja.suara.com/read/2020/04/19/074000/dua-dokter-di-jogja-dinyatakan-positif-corona",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2019/09/27/97794-ilustrasi-dokter-perawat-aliansi-dokter-perkumpulan-dokter.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53fa",
+        "title": "Gelar Simulasi Pemulasaran, Polda DIY Siap Bantu Pemakaman Korban Covid-19",
+        "excerpt": "Membantu tenaga medis, Polda DIY siap menurunkan personelnya untuk membantu pemulasaran jenazah Covid-19.",
+        "url": "https://jogja.suara.com/read/2020/04/16/180000/gelar-simulasi-pemulasaran-polda-diy-siap-bantu-pemakaman-korban-covid-19",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/16/31836-anggota-polri-siap-bantu-pemakaman-jenazah-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53fb",
+        "title": "Derita Pegawai Swasta Jogja Ditengah Corona, Berharap Biaya Sewa Kos Turun",
+        "excerpt": "\"Pemilik kos mau menurunkan harga sewa sampai 50 persen. Jadi perbulan kami bayar Rp 450 ribu, sekarang hanya sekitar Rp 225,\" terang Evi.",
+        "url": "https://jogja.suara.com/read/2020/04/14/194000/derita-pegawai-swasta-jogja-ditengah-corona-berharap-biaya-sewa-kos-turun",
+        "thumbnail": "https://media.suara.com/pictures/336x188/2020/04/14/54886-rumah-indekos-jogja.jpg"
+      }
+    ],
+    "timeFetched": "2020-06-29T07:00:01.474Z"
+  },
+  {
+    "_id": "5eec71a2fe3b6dd6165320e5",
+    "source": "Kompas News",
+    "__v": 0,
+    "news": [
+      {
+        "_id": "5ef99171d7ac0a3258ca53e2",
+        "title": "[UPDATE] Covid-19 di Depok: Tambah 5 Kasus Positif, 8 Pasien Sembuh",
+        "date": "27/06/2020, 20:07 WIB",
+        "excerpt": "Terdapat penambahan lima kasus positif, pada Sabtu (27/6/2020). Dengan demikian, total jumlah pasien Covid-19 di Depok tercatat mencapai 754 orang.",
+        "url": "http://megapolitan.kompas.com/read/2020/06/27/20074251/update-covid-19-di-depok-tambah-5-kasus-positif-8-pasien-sembuh",
+        "thumbnail": "https://asset.kompas.com/crops/3oV3X0fJrGsdOKEl4hfKBeqgkrk=/0x0:0x0/490x326/data/photo/2020/03/06/5e6208e988d78.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e3",
+        "title": "Ketatnya Protokol Kesehatan Saat Shalat Jumat di Turki dan Singapura",
+        "date": "27/06/2020, 19:52 WIB",
+        "excerpt": "Seperti halnya di Indonesia, umat muslim di berbagai negara yang terdampak Covid-19 juga mengalami pembatasan dalam beribadah.",
+        "url": "http://nasional.kompas.com/read/2020/06/27/19523111/ketatnya-protokol-kesehatan-saat-shalat-jumat-di-turki-dan-singapura",
+        "thumbnail": "https://asset.kompas.com/crops/WRLtcRDRjU6UNqObJ5c2Q3zeoRE=/0x38:1000x705/230x153/data/photo/2017/06/26/4162085809.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e4",
+        "title": "Daerah dengan Kasus Tinggi Diminta Tingkatkan Intervensi Penanganan Covid-19",
+        "date": "27/06/2020, 18:11 WIB",
+        "excerpt": "Dinas Kesehatan (Dinkes) daerah diminta untuk meningkatkan intervensi penanganan Covid-19 di daerah masing-masing.",
+        "url": "http://nasional.kompas.com/read/2020/06/27/18113811/daerah-dengan-kasus-tinggi-diminta-tingkatkan-intervensi-penanganan-covid-19",
+        "thumbnail": "https://asset.kompas.com/crops/24MkuMxTBQpUvWdOrsUVdiWVC1c=/95x79:1119x762/230x153/data/photo/2020/06/06/5edb83a28a043.jpeg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e5",
+        "title": "Ikappi Minta Penerapan Protokol Kesehatan di Pasar Tradisional Terus Dilakukan",
+        "date": "27/06/2020, 18:04 WIB",
+        "excerpt": "Menurut Abdullah, pasar tradisional dapat menjadi tempat yang aman selama protokol kesehatan dilaksanakan dengan baik.\n\n",
+        "url": "http://nasional.kompas.com/read/2020/06/27/18040341/ikappi-minta-penerapan-protokol-kesehatan-di-pasar-tradisional-terus",
+        "thumbnail": "https://asset.kompas.com/crops/1gnpbLqkV6U8coy0Zlil_GMo6A0=/0x0:0x0/230x153/data/photo/2020/06/26/5ef5de602d9f2.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e6",
+        "title": "Kasus Baru Covid-19 Tersebar di 30 Provinsi, Jawa Timur Bertambah 277 Kasus",
+        "date": "27/06/2020, 16:46 WIB",
+        "excerpt": "Berdasarkan data yang dihimpun pemerintah hingga Sabtu, pukul 12.00 WIB, ada penambahan 1.385 kasus Covid-19. Penambahan tertinggi di Jawa Timur.",
+        "url": "http://nasional.kompas.com/read/2020/06/27/16464321/kasus-baru-covid-19-tersebar-di-30-provinsi-jawa-timur-bertambah-277-kasus",
+        "thumbnail": "https://asset.kompas.com/crops/sOVzzZ6Ia1qSaKVQLg6Wg76kxjE=/0x398:2100x1798/230x153/data/photo/2020/03/19/5e72fef71944d.jpg"
+      }
+    ],
+    "timeFetched": "2020-06-29T07:00:01.327Z"
+  },
+  {
+    "_id": "5eec71d7fe3b6dd616532914",
+    "source": "Tribun News",
+    "__v": 0,
+    "news": [
+      {
+        "_id": "5ef99171d7ac0a3258ca53ce",
+        "title": "Terkait Penerapan Protokol Kesehatan, PHRI DIY Kesulitan Awasi Hotel Nonanggota",
+        "date": "17 jam lalu ",
+        "excerpt": "PHRI mengaku kesulitan untuk bisa mengawasi hotel-hotel yang beroperasi selama masa tanggap darurat yang notabene merupakan hotel di luar anggota PHRI",
+        "url": "https://jogja.tribunnews.com/2020/06/28/terkait-penerapan-protokol-kesehatan-phri-diy-kesulitan-awasi-hotel-nonanggota",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/status-tanggap-darurat-diy-diperpanjang-hotel-mengaku-berat.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53cf",
+        "title": "Polres Kulon Progo Cek Penerapkan SOP Protokol Kesehatan di Toserba",
+        "date": "18 jam lalu ",
+        "excerpt": "Sejumlah toko serba ada (toserba), pasar tradisional, perbankan, tempat ibadah hingga bandara dievaluasi oleh para petugas.",
+        "url": "https://jogja.tribunnews.com/2020/06/28/polres-kulon-progo-cek-penerapkan-sop-protokol-kesehatan-di-toserba",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/polres-kulon-progo-cek-penerapkan-sop-protokol-kesehatan-di-toserba.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d0",
+        "title": "Gandeng FUI, Polda DIY Edukasi Masyarakat Soal Protokol Kesehatan dan Kamtibmas Pilkada Serentak",
+        "date": "18 jam lalu ",
+        "excerpt": "Polda DIY terus berupaya mengedukasi masyarakat dengan menggandeng sejumlah elemen masyarakat.",
+        "url": "https://jogja.tribunnews.com/2020/06/28/gandeng-fui-polda-diy-edukasi-masyarakat-soal-protokol-kesehatan-dan-kamtibmas-pilkada-serentak",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/gandeng-fui-polda-diy-edukasi-masyarakat-soal-protokol-kesehatan-dan-kamtibmas-pilkada-serentak.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d1",
+        "title": "Pemkot Yogyakarta Ubah Target Kinerja Karena COVID-19",
+        "date": "19 jam lalu ",
+        "excerpt": "Pemkot Yogya menargetkan tahun 20201 angka kemiskinan bisa menjadi 10,7 persen dan pada 2022 turun menjadi 7,1 persen.",
+        "url": "https://jogja.tribunnews.com/2020/06/28/pemkot-yogyakarta-ubah-target-kinerja-karena-covid-19",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-kota-yogya_20180731_185714.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d2",
+        "title": "BREAKING NEWS : Update Covid-19 DIY 28 Juni 2020, Positif Bertambah 2 Kasus",
+        "date": "19 jam lalu ",
+        "excerpt": "Pemda DIY mengumumkan 2 tambahan kasus positif baru Covid-19 pada 28 Juni 2020 dari pemeriksaan 109 sampel di lab yang ada di DIY.",
+        "url": "https://jogja.tribunnews.com/2020/06/28/breaking-news-update-covid-19-diy-28-juni-2020-positif-bertambah-2-kasus",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-update-corona-di-di-yogyakarta.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d3",
+        "title": "Pemda DIY Berencana Pangkas TPP ASN DIY",
+        "date": "19 jam lalu ",
+        "excerpt": "Belum ada pengurangan TPP pada Juni dan Juli mendatang bagi ASN di DIY.",
+        "url": "https://jogja.tribunnews.com/2020/06/28/pemda-diy-berencana-pangkas-tpp-asn-diy",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-yogyakarta_20180911_145553.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d4",
+        "title": "BREAKING NEWS : Update Covid-19 Gunungkidul 28 Juni 2020, Kasus Positif Bertambah Satu",
+        "date": "20 jam lalu ",
+        "excerpt": "Sampai hari ini, tercatat sudah ada 51 kasus positif COVID-19 di Gunungkidul secara akumulatif.",
+        "url": "https://jogja.tribunnews.com/2020/06/28/breaking-news-update-covid-19-gunungkidul-28-juni-2020-kasus-positif-bertambah-satu",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-update-corona-di-daerah-istimewa-yogyakarta.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d5",
+        "title": "Masa Tanggap Darurat DIY Diperpanjang, Dinkes Kota Yogyakarta: Lanjutkan Edukasi dan Disiplin Diri",
+        "date": "2 hari lalu",
+        "excerpt": "Pemerintah Daerah (Pemda) DIY pada Kamis (25/6/2020) menyatakan akan memperpanjang masa tanggap darurat di DIY terkait penanggulangan pandemi Covid-19",
+        "url": "https://jogja.tribunnews.com/2020/06/26/masa-tanggap-darurat-diy-diperpanjang-dinkes-kota-yogyakarta-lanjutkan-edukasi-dan-disiplin-diri",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-kota-yogya_20180731_185714.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d6",
+        "title": "BREAKINGNEWS : Tiga Kasus Impor Tercatat sebagai Kasus Baru Covid-19 di DIY",
+        "date": "2 hari lalu",
+        "excerpt": "Ia menjelaskan bahwa untuk kasus 303 memiliki riwayat perjalanan dari Solo, kasus 303 dari Balikpapan untuk urusan pekerjaan, dan kasus 304 perjalanan",
+        "url": "https://jogja.tribunnews.com/2020/06/26/breakingnews-tiga-kasus-impor-tercatat-sebagai-kasus-baru-covid-19-di-diy",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/enam-pasien-covid-19-diy-sembuh-asal-sleman-bantul-gunungkidul-dan-kota-yogyakarta.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d7",
+        "title": "Disperindag Kota Yogya Pantau 30 Pasar Tradisional dengan Rutinkan Penyemprotan Disinfektan",
+        "date": "2 hari lalu",
+        "excerpt": "Sterilisasi itu dilakukan agar ketika memasuki masa normal baru, pedagang pasar dapat bertransaksi dengan aman.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/disperindag-kota-yogya-pantau-30-pasar-tradisional-dengan-rutinkan-penyemprotan-disinfektan",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/jelang-masa-transisi-pemkot-yogyakarta-semprot-area-pasar-beringharjo-dengan-disinfektan.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d8",
+        "title": "Disnakertrans DIY Akui Lambat dalam Penanganan Persoalan Pekerja Saat Pandemi",
+        "date": "2 hari lalu",
+        "excerpt": "Disnakertrans DIY akui penanganan persoalan tenaga kerja dan perusahaan di masa pandemi Covid-19 ini lambat.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/disnakertrans-diy-akui-lambat-dalam-penanganan-persoalan-pekerja-saat-pandemi",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-yogyakarta_20180911_145553.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53d9",
+        "title": "Status Tanggap Darurat DIY Diperpanjang, Hotel Mengaku Berat",
+        "date": "2 hari lalu",
+        "excerpt": "Perpanjangan masa tanggap darurat di DIY pada kedua kalinya ini, berdampak kepada banyak sektor. Satu di antaranya adalah perhotelan.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/status-tanggap-darurat-diy-diperpanjang-hotel-mengaku-berat",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/status-tanggap-darurat-diy-diperpanjang-hotel-mengaku-berat.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53da",
+        "title": "Layani 170 Pemohon KTP-el Per Hari, Disdukcapil Kota Yogyakarta Rencanakan Layanan Drive Thru",
+        "date": "2 hari lalu",
+        "excerpt": "Layanan cetak KTP-el masih menjadi layanan primadona di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) Kota Yogyakarta.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/layani-170-pemohon-ktp-el-per-hari-disdukcapil-kota-yogyakarta-rencanakan-layanan-drive-thru",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/berita-kota-yogya_20180731_185714.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53db",
+        "title": "Disnakertrans DIY Respon Keluhan Buruh terhadap Perpanjangan Tanggap Darurat Covid-19",
+        "date": "2 hari lalu",
+        "excerpt": "Disnakertrans DIY sedang menyiapkan Rancangan Peraturan Daerah (Ranperda) Ketenaga Kerjaan.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/disnakertrans-diy-respon-keluhan-buruh-terhadap-perpanjangan-tanggap-darurat-covid-19",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/disnakertrans-diy-respon-keluhan-buruh-terhadap-perpanjangan-tanggap-darurat-covid-19.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53dc",
+        "title": "Pelaksanaan Uji Coba Wisata Gunungkidul, Masih Ada Wisatawan Langgar Protokol",
+        "date": "2 hari lalu",
+        "excerpt": "Pelaksanaan tahap Uji Coba wisata di Gunungkidul sudah berlangsung selama beberapa hari terakhir.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/pelaksanaan-uji-coba-wisata-gunungkidul-masih-ada-wisatawan-langgar-protokol",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/pelaksanaan-uji-coba-wisata-gunungkidul-masih-ada-wisatawan-langgar-protokol.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53dd",
+        "title": "Penjualan Suvenir Pernikahan di Pasar Beringharjo Mulai Menggeliat",
+        "date": "2 hari lalu",
+        "excerpt": "Sejak adanya pelonggaran aktivitas, sudah ada beberapa pembelian seserahan pernikahan.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/penjualan-suvenir-pernikahan-di-pasar-beringharjo-mulai-menggeliat",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/penjualan-suvenir-pernikahan-di-pasar-beringharjo-mulai-menggeliat.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53de",
+        "title": "SBSI DIY Sebut Perpanjangan Tanggap Darurat DIY Kurang Efektif bagi Kalangan Buruh",
+        "date": "3 hari lalu",
+        "excerpt": "Buruh menganggap, dengan adanya perpanjangan masa tanggap darurat,  ketidak jelasan nasib mereka semakin tidak diperhatikan.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/sbsi-diy-sebut-perpanjangan-tanggap-darurat-diy-kurang-efektif-bagi-kalangan-buruh",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/sbsi-diy-sebut-perpanjangan-tanggap-darurat-diy-kurang-efektif-bagi-kalangan-buruh.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53df",
+        "title": "Ibu Hamil di Kota Yogyakarta Harus Ikuti Rapid Test Sebelum Persalinan",
+        "date": "3 hari lalu",
+        "excerpt": "Pemkot Yogyakarta mewajibkan setiap ibu yang akan melakukan persalinan untuk mengikuti rapid diagnostic test (RDT).",
+        "url": "https://jogja.tribunnews.com/2020/06/26/ibu-hamil-di-kota-yogyakarta-harus-ikuti-rapid-test-sebelum-persalinan",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/ibu-hamil-di-kota-yogyakarta-harus-ikuti-rapid-test-sebelum-persalinan.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e0",
+        "title": "Tanggap Darurat Diperpanjang, Aktivitas Wisata Gunungkidul Bergantung Kebijakan Pemda DIY",
+        "date": "3 hari lalu",
+        "excerpt": "Masa tanggap darurat pandemi COVID-19 di Daerah Istimewa Yogyakarta (DIY) resmi diperpanjang hingga akhir Juli 2020.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/tanggap-darurat-diperpanjang-aktivitas-wisata-gunungkidul-bergantung-kebijakan-pemda-diy",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/tanggap-darurat-diperpanjang-aktivitas-wisata-gunungkidul-bergantung-kebijakan-pemda-diy.jpg"
+      },
+      {
+        "_id": "5ef99171d7ac0a3258ca53e1",
+        "title": "12 Pedagang Reaktif Rapid Test, Pemkab Siap Tutup Pasar Bantul Jika Ada yang Positif Covid-19",
+        "date": "3 hari lalu",
+        "excerpt": "Pemkab Bantul berencana menutup Pasar Bantul untuk sementara waktu, kalau diketahui ada pedagang yang positif terinfeksi virus corona.",
+        "url": "https://jogja.tribunnews.com/2020/06/26/12-pedagang-reaktif-rapid-test-pemkab-siap-tutup-pasar-bantul-jika-ada-yang-positif-covid-19",
+        "thumbnail": "https://cdn2.tstatic.net/jogja/foto/bank/thumbnails2/breaking-news-hasil-rapid-test-covid-19-di-pasar-bantul-13-orang-dinyatakan-reaktif.jpg"
+      }
+    ],
+    "timeFetched": "2020-06-29T07:00:01.273Z"
+  }
+]
