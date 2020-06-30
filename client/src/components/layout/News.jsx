@@ -6,29 +6,112 @@ import NewsMenu from "../NewsMenu";
 import NewsSelect from "../NewsSelect";
 import NewsItem from "../NewsItem";
 
-function useFetch() {
+function useFetch(url) {
   const [newsData, setNews] = useState();
   useEffect(() => {
     async function getNews() {
-      const data = await fetch("/api/berita").then((res) => res.json());
+      const data = await fetch(url).then((res) => res.json());
       console.log(data);
       setNews(data);
     }
 
     getNews();
-  }, []);
+  }, [url]);
 
   return newsData;
 }
 
 export default function News() {
-  // useFetch();
+  const news = useFetch("/api/berita");
+  const [newsSource, setSource] = useState("detik");
+
+  function changeNewsSource(event) {
+    setSource(event.target.value);
+  }
+
+  function outputNews() {
+    if (!news) return <p>Loading...</p>;
+
+    switch (newsSource) {
+      case "detik":
+        const detik = news[0].news.map((item) => {
+          return (
+            <NewsItem
+              title={item.title}
+              date={item.date}
+              excerpt={item.excerpt}
+              url={item.url}
+              key={item._id}
+            />
+          );
+        });
+        return detik;
+
+      case "cnbc":
+        const cnbc = news[1].news.map((item) => {
+          return (
+            <NewsItem
+              title={item.title}
+              date={item.date}
+              label={item.label}
+              url={item.url}
+              key={item._id}
+            />
+          );
+        });
+        return cnbc;
+
+      case "suara":
+        const suara = news[2].news.map((item) => {
+          return (
+            <NewsItem
+              title={item.title}
+              excerpt={item.excerpt}
+              url={item.url}
+              key={item._id}
+            />
+          );
+        });
+        return suara;
+
+      case "kompas":
+        const kompas = news[3].news.map((item) => {
+          return (
+            <NewsItem
+              title={item.title}
+              date={item.date}
+              excerpt={item.excerpt}
+              url={item.url}
+              key={item._id}
+            />
+          );
+        });
+        return kompas;
+
+      case "tribun":
+        const tribun = news[4].news.map((item) => {
+          return (
+            <NewsItem
+              title={item.title}
+              date={item.date}
+              excerpt={item.excerpt}
+              url={item.url}
+              key={item._id}
+            />
+          );
+        });
+        return tribun;
+
+      default:
+        return <p>Error</p>;
+    }
+  }
 
   return (
-    <div class="page-wrapper">
-      <div class="page-inner-wrapper berita-inner">
-        <AppNav />
-        <div class="header-static-section">
+    <div className="page-wrapper">
+      <div className="page-inner-wrapper berita-inner">
+        {/* <AppNav /> */}
+        <div className="header-static-section">
           <PageHeader
             title="Berita"
             subtitle="Kumpulan berita lokal dan informasi hoaks terbaru, semua dari
@@ -43,45 +126,9 @@ export default function News() {
         <div className="berita-wrapper">
           <div className="scroll-indicator"></div>
 
-          <NewsSelect />
+          <NewsSelect source={newsSource} changeNewsSource={changeNewsSource} />
 
-          <div className="berita-item-wrapper">
-            <NewsItem
-              title="Waspada! Ini 57 Daerah yang Berisiko Tinggi Covid-19"
-              date="19 Jam yang lalu"
-              excerpt="Pemda DIY mencatat ada tambahan satu kasus positif dan dua kasus
-                sembuh virus Corona, sehingga saat ini ada 273 positif dan 213
-                kasus sembuh di DIY."
-            />
-            <NewsItem
-              title="Waspada! Ini 57 Daerah yang Berisiko Tinggi Covid-19"
-              date="19 Jam yang lalu"
-              excerpt="Pemda DIY mencatat ada tambahan satu kasus positif dan dua kasus
-                sembuh virus Corona, sehingga saat ini ada 273 positif dan 213
-                kasus sembuh di DIY."
-            />
-            <NewsItem
-              title="Waspada! Ini 57 Daerah yang Berisiko Tinggi Covid-19"
-              date="19 Jam yang lalu"
-              excerpt="Pemda DIY mencatat ada tambahan satu kasus positif dan dua kasus
-                sembuh virus Corona, sehingga saat ini ada 273 positif dan 213
-                kasus sembuh di DIY."
-            />
-            <NewsItem
-              title="Waspada! Ini 57 Daerah yang Berisiko Tinggi Covid-19"
-              date="19 Jam yang lalu"
-              excerpt="Pemda DIY mencatat ada tambahan satu kasus positif dan dua kasus
-                sembuh virus Corona, sehingga saat ini ada 273 positif dan 213
-                kasus sembuh di DIY."
-            />
-            <NewsItem
-              title="Waspada! Ini 57 Daerah yang Berisiko Tinggi Covid-19"
-              date="19 Jam yang lalu"
-              excerpt="Pemda DIY mencatat ada tambahan satu kasus positif dan dua kasus
-                sembuh virus Corona, sehingga saat ini ada 273 positif dan 213
-                kasus sembuh di DIY."
-            />
-          </div>
+          <div className="berita-item-wrapper">{outputNews()}</div>
         </div>
       </div>
     </div>
