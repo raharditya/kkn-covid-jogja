@@ -8,7 +8,7 @@ export default function Info() {
   return (
     <div class="page-wrapper">
       <div class="page-inner-wrapper">
-        <AppNav />
+        {/* <AppNav /> */}
         <PageHeader
           title="Edukasi"
           subtitle="Berbagai artikel mengenai pengetahuan pencegahan Covid-19"
