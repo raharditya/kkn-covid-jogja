@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div class="page-wrapper">
       <div class="page-inner-wrapper">
-        <AppNav />
+        {/* <AppNav /> */}
         <PageHeader title="Beranda" />
 
         <HomeNav pos={homeMenu} homeNavHandle={homeNavHandle} />

@@ -6,6 +6,8 @@ import Info from "./components/layout/Info";
 import AppNav from "./components/AppNav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
+import Hoax from "./components/layout/Hoax";
+import Medsos from "./components/layout/Medsos";
 
 function App() {
   return (
@@ -46,6 +48,14 @@ function App() {
             <Info />
           </CSSTransition>
         )}
+      </Route>
+
+      <Route path="/hoax" exact>
+        <Hoax />
+      </Route>
+
+      <Route path="/medsos" exact>
+        <Medsos />
       </Route>
     </Router>
   );
