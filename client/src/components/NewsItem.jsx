@@ -12,7 +12,7 @@ function NewsItem(props) {
 
       {props.label ? (
         <small className="berita-date">
-          {`${props.date} - ${props.label}`}
+          {`${props.date} • ${props.label}`}
         </small>
       ) : props.date ? (
         <small className="berita-date">{props.date}</small>
