@@ -29,7 +29,7 @@ body {
 
 .page-wrapper {
   background-color: $MAIN-BG;
-  max-width: 56.25vh;
+  max-width: 450px;
   min-height: 100vh;
   margin: auto;
   overflow: hidden;
@@ -40,7 +40,8 @@ body {
   bottom: 10px;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 53vh;
+  width: 95%;
+  max-width: 420px;
   height: 70px;
   border-radius: 15px;
   z-index: 10;
@@ -74,6 +75,7 @@ body {
   margin: auto;
   color: $BLACK-TEXT;
   position: relative;
+  padding-bottom: 4rem;
 
   .page-title {
     font-family: "Poppins", sans-serif;
@@ -161,18 +163,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.3rem 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem 1.3rem;
     border-radius: 10px;
     background-color: $WHITE-COMP-BG;
     box-shadow: 0px 6px 20px $SHADOW;
     z-index: 5;
     position: relative;
 
+    h3 {
+      font-size: 1.1rem;
+    }
+    .kabupaten-title {
+      margin-right: 18px;
+    }
+
     .kabupaten-stats {
       display: flex;
 
       .stats-item {
-        margin: 0 10px;
+        margin: 0 8px;
         text-align: center;
       }
     }
@@ -182,7 +192,6 @@ body {
     width: 90%;
     padding: 1em;
     margin: auto;
-    margin-bottom: 2rem;
     border-radius: 0 0 10px 10px;
     background-color: $WHITE-COMP-BG;
     .kecamatan-stats {
@@ -215,14 +224,16 @@ body {
 
   .header-static-section {
     position: fixed;
-    width: 56.25vh;
-    height: 342px;
+    width: 100%;
+    max-width: 450px;
+    height: 40vh;
     background-color: $MAIN-BG;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
     padding: 0 2rem;
     // right: 0;
+    overflow: hidden;
   }
 }
 
@@ -237,18 +248,30 @@ body {
   border-radius: 20px;
 }
 
+.berita-inner,
+.medsos-page .page-inner-wrapper,
+.hoax-page .page-inner-wrapper {
+  padding-bottom: 0;
+}
+
 .berita-menu {
   display: flex;
-  color: $WHITE-TEXT;
-  margin: 2.5rem 0;
-
-  .berita-menu-item {
+  margin: 1.5rem 0;
+  height: 35%;
+  a {
     flex: 1;
-    margin: 0 1em;
-    padding: 1.8rem 1.5rem;
+  }
+  .berita-menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0 0.8em;
+    padding: 0 1.5rem;
     text-align: end;
     border-radius: 15px;
     cursor: pointer;
+    color: $WHITE-TEXT;
   }
 
   .menu-hoax {
@@ -258,7 +281,7 @@ body {
     background-position: center;
 
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
   }
   .menu-social {
@@ -269,13 +292,16 @@ body {
 
     h3 {
       margin-bottom: 10px;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+    }
+    h4 {
+      font-size: 1rem;
     }
   }
 }
 
 .berita-inner {
-  padding-top: 342px;
+  padding-top: 40vh;
 }
 
 .berita-container {
@@ -284,6 +310,7 @@ body {
   box-shadow: 0 -5px 15px $SHADOW;
   position: relative;
   z-index: 5;
+  padding-bottom: 4rem;
 
   .berita-wrapper {
     width: 80%;
@@ -415,6 +442,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 10px $SHADOW;
     position: relative;
+    font-size: 0.9rem;
     z-index: 6;
   }
 
@@ -424,6 +452,7 @@ body {
     background-color: #fff;
     padding: 1.5em 1.3em;
     border-radius: 0 0 15px 15px;
+    font-size: 0.9rem;
 
     .fact-source {
       margin-top: 1em;
@@ -484,7 +513,6 @@ body {
 
     .bottom-acknowledment {
       display: inline-block;
-      width: 70%;
       margin: 2rem auto;
     }
 
@@ -501,6 +529,10 @@ body {
         border-radius: 15px;
         margin: 0 0.8em;
         padding: 1.4rem 0.8rem;
+
+        small {
+          display: block;
+        }
 
         h4 {
           margin: 10px 0;
@@ -519,7 +551,6 @@ body {
 
 .single-article {
   header {
-    background-image: url(https://i.picsum.photos/id/955/536/354.jpg?hmac=VBX9BX5b2VbR3R0TEovQD4cM5QKCPtdIw4feNlkdCiE);
     background-color: $BORDERS;
     position: relative;
     overflow: hidden;
@@ -602,7 +633,8 @@ body {
 // Page transition
 
 .page-enter {
-  width: 85%;
+  max-width: 450px;
+  width: 100%;
   height: 100%;
   // transform: translateY(70px);
   opacity: 0;
@@ -611,21 +643,102 @@ body {
 }
 .page-enter-active {
   position: absolute;
-  width: 85%;
+  max-width: 450px;
+  width: 100%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 1;
 }
 .page-exit {
-  width: 85%;
+  max-width: 450px;
+  width: 100%;
   height: 100%;
   opacity: 1;
   transition: opacity 300ms ease-in-out;
 }
 .page-exit-active {
   opacity: 0;
-  width: 85%;
+  max-width: 450px;
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media (max-width: 390px) {
+  .page-inner-wrapper {
+    .home-nav {
+      li {
+        font-size: 0.9rem;
+      }
+    }
+    .provinsi-stats {
+      padding: 1rem 0;
+      p {
+        font-size: 0.8em;
+      }
+    }
+    .page-title {
+      font-size: 1.6rem;
+    }
+    .page-subtitle {
+      font-size: 0.8rem;
+    }
+    .kabupaten-stats-wrapper h3 {
+      font-size: 0.9rem;
+    }
+  }
+
+  .berita-menu {
+    margin: 1rem 0;
+    .menu-hoax {
+      h3 {
+        font-size: 1rem;
+      }
+    }
+    .menu-social {
+      h3 {
+        font-size: 1rem;
+      }
+      h4 {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .berita-subpage {
+    header {
+      height: 230px;
+    }
+    .page-title {
+      font-size: 2rem;
+    }
+    .page-subtitle {
+      font-size: 0.8rem;
+    }
+    .back-btn {
+      padding: 0.4em 0.8em;
+      .btn-inner {
+        width: 15px;
+      }
+    }
+  }
+
+  .hoax-page {
+    .accordion-content {
+      font-size: 0.8rem;
+    }
+  }
+
+  .medsos-page {
+    .instagram-wrapper {
+      width: 100%;
+    }
+    .member-wrapper .member-item-container {
+      flex-direction: column;
+      .member-item {
+        margin: 0.8em 0;
+      }
+    }
+  }
 }
