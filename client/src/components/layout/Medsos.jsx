@@ -6,13 +6,13 @@ import MemberItem from "../MemberItem";
 
 export default function Medsos() {
   return (
-    <div class="page-wrapper berita-subpage hoax-page">
+    <div className="page-wrapper berita-subpage medsos-page">
       <SubpageHeader
         title="Sosial Media"
         subtitle="Sosial media dari KKN Covid Jogja UNS dan anggota KKN ini."
       />
 
-      <div class="page-inner-wrapper">
+      <div className="page-inner-wrapper">
         <InstagramContainer
           img="https://thispersondoesnotexist.com/image"
           name="KKN Covid Jogja"
@@ -21,7 +21,7 @@ export default function Medsos() {
           following={205}
         />
 
-        <div class="member-wrapper">
+        <div className="member-wrapper">
           <h3>Anggota</h3>
 
           <div className="member-item-container">
@@ -47,7 +47,7 @@ export default function Medsos() {
             </MemberItem>
           </div>
 
-          <small class="bottom-acknowledment">
+          <small className="bottom-acknowledment">
             Dibuat sebagai media edukasi masyarakat dalam rangka KKN Covid UNS
           </small>
         </div>

@@ -4,19 +4,19 @@ import { ReactComponent as Divider } from "../assets/divider.svg";
 
 function ProvinceStats(props) {
   return (
-    <div class="provinsi-stats">
-      <div class="provinsi-stats-data stats-flex">
-        <div class="stats-item">
+    <div className="provinsi-stats">
+      <div className="provinsi-stats-data stats-flex">
+        <div className="stats-item">
           <small>Pasien</small>
           <h3>{props.active}</h3>
         </div>
         <Divider />
-        <div class="stats-item">
+        <div className="stats-item">
           <small>Sembuh</small>
           <h3>{props.recovered}</h3>
         </div>
         <Divider />
-        <div class="stats-item">
+        <div className="stats-item">
           <small>Meninggal</small>
           <h3>{props.deaths}</h3>
         </div>

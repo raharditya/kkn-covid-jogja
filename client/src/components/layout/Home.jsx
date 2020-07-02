@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 
-import AppNav from "../AppNav";
 import HomeNav from "../HomeNav";
 import PageHeader from "../PageHeader";
 import SectionHeader from "../SectionHeader";
@@ -17,9 +16,8 @@ export default function Home() {
   }
 
   return (
-    <div class="page-wrapper">
-      <div class="page-inner-wrapper">
-        {/* <AppNav /> */}
+    <div className="page-wrapper">
+      <div className="page-inner-wrapper">
         <PageHeader title="Beranda" />
 
         <HomeNav pos={homeMenu} homeNavHandle={homeNavHandle} />
@@ -42,18 +40,20 @@ export default function Home() {
 
               <div className="placeholder"></div>
 
-              <div class="more-wrapper">
+              <div className="more-wrapper">
                 <a
                   href="https://corona.jogjaprov.go.id/data-statistik"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="chart-more"
+                  className="chart-more"
                 >
                   Lebih Lengkap
                 </a>
               </div>
 
-              <small class="data-update">Update terakhir: 11 Juni 2020</small>
+              <small className="data-update">
+                Update terakhir: 11 Juni 2020
+              </small>
             </div>
           </CSSTransition>
 

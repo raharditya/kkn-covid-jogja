@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function SectionHeader(props) {
   return (
-    <div class="provinsi-title">
+    <div className="provinsi-title">
       <h3>{props.title}</h3>
       <small>{props.subtitle}</small>
     </div>

@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 function InstagramContainer(props) {
   return (
-    <div class="instagram-wrapper">
-      <div class="profile-name">
+    <div className="instagram-wrapper">
+      <div className="profile-name">
         <img src={props.img} alt="" />
         <h4>{props.name}</h4>
       </div>
 
-      <div class="profile-stats">
+      <div className="profile-stats">
         <p>
           {props.post}
           <br />
@@ -27,7 +27,7 @@ function InstagramContainer(props) {
         </p>
       </div>
 
-      <div class="profile-cta">Follow IG Kami!</div>
+      <div className="profile-cta">Follow IG Kami!</div>
     </div>
   );
 }

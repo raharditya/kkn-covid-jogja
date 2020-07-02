@@ -3,7 +3,7 @@ import React from "react";
 export default function HomeNav(props) {
   return (
     <nav>
-      <ul class="home-nav">
+      <ul className="home-nav">
         <li onClick={() => props.homeNavHandle("province")}>
           {props.pos === "province" ? (
             <p style={{ fontWeight: "500" }}>Provinsi</p>

@@ -5,13 +5,13 @@ import AccordionItem from "../AccordionItem";
 
 export default function Hoax() {
   return (
-    <div class="page-wrapper berita-subpage hoax-page">
+    <div className="page-wrapper berita-subpage hoax-page">
       <SubpageHeader
         title="Anti Hoax"
         subtitle="Berbagai informasi viral yang sudah terbukti sebagai hoax"
       />
 
-      <div class="page-inner-wrapper">
+      <div className="page-inner-wrapper">
         <AccordionItem
           title="Apakah air bawang dapat menyembuhkan Covid-19"
           source="WHO"

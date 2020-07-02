@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 function AccordionContent(props) {
   return (
-    <div class="accordion-content">
+    <div className="accordion-content">
       <p>{props.children}</p>
-      <div class="fact-source">
+      <div className="fact-source">
         <small>Sumber: {props.source}</small>
       </div>
     </div>

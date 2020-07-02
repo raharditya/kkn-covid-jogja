@@ -6,7 +6,7 @@ import AccordionContent from "./AccordionContent";
 
 function AccordionItem(props) {
   return (
-    <div class="accordion-item">
+    <div className="accordion-item">
       <AccordionTitle title={props.title} />
       <AccordionContent source={props.source}>
         {props.children}

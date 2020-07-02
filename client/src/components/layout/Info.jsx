@@ -1,14 +1,12 @@
 import React from "react";
 
-import AppNav from "../AppNav";
 import PageHeader from "../PageHeader";
 import InfoArticle from "../InfoArticle";
 
 export default function Info() {
   return (
-    <div class="page-wrapper">
-      <div class="page-inner-wrapper">
-        {/* <AppNav /> */}
+    <div className="page-wrapper">
+      <div className="page-inner-wrapper">
         <PageHeader
           title="Edukasi"
           subtitle="Berbagai artikel mengenai pengetahuan pencegahan Covid-19"

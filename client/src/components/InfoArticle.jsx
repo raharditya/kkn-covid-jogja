@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function InfoArticle(props) {
   return (
     <div
-      class="article-item"
+      className="article-item"
       style={{ backgroundImage: `url(${props.thumbnail})` }}
     >
       <h3>{props.title}</h3>

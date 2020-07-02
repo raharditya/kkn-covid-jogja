@@ -3,21 +3,21 @@ import PropTypes from "prop-types";
 
 function RegencyStats(props) {
   return (
-    <div class="kabupaten-stats-wrapper">
-      <div class="kabupaten-title">
+    <div className="kabupaten-stats-wrapper">
+      <div className="kabupaten-title">
         <h3>{props.area}</h3>
       </div>
 
-      <div class="kabupaten-stats">
-        <div class="stats-item">
+      <div className="kabupaten-stats">
+        <div className="stats-item">
           <small>Aktif</small>
           <h3>{props.active}</h3>
         </div>
-        <div class="stats-item">
+        <div className="stats-item">
           <small>ODP</small>
           <h3>{props.odp}</h3>
         </div>
-        <div class="stats-item">
+        <div className="stats-item">
           <small>PDP</small>
           <h3>{props.pdp}</h3>
         </div>

@@ -6,20 +6,20 @@ function SubdistrictStats(props) {
     props.kecamatan.map((kec) => {
       return (
         <tr>
-          <td class="kecamatan-stats-name">{kec.nameKec}</td>
-          <td class="kecamatan-stats-active">{kec.activeKec}</td>
-          <td class="kecamatan-stats-odp">{kec.odpKec}</td>
-          <td class="kecamatan-stats-pdp">{kec.pdpKec}</td>
+          <td className="kecamatan-stats-name">{kec.nameKec}</td>
+          <td className="kecamatan-stats-active">{kec.activeKec}</td>
+          <td className="kecamatan-stats-odp">{kec.odpKec}</td>
+          <td className="kecamatan-stats-pdp">{kec.pdpKec}</td>
         </tr>
       );
     });
   }
 
   return (
-    <div class="kecamatan-stats-wrapper">
-      <table class="kecamatan-stats">
+    <div className="kecamatan-stats-wrapper">
+      <table className="kecamatan-stats">
         <tr>
-          <th class="kecamatan-name-row">
+          <th className="kecamatan-name-row">
             <small>KECAMATAN</small>
           </th>
           <th>

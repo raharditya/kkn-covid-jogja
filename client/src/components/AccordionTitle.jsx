@@ -5,7 +5,7 @@ import { ReactComponent as Dropdown } from "../assets/dropdown.svg";
 
 function AccordionTitle(props) {
   return (
-    <div class="accordion-title">
+    <div className="accordion-title">
       <p>{props.title}</p>
       <Dropdown />
     </div>
