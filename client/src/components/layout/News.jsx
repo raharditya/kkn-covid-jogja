@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import AppNav from "../AppNav";
 import PageHeader from "../PageHeader";
 import NewsMenu from "../NewsMenu";
 import NewsSelect from "../NewsSelect";
@@ -30,7 +29,15 @@ export default function News() {
   }
 
   function outputNews() {
-    if (!news) return <p>Loading...</p>;
+    if (!news)
+      return (
+        <>
+          <NewsItem />
+          <NewsItem />
+          <NewsItem />
+          <NewsItem />
+        </>
+      );
 
     switch (newsSource) {
       case "detik":
@@ -54,6 +61,7 @@ export default function News() {
               title={item.title}
               date={item.date}
               label={item.label}
+              excerpt=""
               url={item.url}
               key={item._id}
             />
@@ -67,6 +75,7 @@ export default function News() {
             <NewsItem
               title={item.title}
               excerpt={item.excerpt}
+              date=""
               url={item.url}
               key={item._id}
             />
@@ -110,7 +119,6 @@ export default function News() {
   return (
     <div className="page-wrapper">
       <div className="page-inner-wrapper berita-inner">
-        {/* <AppNav /> */}
         <div className="header-static-section">
           <PageHeader
             title="Berita"
