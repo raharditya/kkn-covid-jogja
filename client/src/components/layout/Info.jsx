@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import PageHeader from "../PageHeader";
 import InfoArticle from "../InfoArticle";
+import InfoHeadline from "../InfoHeadline";
 
 export default function Info(props) {
   useEffect(() => {
@@ -16,8 +17,8 @@ export default function Info(props) {
           subtitle="Berbagai artikel mengenai pengetahuan pencegahan Covid-19"
         />
 
-        <div className="article-container-grid">
-          <InfoArticle
+        <div className="article-container">
+          <InfoHeadline
             title="Mencuci tangan yang baik dan benar"
             thumbnail="https://picsum.photos/id/1005/200/300"
           />
