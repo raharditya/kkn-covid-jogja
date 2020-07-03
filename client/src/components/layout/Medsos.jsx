@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import SubpageHeader from "../SubpageHeader";
 import InstagramContainer from "../InstagramContainer";
 import MemberItem from "../MemberItem";
 
-export default function Medsos() {
+export default function Medsos(props) {
+  useEffect(() => {
+    props.setNav(false);
+  }, [props]);
+
   return (
     <div className="page-wrapper berita-subpage medsos-page">
       <SubpageHeader

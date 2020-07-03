@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import PageHeader from "../PageHeader";
 import InfoArticle from "../InfoArticle";
 
-export default function Info() {
+export default function Info(props) {
+  useEffect(() => {
+    props.setNav(true);
+  }, [props]);
+
   return (
     <div className="page-wrapper">
       <div className="page-inner-wrapper">

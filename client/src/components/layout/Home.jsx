@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
 
 import HomeNav from "../HomeNav";
@@ -6,14 +6,19 @@ import PageHeader from "../PageHeader";
 import SectionHeader from "../SectionHeader";
 import ProvinceStats from "../ProvinceStats";
 import RegencyStats from "../RegencyStats";
+import { Accordion } from "react-accessible-accordion";
 
-export default function Home() {
+export default function Home(props) {
   const [homeMenu, setHomeMenu] = useState("province");
 
   function homeNavHandle(pos) {
     setHomeMenu(pos);
     console.log("Menu clicked");
   }
+
+  useEffect(() => {
+    props.setNav(true);
+  }, [props]);
 
   return (
     <div className="page-wrapper">
@@ -70,30 +75,32 @@ export default function Home() {
               />
 
               <div className="kabupaten-wrapper">
-                <RegencyStats
-                  area="Kota Yogyakarta"
-                  active={28}
-                  odp={1049}
-                  pdp={847}
-                />
-                <RegencyStats
-                  area="Kota Yogyakarta"
-                  active={28}
-                  odp={1049}
-                  pdp={847}
-                />
-                <RegencyStats
-                  area="Kota Yogyakarta"
-                  active={28}
-                  odp={1049}
-                  pdp={847}
-                />
-                <RegencyStats
-                  area="Kota Yogyakarta"
-                  active={28}
-                  odp={1049}
-                  pdp={847}
-                />
+                <Accordion>
+                  <RegencyStats
+                    area="Kota Yogyakarta"
+                    active={28}
+                    odp={1049}
+                    pdp={847}
+                  />
+                  <RegencyStats
+                    area="Kota Yogyakarta"
+                    active={28}
+                    odp={1049}
+                    pdp={847}
+                  />
+                  <RegencyStats
+                    area="Kota Yogyakarta"
+                    active={28}
+                    odp={1049}
+                    pdp={847}
+                  />
+                  <RegencyStats
+                    area="Kota Yogyakarta"
+                    active={28}
+                    odp={1049}
+                    pdp={847}
+                  />
+                </Accordion>
               </div>
             </div>
           </CSSTransition>

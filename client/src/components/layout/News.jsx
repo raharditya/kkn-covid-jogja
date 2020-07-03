@@ -20,7 +20,11 @@ function useFetch(url) {
   return newsData;
 }
 
-export default function News() {
+export default function News(props) {
+  useEffect(() => {
+    props.setNav(true);
+  }, [props]);
+
   const news = useFetch("/api/berita");
   const [newsSource, setSource] = useState("detik");
 
