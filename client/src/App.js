@@ -10,7 +10,7 @@ import Hoax from "./components/layout/Hoax";
 import Medsos from "./components/layout/Medsos";
 import Article from "./components/layout/Article";
 
-import articles from "./articles/testArticle";
+import articles from "./articles/combineArticles";
 
 function App() {
   const [navShow, setNavShow] = useState(true);
