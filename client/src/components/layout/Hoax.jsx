@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Accordion } from "react-accessible-accordion";
 
 import SubpageHeader from "../SubpageHeader";
-import AccordionItem from "../AccordionItem";
+import AccordionSingle from "../AccordionSingle";
 
-export default function Hoax() {
+export default function Hoax(props) {
+  useEffect(() => {
+    props.setNav(false);
+  }, [props]);
+
   return (
     <div className="page-wrapper berita-subpage hoax-page">
       <SubpageHeader
@@ -12,32 +17,34 @@ export default function Hoax() {
       />
 
       <div className="page-inner-wrapper">
-        <AccordionItem
-          title="Apakah air bawang dapat menyembuhkan Covid-19"
-          source="WHO"
-        >
-          <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
-          statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
-          mencegah Covid-19
-        </AccordionItem>
+        <Accordion>
+          <AccordionSingle
+            title="Apakah air bawang dapat menyembuhkan Covid-19"
+            source="WHO"
+          >
+            <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
+            statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
+            mencegah Covid-19
+          </AccordionSingle>
 
-        <AccordionItem
-          title="Apakah air bawang dapat menyembuhkan Covid-19"
-          source="WHO"
-        >
-          <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
-          statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
-          mencegah Covid-19
-        </AccordionItem>
+          <AccordionSingle
+            title="Apakah air bawang dapat menyembuhkan Covid-19"
+            source="WHO"
+          >
+            <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
+            statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
+            mencegah Covid-19
+          </AccordionSingle>
 
-        <AccordionItem
-          title="Apakah air bawang dapat menyembuhkan Covid-19"
-          source="WHO"
-        >
-          <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
-          statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
-          mencegah Covid-19
-        </AccordionItem>
+          <AccordionSingle
+            title="Apakah air bawang dapat menyembuhkan Covid-19"
+            source="WHO"
+          >
+            <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
+            statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
+            mencegah Covid-19
+          </AccordionSingle>
+        </Accordion>
       </div>
     </div>
   );
