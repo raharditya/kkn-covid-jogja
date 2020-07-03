@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function AppNav() {
+export default function AppNav(props) {
   return (
-    <nav className="app-nav">
+    <nav className={props.navShow ? "app-nav" : "app-nav hidden"}>
       <div className="nav-item">
         <NavLink exact to="/" activeStyle={{ color: "#433a3a" }}>
           <i className="fas fa-home"></i>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.scss";
 import Home from "./components/layout/Home";
 import News from "./components/layout/News";
@@ -10,10 +10,31 @@ import Hoax from "./components/layout/Hoax";
 import Medsos from "./components/layout/Medsos";
 import Article from "./components/layout/Article";
 
+import articles from "./articles/testArticle";
+
 function App() {
+  const [navShow, setNavShow] = useState(true);
+
+  function setNav(arg) {
+    setNavShow(arg);
+  }
+
+  const articleRoutes = articles.map((article) => {
+    return (
+      <Route path={article.url} exact>
+        <Article
+          setNav={setNav}
+          title={article.title}
+          img={article.img}
+          content={article.content}
+        />
+      </Route>
+    );
+  });
+
   return (
     <Router>
-      <AppNav />
+      <AppNav navShow={navShow} />
       <Route path="/" exact>
         {({ match }) => (
           <CSSTransition
@@ -22,7 +43,7 @@ function App() {
             unmountOnExit
             classNames="page"
           >
-            <Home />
+            <Home setNav={setNav} />
           </CSSTransition>
         )}
       </Route>
@@ -34,7 +55,7 @@ function App() {
             unmountOnExit
             classNames="page"
           >
-            <News />
+            <News setNav={setNav} />
           </CSSTransition>
         )}
       </Route>
@@ -46,22 +67,20 @@ function App() {
             unmountOnExit
             classNames="page"
           >
-            <Info />
+            <Info setNav={setNav} />
           </CSSTransition>
         )}
       </Route>
 
       <Route path="/hoax" exact>
-        <Hoax />
+        <Hoax setNav={setNav} />
       </Route>
 
       <Route path="/medsos" exact>
-        <Medsos />
+        <Medsos setNav={setNav} />
       </Route>
 
-      <Route path="/article" exact>
-        <Article />
-      </Route>
+      {articleRoutes}
     </Router>
   );
 }
