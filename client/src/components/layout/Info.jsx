@@ -4,28 +4,27 @@ import PageHeader from "../PageHeader";
 import InfoArticle from "../InfoArticle";
 import InfoHeadline from "../InfoHeadline";
 import articles from "../../articles/combineArticles";
+import { Link } from "react-router-dom";
 
 export default function Info(props) {
   useEffect(() => {
     props.setNav(true);
   }, [props]);
 
-  const articlesList = articles.reverse().map((article, i) => {
+  articles.reverse();
+
+  const articlesList = articles.map((article, i) => {
     if (i === 0) {
       return (
-        <InfoHeadline
-          title={article.title}
-          thumbnail={article.img}
-          url={article.url}
-        />
+        <Link to={article.url} key={article.url}>
+          <InfoHeadline title={article.title} thumbnail={article.img} />
+        </Link>
       );
     } else {
       return (
-        <InfoArticle
-          title={article.title}
-          thumbnail={article.img}
-          url={article.url}
-        />
+        <Link to={article.url} key={article.url}>
+          <InfoArticle title={article.title} thumbnail={article.img} />
+        </Link>
       );
     }
   });
