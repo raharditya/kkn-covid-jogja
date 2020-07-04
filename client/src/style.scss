@@ -68,10 +68,12 @@ body {
     font-size: 0.9em;
     padding-top: 5px;
   }
+  .nav-active .fas {
+    color: $BLACK-TEXT;
+  }
 }
 
 .hidden {
-  opacity: 0;
   bottom: -110%;
 }
 
@@ -104,6 +106,10 @@ body {
     :nth-child(1) {
       margin-left: 0;
     }
+  }
+
+  .sebaran-provinsi {
+    padding-bottom: 4rem;
   }
 
   .provinsi-title {
@@ -177,7 +183,7 @@ body {
     position: relative;
 
     h3 {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
     .kabupaten-title {
       margin-right: 18px;
@@ -243,7 +249,7 @@ body {
 }
 
 .scroll-indicator {
-  background-color: $BLACK-TEXT;
+  background-color: #d0d9de;
   position: sticky;
   top: 20px;
   width: 80px;
@@ -310,7 +316,7 @@ body {
 }
 
 .berita-container {
-  background-color: $WHITE-COMP-BG;
+  background-color: #fcfffd;
   border-radius: 40px 40px 0 0;
   box-shadow: 0 -5px 15px $SHADOW;
   position: relative;
@@ -366,7 +372,7 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: $SHADOW;
+      background-color: rgba(00, 00, 00, 0.4);
     }
     h3 {
       font-size: 1.4rem;
@@ -396,6 +402,7 @@ body {
       border-radius: 20px;
       position: relative;
       z-index: 8;
+      flex: 1;
 
       img {
         width: 0;
@@ -404,7 +411,8 @@ body {
     }
 
     .article-item-title {
-      padding: 2rem 1.5rem;
+      padding: 1.3rem 1.5rem;
+      flex: 1.3;
     }
   }
 }
