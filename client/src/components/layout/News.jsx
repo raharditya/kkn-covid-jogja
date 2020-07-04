@@ -10,7 +10,6 @@ function useFetch(url) {
   useEffect(() => {
     async function getNews() {
       const data = await fetch(url).then((res) => res.json());
-      console.log(data);
       setNews(data);
     }
 

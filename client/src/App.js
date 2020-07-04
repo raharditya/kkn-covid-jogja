@@ -21,7 +21,7 @@ function App() {
 
   const articleRoutes = articles.map((article) => {
     return (
-      <Route path={article.url} exact>
+      <Route path={article.url} key={article.url} exact>
         <Article
           setNav={setNav}
           title={article.title}

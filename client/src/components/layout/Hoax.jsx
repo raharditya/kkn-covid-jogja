@@ -17,7 +17,7 @@ export default function Hoax(props) {
       />
 
       <div className="page-inner-wrapper">
-        <Accordion>
+        <Accordion allowZeroExpanded={true}>
           <AccordionSingle
             title="Apakah air bawang dapat menyembuhkan Covid-19"
             source="WHO"
