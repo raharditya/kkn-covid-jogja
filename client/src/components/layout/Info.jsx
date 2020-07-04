@@ -11,8 +11,6 @@ export default function Info(props) {
     props.setNav(true);
   }, [props]);
 
-  articles.reverse();
-
   const articlesList = articles.map((article, i) => {
     if (i === 0) {
       return (
