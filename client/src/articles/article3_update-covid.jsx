@@ -26,7 +26,7 @@ const content = (
 
 const articleMeta = {
   title: "Update terbaru Covid-19 di Yogyakarta",
-  url: "/update-terbaru-virus-corona-di-yogyakarta",
+  url: "/artikel/update-terbaru-virus-corona-di-yogyakarta",
   content: content,
   img:
     "https://i.picsum.photos/id/527/536/354.jpg?hmac=kWHZeY7-cN6JqMJipaChyWZA6u2Li3XzGrNZ7IJpi2s",

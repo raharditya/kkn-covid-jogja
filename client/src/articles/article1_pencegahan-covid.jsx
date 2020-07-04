@@ -27,7 +27,7 @@ const content = (
 
 const articleMeta = {
   title: "Bagaimana cara mencuci tangan yang benar?",
-  url: "/bagaimana-cara-mencuci-tangan-yang-benar",
+  url: "/artikel/bagaimana-cara-mencuci-tangan-yang-benar",
   content,
   img:
     "https://i.picsum.photos/id/955/536/354.jpg?hmac=VBX9BX5b2VbR3R0TEovQD4cM5QKCPtdIw4feNlkdCiE",

@@ -22,7 +22,7 @@ const content = (
 
 const articleMeta = {
   title: "Hindari Covid-19 dengan cara-cara berikut ini",
-  url: "/hindari-covid19-dengan-cara-cara-berikut-ini",
+  url: "/artikel/hindari-covid19-dengan-cara-cara-berikut-ini",
   content: content,
   img:
     "https://i.picsum.photos/id/425/536/354.jpg?hmac=wBNHXWWIrsjZJiC-motCXU36RWkqnUAAPfVJulwHGHM",
