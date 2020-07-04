@@ -7,6 +7,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import Skeleton from "react-loading-skeleton";
 
 function RegencyStats(props) {
   return (
@@ -16,21 +17,21 @@ function RegencyStats(props) {
           <AccordionItemButton>
             <div className="kabupaten-stats-wrapper">
               <div className="kabupaten-title">
-                <h3>{props.area}</h3>
+                <h3>{props.area || <Skeleton />}</h3>
               </div>
 
               <div className="kabupaten-stats">
                 <div className="stats-item">
                   <small>Aktif</small>
-                  <h3>{props.active}</h3>
+                  <h3>{props.active || <Skeleton />}</h3>
                 </div>
                 <div className="stats-item">
                   <small>ODP</small>
-                  <h3>{props.odp}</h3>
+                  <h3>{props.odp || <Skeleton />}</h3>
                 </div>
                 <div className="stats-item">
                   <small>PDP</small>
-                  <h3>{props.pdp}</h3>
+                  <h3>{props.pdp || <Skeleton />}</h3>
                 </div>
               </div>
             </div>
@@ -38,7 +39,7 @@ function RegencyStats(props) {
         </AccordionItemHeading>
 
         <AccordionItemPanel>
-          <SubdistrictStats />
+          <SubdistrictStats kecamatan={props.kecamatan} />
         </AccordionItemPanel>
       </AccordionItem>
     </>

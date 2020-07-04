@@ -8,12 +8,59 @@ import ProvinceStats from "../ProvinceStats";
 import RegencyStats from "../RegencyStats";
 import { Accordion } from "react-accessible-accordion";
 
+function useFetch(url) {
+  const [covidData, setCovid] = useState([]);
+  useEffect(() => {
+    async function getNews() {
+      const data = await fetch(url).then((res) => res.json());
+      setCovid(data);
+    }
+
+    getNews();
+  }, [url]);
+
+  return covidData;
+}
+
 export default function Home(props) {
+  const kabupatenData = useFetch("/api/covid/kabupaten");
+
+  function kabupatenOutput() {
+    if (!kabupatenData) {
+      return (
+        <>
+          <RegencyStats />
+          <RegencyStats />
+          <RegencyStats />
+          <RegencyStats />
+        </>
+      );
+    }
+
+    let kabupatenList;
+
+    if (kabupatenData) {
+      kabupatenList = kabupatenData.map((kab) => {
+        return (
+          <RegencyStats
+            area={kab.nameKab}
+            active={kab.activeKab}
+            odp={kab.odpKab}
+            pdp={kab.pdpKab}
+            kecamatan={kab.kecamatan}
+            key={kab.nameKab}
+          />
+        );
+      });
+
+      return kabupatenList;
+    }
+  }
+
   const [homeMenu, setHomeMenu] = useState("province");
 
   function homeNavHandle(pos) {
     setHomeMenu(pos);
-    console.log("Menu clicked");
   }
 
   useEffect(() => {
@@ -75,31 +122,8 @@ export default function Home(props) {
               />
 
               <div className="kabupaten-wrapper">
-                <Accordion>
-                  <RegencyStats
-                    area="Kota Yogyakarta"
-                    active={28}
-                    odp={1049}
-                    pdp={847}
-                  />
-                  <RegencyStats
-                    area="Kota Yogyakarta"
-                    active={28}
-                    odp={1049}
-                    pdp={847}
-                  />
-                  <RegencyStats
-                    area="Kota Yogyakarta"
-                    active={28}
-                    odp={1049}
-                    pdp={847}
-                  />
-                  <RegencyStats
-                    area="Kota Yogyakarta"
-                    active={28}
-                    odp={1049}
-                    pdp={847}
-                  />
+                <Accordion allowZeroExpanded={true}>
+                  {kabupatenOutput()}
                 </Accordion>
               </div>
             </div>
