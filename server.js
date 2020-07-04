@@ -2,6 +2,7 @@ const express = require("express");
 const App = express();
 const mongoose = require("mongoose");
 const CronJob = require("cron").CronJob;
+const path = require("path");
 require("dotenv").config();
 
 const startScrape = require("./scrapers/startScrape");
@@ -45,11 +46,11 @@ const covidScrapeCron = new CronJob(
 newsScrapeCron.start();
 covidScrapeCron.start();
 
-App.get("/", (req, res) => {
-  res.send(
-    "Welcome to the backend for my next project. \nGo to /api/berita for the news API \nGo to /api/covid/provinsi for covid data by Province in Yogyalarta \nGo to /api/covid/kabupaten for covid data by Regency in Yogyalarta"
-  );
-});
+// App.get("/", (req, res) => {
+//   res.send(
+//     "Welcome to the backend for my next project. \nGo to /api/berita for the news API \nGo to /api/covid/provinsi for covid data by Province in Yogyalarta \nGo to /api/covid/kabupaten for covid data by Regency in Yogyalarta"
+//   );
+// });
 
 App.get("/api", (req, res) => {
   res.json({
@@ -61,5 +62,13 @@ App.get("/api", (req, res) => {
 
 App.use("/api/berita", berita);
 App.use("/api/covid", covid);
+
+if (process.env.NODE_ENV === "production") {
+  App.use(express.static("client/build"));
+
+  App.get("*", (req, res) => {
+    res.sendfile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+}
 
 App.listen(PORT, () => console.log(`Server started at ${PORT}`));
