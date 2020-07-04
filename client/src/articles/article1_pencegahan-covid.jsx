@@ -25,7 +25,7 @@ const content = (
   </>
 );
 
-const articleOne = {
+const articleMeta = {
   title: "Bagaimana cara mencuci tangan yang benar?",
   url: "/bagaimana-cara-mencuci-tangan-yang-benar",
   content,
@@ -33,4 +33,4 @@ const articleOne = {
     "https://i.picsum.photos/id/955/536/354.jpg?hmac=VBX9BX5b2VbR3R0TEovQD4cM5QKCPtdIw4feNlkdCiE",
 };
 
-export default articleOne;
+export default articleMeta;
