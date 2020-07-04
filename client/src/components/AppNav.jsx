@@ -8,7 +8,11 @@ export default function AppNav(props) {
         <NavLink exact to="/" activeClassName="nav-active">
           <i className="fas fa-home"></i>
         </NavLink>
-        <NavLink exact to="/" activeStyle={{ fontWeight: "bold" }}>
+        <NavLink
+          exact
+          to="/"
+          activeStyle={{ fontWeight: "bold", color: "#433a3a" }}
+        >
           Beranda
         </NavLink>
       </div>
@@ -16,7 +20,11 @@ export default function AppNav(props) {
         <NavLink exact to="/berita" activeClassName="nav-active">
           <i className="fas fa-newspaper"></i>
         </NavLink>
-        <NavLink exact to="/berita" activeStyle={{ fontWeight: "bold" }}>
+        <NavLink
+          exact
+          to="/berita"
+          activeStyle={{ fontWeight: "bold", color: "#433a3a" }}
+        >
           Berita
         </NavLink>
       </div>
@@ -24,7 +32,11 @@ export default function AppNav(props) {
         <NavLink exact to="/edukasi" activeClassName="nav-active">
           <i className="fas fa-book"></i>
         </NavLink>
-        <NavLink exact to="/edukasi" activeStyle={{ fontWeight: "bold" }}>
+        <NavLink
+          exact
+          to="/edukasi"
+          activeStyle={{ fontWeight: "bold", color: "#433a3a" }}
+        >
           Edukasi
         </NavLink>
       </div>
