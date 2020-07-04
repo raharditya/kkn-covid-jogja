@@ -20,7 +20,7 @@ function AccordionSingle(props) {
 
 AccordionSingle.propTypes = {
   title: PropTypes.string,
-  children: PropTypes.string,
+  children: PropTypes.array,
   source: PropTypes.string,
 };
 

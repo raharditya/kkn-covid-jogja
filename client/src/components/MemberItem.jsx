@@ -28,7 +28,6 @@ function MemberItem(props) {
 MemberItem.propTypes = {
   img: PropTypes.string,
   name: PropTypes.string,
-  children: PropTypes.string,
   ig: PropTypes.string,
   twitter: PropTypes.string,
   linkedin: PropTypes.string,

@@ -16,7 +16,7 @@ function AccordionContent(props) {
 }
 
 AccordionContent.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.array,
   source: PropTypes.string,
 };
 
