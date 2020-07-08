@@ -10,20 +10,29 @@ function suaraScraper() {
       const $ = cheerio.load(html);
 
       $(".item").each((i, el) => {
-        const title = $(el).find(".post-title").children("a").text();
+        let title;
+        let url;
+        let thumbnail;
+        if (i === 0) {
+          title = $(el).find(".post-title").text();
+          url = $(el).find("a").attr("href");
+          thumbnail = $(el).find(".post-thumb").children("img").attr("src");
+        } else {
+          title = $(el).find(".post-title").children("a").text();
+          url = $(el).find(".post-thumb").children("a").attr("href");
+          thumbnail = $(el)
+            .find(".post-thumb")
+            .children("a")
+            .children("img")
+            .attr("src");
+        }
         const excerpt = $(el).find("p").text();
-        const url = $(el).find(".post-thumb").children("a").attr("href");
-        const thumbnail = $(el)
-          .find(".post-thumb")
-          .children("a")
-          .children("img")
-          .attr("src");
 
         suaraNews.push({
-          title: title,
-          excerpt: excerpt,
-          url: url,
-          thumbnail: thumbnail,
+          title,
+          excerpt,
+          url,
+          thumbnail,
         });
       });
 
