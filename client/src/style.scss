@@ -67,6 +67,10 @@ body {
     text-decoration: none;
     font-size: 0.9em;
     padding-top: 5px;
+    transition: color 200ms ease-in-out;
+  }
+  i {
+    transition: color 200ms ease-in-out;
   }
   .nav-active .fas {
     color: $BLACK-TEXT;
