@@ -67,6 +67,10 @@ body {
     text-decoration: none;
     font-size: 0.9em;
     padding-top: 5px;
+    transition: color 200ms ease-in-out;
+  }
+  i {
+    transition: color 200ms ease-in-out;
   }
   .nav-active .fas {
     color: $BLACK-TEXT;
@@ -238,15 +242,17 @@ body {
   }
 
   .header-static-section {
-    position: fixed;
+    position: absolute;
     width: 100%;
     max-width: 450px;
     height: 40vh;
     background-color: $MAIN-BG;
     top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    padding: 0 2rem;
+    left: 0;
+    right: 0;
+    // left: 50%;
+    // transform: translate(-50%, 0);
+    // padding: 0 2rem;
     // right: 0;
     overflow: hidden;
   }
@@ -970,4 +976,11 @@ body {
 }
 .accordion__heading {
   cursor: pointer;
+}
+
+.screen-container {
+  margin: auto;
+  max-width: 450px;
+  min-height: 100vh;
+  overflow: hidden;
 }

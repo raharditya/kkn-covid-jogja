@@ -13,6 +13,7 @@
   "author": "Adit Raharditya",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "cheerio": "^1.0.0-rc.3",
     "cron": "^1.8.2",
     "dotenv": "^8.2.0",
@@ -21,6 +22,7 @@
     "puppeteer": "^3.3.0",
     "react-accessible-accordion": "^3.1.1",
     "react-loading-skeleton": "^2.1.1",
+    "react-swipeable-routes": "^0.6.0",
     "react-transition-group": "^4.4.1",
     "request": "^2.88.2"
   },

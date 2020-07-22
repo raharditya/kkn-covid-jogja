@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.scss";
+import SwipeableRoutes from "react-swipeable-routes";
 import Home from "./components/layout/Home";
 import News from "./components/layout/News";
 import Info from "./components/layout/Info";
@@ -35,7 +36,31 @@ function App() {
   return (
     <Router>
       <AppNav navShow={navShow} />
-      <Route path="/" exact>
+
+      <div className="screen-container">
+        <SwipeableRoutes replace containerStyle={{ height: "100vh" }}>
+          <Route path="/" exact>
+            <Home setNav={setNav} />
+          </Route>
+          <Route path="/berita" exact>
+            <News setNav={setNav} />
+          </Route>
+          <Route path="/edukasi" exact>
+            <Info setNav={setNav} />
+          </Route>
+
+          <Route path="/hoax" exact>
+            <Hoax setNav={setNav} />
+          </Route>
+
+          <Route path="/medsos" exact>
+            <Medsos setNav={setNav} />
+          </Route>
+
+          {articleRoutes}
+        </SwipeableRoutes>
+
+        {/* <Route path="/" exact>
         {({ match }) => (
           <CSSTransition
             in={match != null}
@@ -70,9 +95,10 @@ function App() {
             <Info setNav={setNav} />
           </CSSTransition>
         )}
-      </Route>
+      </Route> */}
+      </div>
 
-      <Route path="/hoax" exact>
+      {/* <Route path="/hoax" exact>
         <Hoax setNav={setNav} />
       </Route>
 
@@ -80,7 +106,7 @@ function App() {
         <Medsos setNav={setNav} />
       </Route>
 
-      {articleRoutes}
+      {articleRoutes} */}
     </Router>
   );
 }
