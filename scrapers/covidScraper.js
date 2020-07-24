@@ -19,6 +19,7 @@ const scrapeAll = [
 
 async function scrape() {
   const browser = await puppeteer.launch();
+  console.log("Starting Covid-19 Scrape...");
 
   for (let curr = 0; curr < scrapeAll.length; curr++) {
     let kabData = {
@@ -30,6 +31,7 @@ async function scrape() {
       lastUpdate: "",
       timeFetched: new Date(),
     };
+    console.log(`Scraping ${kabData.nameKab}...`);
 
     for (let i = 0; i < scrapeAll[curr].kecamatan.length; i++) {
       const page = await browser.newPage();
@@ -70,7 +72,6 @@ async function scrape() {
       await page.close();
     }
 
-    // console.log(kabData);
     try {
       await CovidKab.findOneAndUpdate({ nameKab: kabData.nameKab }, kabData, {
         upsert: true,
@@ -81,6 +82,7 @@ async function scrape() {
     }
   }
 
+  console.log("Covid-19 Scrape completed");
   await browser.close();
 }
 
