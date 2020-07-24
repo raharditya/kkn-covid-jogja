@@ -9,6 +9,7 @@ const CovidProv = mongoose.Schema({
       activeDaily: Number,
       recoveredDaily: Number,
       deathDaily: Number,
+      date: String,
     },
   ],
 });

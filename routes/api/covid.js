@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const CovidProvModel = require("../../models/CovidProv.model");
 const CovidKabModel = require("../../models/CovidKab.model");
+const auth = require("../../middleware/auth");
+const { findOneAndUpdate } = require("../../models/CovidKab.model");
 
 router.get("/provinsi", async (req, res) => {
   try {
@@ -25,7 +27,7 @@ router.get("/kabupaten", async (req, res) => {
   }
 });
 
-router.post("/", async (req, res) => {
+router.post("/", auth, async (req, res) => {
   const activeDaily = req.body.activeDaily;
   const recoveredDaily = req.body.recoveredDaily;
   const deathDaily = req.body.deathDaily;
@@ -37,10 +39,11 @@ router.post("/", async (req, res) => {
   };
 
   try {
-    let covidData = await CovidProvModel.find({ nameProv: "DIY" });
+    console.log(req.body);
+    let covidData = await CovidProvModel.findOne({ nameProv: "DIY" });
 
     if (!covidData) {
-      covidData = await new CovidProvModel({
+      covidData = new CovidProvModel({
         nameProv: "DIY",
         activeProv: activeDaily,
         recoveredProv: recoveredDaily,
@@ -54,8 +57,7 @@ router.post("/", async (req, res) => {
       covidData.activeProv = activeDaily;
       covidData.recoveredProv = recoveredDaily;
       covidData.deathProv = deathDaily;
-
-      covidData.daily.unshift(dailyPush);
+      covidData.daily.push(dailyPush);
 
       await covidData.save();
 
