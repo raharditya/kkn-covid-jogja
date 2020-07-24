@@ -11,6 +11,7 @@ const berita = require("./routes/api/Berita" || "./routes/api/berita");
 const covid = require("./routes/api/covid");
 const hoax = require("./routes/api/hoax");
 const login = require("./routes/api/login");
+const sosmed = require("./routes/api/sosmed");
 
 App.use(express.json());
 const PORT = process.env.PORT || 4500;
@@ -67,6 +68,7 @@ App.use("/api/berita", berita);
 App.use("/api/covid", covid);
 App.use("/api/hoax", hoax);
 App.use("/api/login", login);
+App.use("/api/sosmed", sosmed);
 
 if (process.env.NODE_ENV === "production") {
   App.use(express.static("client/build"));
