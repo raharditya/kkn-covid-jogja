@@ -7,6 +7,7 @@ import SectionHeader from "../SectionHeader";
 import ProvinceStats from "../ProvinceStats";
 import RegencyStats from "../RegencyStats";
 import { Accordion } from "react-accessible-accordion";
+import Skeleton from "react-loading-skeleton";
 
 function useFetch(url) {
   const [covidData, setCovid] = useState([]);
@@ -24,6 +25,7 @@ function useFetch(url) {
 
 export default function Home(props) {
   const kabupatenData = useFetch("/api/covid/kabupaten");
+  const provinsiData = useFetch("/api/covid/provinsi");
 
   function kabupatenOutput() {
     if (!kabupatenData) {
@@ -83,7 +85,22 @@ export default function Home(props) {
           >
             <div className="province">
               <SectionHeader title="Sebaran Covid-19" subtitle="Provinsi DIY" />
-              <ProvinceStats active={53} recovered={103} deaths={8} daily={3} />
+              {provinsiData ? (
+                <ProvinceStats
+                  active={provinsiData.activeProv}
+                  recovered={provinsiData.recoveredProv}
+                  deaths={provinsiData.deathProv}
+                  daily={
+                    provinsiData.length !== 0 &&
+                    provinsiData.daily[provinsiData.daily.length - 1]
+                      .activeDaily -
+                      provinsiData.daily[provinsiData.daily.length - 2]
+                        .activeDaily
+                  }
+                />
+              ) : (
+                <ProvinceStats />
+              )}
 
               <SectionHeader
                 title="Grafik Pasien Covid-19"
@@ -104,7 +121,12 @@ export default function Home(props) {
               </div>
 
               <small className="data-update">
-                Update terakhir: 11 Juni 2020
+                Update terakhir:{" "}
+                {provinsiData.length !== 0 ? (
+                  provinsiData.daily[provinsiData.daily.length - 1].date
+                ) : (
+                  <Skeleton width={80} />
+                )}
               </small>
             </div>
           </CSSTransition>
@@ -125,6 +147,13 @@ export default function Home(props) {
                 <Accordion allowZeroExpanded={true}>
                   {kabupatenOutput()}
                 </Accordion>
+                <small className="data-update" style={{ marginTop: "2rem" }}>
+                  {kabupatenData.length !== 0 ? (
+                    kabupatenData[0].lastUpdate
+                  ) : (
+                    <Skeleton width={80} />
+                  )}
+                </small>
               </div>
             </div>
           </CSSTransition>

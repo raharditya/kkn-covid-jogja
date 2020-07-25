@@ -1,10 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Accordion } from "react-accessible-accordion";
 
 import SubpageHeader from "../SubpageHeader";
 import AccordionSingle from "../AccordionSingle";
 
+function useFetch(url) {
+  const [hoaxData, setHoax] = useState([]);
+  useEffect(() => {
+    async function getNews() {
+      const data = await fetch(url).then((res) => res.json());
+      setHoax(data);
+    }
+
+    getNews();
+  }, [url]);
+
+  return hoaxData;
+}
+
 export default function Hoax(props) {
+  const hoax = useFetch("/api/hoax");
+
   useEffect(() => {
     props.setNav(false);
   }, [props]);
@@ -18,32 +34,18 @@ export default function Hoax(props) {
 
       <div className="page-inner-wrapper">
         <Accordion allowZeroExpanded={true}>
-          <AccordionSingle
-            title="Apakah air bawang dapat menyembuhkan Covid-19"
-            source="WHO"
-          >
-            <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
-            statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
-            mencegah Covid-19
-          </AccordionSingle>
-
-          <AccordionSingle
-            title="Apakah air bawang dapat menyembuhkan Covid-19"
-            source="WHO"
-          >
-            <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
-            statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
-            mencegah Covid-19
-          </AccordionSingle>
-
-          <AccordionSingle
-            title="Apakah air bawang dapat menyembuhkan Covid-19"
-            source="WHO"
-          >
-            <b>Tidak.</b> Sampai saat ini tidak ada publikasi yang mendukung
-            statement ini. Berkumur air bawang tidak memiliki efek apapun dalam
-            mencegah Covid-19
-          </AccordionSingle>
+          {hoax ? (
+            hoax.map((item, i) => (
+              <AccordionSingle key={i} title={item.title} source={item.source}>
+                {item.content}
+              </AccordionSingle>
+            ))
+          ) : (
+            <>
+              <AccordionSingle />
+              <AccordionSingle />
+            </>
+          )}
         </Accordion>
       </div>
     </div>
