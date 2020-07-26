@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactGA from "react-ga";
 import "./style.scss";
 import Home from "./components/layout/Home";
 import News from "./components/layout/News";
@@ -18,6 +19,8 @@ function App() {
   function setNav(arg) {
     setNavShow(arg);
   }
+
+  ReactGA.initialize("UA-165400154-2");
 
   const articleRoutes = articles.map((article) => {
     return (

@@ -665,6 +665,7 @@ body {
 }
 
 .home-regency-enter {
+  position: absolute;
   transform: translateX(120%);
   width: 100%;
 }
@@ -807,6 +808,19 @@ body {
         margin: 0.8em 0;
       }
     }
+  }
+}
+
+.accordion-title {
+  svg {
+    transform: rotate(180deg);
+    transition: transform 200ms ease-in-out;
+  }
+}
+
+.is-open {
+  svg {
+    transform: rotate(0deg);
   }
 }
 
