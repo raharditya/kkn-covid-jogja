@@ -9,12 +9,14 @@
     "axios": "^0.19.2",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-accessible-accordion": "^3.3.1",
+    "react-collapsible": "^2.8.0",
     "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
     "react-loading-skeleton": "^2.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.4.1",
+    "recharts": "^1.8.5",
     "request": "^2.88.2"
   },
   "scripts": {

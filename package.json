@@ -21,9 +21,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
     "puppeteer": "^3.3.0",
-    "react-accessible-accordion": "^3.1.1",
-    "react-loading-skeleton": "^2.1.1",
-    "react-transition-group": "^4.4.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
