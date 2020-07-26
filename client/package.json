@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:4500"
+  "proxy": "http://kkn-covid-jogja.herokuapp.com"
 }
