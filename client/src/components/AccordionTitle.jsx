@@ -1,22 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {
-  AccordionItemHeading,
-  AccordionItemButton,
-} from "react-accessible-accordion";
 
 import { ReactComponent as Dropdown } from "../assets/dropdown.svg";
+import Skeleton from "react-loading-skeleton";
 
 function AccordionTitle(props) {
   return (
-    <AccordionItemHeading>
-      <AccordionItemButton>
-        <div className="accordion-title">
-          <p>{props.title}</p>
-          <Dropdown />
-        </div>
-      </AccordionItemButton>
-    </AccordionItemHeading>
+    <div className="accordion-title">
+      <p>
+        {props.title || (
+          <>
+            <Skeleton height={20} width={120} />
+            <Skeleton height={20} width={180} />
+          </>
+        )}
+      </p>
+      <Dropdown />
+    </div>
   );
 }
 

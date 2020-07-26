@@ -1,17 +1,30 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { AccordionItemPanel } from "react-accessible-accordion";
+import Skeleton from "react-loading-skeleton";
 
 function AccordionContent(props) {
   return (
-    <AccordionItemPanel>
-      <div className="accordion-content">
-        <p>{props.children}</p>
-        <div className="fact-source">
-          <small>Sumber: {props.source}</small>
-        </div>
+    <div className="accordion-content">
+      <p>
+        {props.children || (
+          <>
+            <Skeleton width="80%" />
+            <Skeleton width="90%" />
+            <Skeleton width="70%" />
+          </>
+        )}
+      </p>
+      <div className="fact-source">
+        <small>
+          Sumber:{" "}
+          {props.source || (
+            <>
+              <Skeleton width={50} />
+            </>
+          )}
+        </small>
       </div>
-    </AccordionItemPanel>
+    </div>
   );
 }
 
