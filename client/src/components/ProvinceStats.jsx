@@ -4,6 +4,7 @@ import { ReactComponent as Divider } from "../assets/divider.svg";
 import Skeleton from "react-loading-skeleton";
 
 function ProvinceStats(props) {
+  console.log(props);
   return (
     <div className="provinsi-stats">
       <div className="provinsi-stats-data stats-flex">
@@ -22,7 +23,10 @@ function ProvinceStats(props) {
           <h3>{props.deaths || <Skeleton width={30} />}</h3>
         </div>
       </div>
-      <p>Kasus hari ini: {props.daily || <Skeleton width={30} />}</p>
+      <p>
+        Kasus hari ini:{" "}
+        {props.daily !== null ? props.daily : <Skeleton width={30} />}
+      </p>
     </div>
   );
 }
