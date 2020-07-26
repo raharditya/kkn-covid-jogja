@@ -8,6 +8,9 @@ import ProvinceStats from "../ProvinceStats";
 import RegencyStats from "../RegencyStats";
 import { Accordion } from "react-accessible-accordion";
 import Skeleton from "react-loading-skeleton";
+import Collapsible from "react-collapsible";
+import SubdistrictStats from "../SubdistrictStats";
+import HomeChart from "../HomeChart";
 
 function useFetch(url) {
   const [covidData, setCovid] = useState([]);
@@ -44,14 +47,22 @@ export default function Home(props) {
     if (kabupatenData) {
       kabupatenList = kabupatenData.map((kab) => {
         return (
-          <RegencyStats
-            area={kab.nameKab}
-            active={kab.activeKab}
-            odp={kab.odpKab}
-            pdp={kab.pdpKab}
-            kecamatan={kab.kecamatan}
+          <Collapsible
             key={kab.nameKab}
-          />
+            trigger={
+              <RegencyStats
+                area={kab.nameKab}
+                active={kab.activeKab}
+                odp={kab.odpKab}
+                pdp={kab.pdpKab}
+              />
+            }
+            triggerStyle={{ cursor: "pointer" }}
+            transitionTime={300}
+            easing="ease-in-out"
+          >
+            <SubdistrictStats kecamatan={kab.kecamatan} />
+          </Collapsible>
         );
       });
 
@@ -107,7 +118,7 @@ export default function Home(props) {
                 subtitle="Provinsi DIY"
               />
 
-              <div className="placeholder"></div>
+              <HomeChart data={provinsiData.daily} />
 
               <div className="more-wrapper">
                 <a
