@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Accordion } from "react-accessible-accordion";
 import Collapsible from "react-collapsible";
 
 import SubpageHeader from "../SubpageHeader";
-import AccordionSingle from "../AccordionSingle";
 import AccordionContent from "../AccordionContent";
 import AccordionTitle from "../AccordionTitle";
 
@@ -37,50 +35,48 @@ export default function Hoax(props) {
       />
 
       <div className="page-inner-wrapper">
-        <Accordion allowZeroExpanded={true}>
-          {hoax.length !== 0 ? (
-            hoax.map((item, i) => (
-              <Collapsible
-                key={i}
-                trigger={<AccordionTitle title={item.title} />}
-                triggerStyle={{ cursor: "pointer" }}
-                transitionTime={200}
-                easing="ease-in-out"
-              >
-                <AccordionContent source={item.source}>
-                  {item.content}
-                </AccordionContent>
-              </Collapsible>
-            ))
-          ) : (
-            <>
-              <Collapsible
-                trigger={<AccordionTitle />}
-                triggerStyle={{ cursor: "pointer" }}
-                transitionTime={200}
-                easing="ease-in-out"
-              >
-                <AccordionContent></AccordionContent>
-              </Collapsible>
-              <Collapsible
-                trigger={<AccordionTitle />}
-                triggerStyle={{ cursor: "pointer" }}
-                transitionTime={200}
-                easing="ease-in-out"
-              >
-                <AccordionContent></AccordionContent>
-              </Collapsible>
-              <Collapsible
-                trigger={<AccordionTitle />}
-                triggerStyle={{ cursor: "pointer" }}
-                transitionTime={200}
-                easing="ease-in-out"
-              >
-                <AccordionContent></AccordionContent>
-              </Collapsible>
-            </>
-          )}
-        </Accordion>
+        {hoax.length !== 0 ? (
+          hoax.map((item, i) => (
+            <Collapsible
+              key={i}
+              trigger={<AccordionTitle title={item.title} />}
+              triggerStyle={{ cursor: "pointer" }}
+              transitionTime={200}
+              easing="ease-in-out"
+            >
+              <AccordionContent source={item.source}>
+                {item.content}
+              </AccordionContent>
+            </Collapsible>
+          ))
+        ) : (
+          <>
+            <Collapsible
+              trigger={<AccordionTitle />}
+              triggerStyle={{ cursor: "pointer" }}
+              transitionTime={200}
+              easing="ease-in-out"
+            >
+              <AccordionContent></AccordionContent>
+            </Collapsible>
+            <Collapsible
+              trigger={<AccordionTitle />}
+              triggerStyle={{ cursor: "pointer" }}
+              transitionTime={200}
+              easing="ease-in-out"
+            >
+              <AccordionContent></AccordionContent>
+            </Collapsible>
+            <Collapsible
+              trigger={<AccordionTitle />}
+              triggerStyle={{ cursor: "pointer" }}
+              transitionTime={200}
+              easing="ease-in-out"
+            >
+              <AccordionContent></AccordionContent>
+            </Collapsible>
+          </>
+        )}
       </div>
     </div>
   );

@@ -6,7 +6,6 @@ import PageHeader from "../PageHeader";
 import SectionHeader from "../SectionHeader";
 import ProvinceStats from "../ProvinceStats";
 import RegencyStats from "../RegencyStats";
-import { Accordion } from "react-accessible-accordion";
 import Skeleton from "react-loading-skeleton";
 import Collapsible from "react-collapsible";
 import SubdistrictStats from "../SubdistrictStats";
@@ -155,9 +154,7 @@ export default function Home(props) {
               />
 
               <div className="kabupaten-wrapper">
-                <Accordion allowZeroExpanded={true}>
-                  {kabupatenOutput()}
-                </Accordion>
+                {kabupatenOutput()}
                 <small className="data-update" style={{ marginTop: "2rem" }}>
                   {kabupatenData.length !== 0 ? (
                     kabupatenData[0].lastUpdate
