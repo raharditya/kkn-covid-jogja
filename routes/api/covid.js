@@ -31,11 +31,15 @@ router.post("/", auth, async (req, res) => {
   const activeDaily = req.body.activeDaily;
   const recoveredDaily = req.body.recoveredDaily;
   const deathDaily = req.body.deathDaily;
+  const date = req.body.date;
+  const patientDaily = activeDaily - (recoveredDaily + deathDaily);
 
   let dailyPush = {
     activeDaily,
     recoveredDaily,
     deathDaily,
+    patientDaily,
+    date,
   };
 
   try {
