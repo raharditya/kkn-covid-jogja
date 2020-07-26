@@ -5,7 +5,7 @@ const request = require("request");
 
 router.get("/", async (req, res) => {
   request(
-    "https://www.instagram.com/kkncoviduns.jogja/",
+    "https://www.instagram.com/kkncoviduns.juwangen/",
     async (err, response, html) => {
       if (!err && response.statusCode === 200) {
         try {

@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import SubpageHeader from "../SubpageHeader";
 import InstagramContainer from "../InstagramContainer";
 import MemberItem from "../MemberItem";
+import profileIklil from "../../assets/profile-iklil.jpg";
+import profileAdit from "../../assets/profile-adit.jpg";
 
 function useFetch(url) {
   const [socialData, setSocial] = useState([]);
@@ -35,14 +37,14 @@ export default function Medsos(props) {
     <div className="page-wrapper berita-subpage medsos-page">
       <SubpageHeader
         title="Sosial Media"
-        subtitle="Sosial media dari KKN Covid Jogja UNS dan anggota KKN ini."
+        subtitle="Sosial media dari KKN Covid Juwangen UNS dan anggota KKN ini."
       />
 
       <div className="page-inner-wrapper">
         {sosmed.length !== 0 ? (
           <InstagramContainer
             img={sosmed.img}
-            name="KKN Covid Jogja"
+            name="KKN Covid Juwangen"
             post={sosmed.posts}
             follower={sosmed.followers}
             following={sosmed.following}
@@ -56,7 +58,7 @@ export default function Medsos(props) {
 
           <div className="member-item-container">
             <MemberItem
-              img="https://thispersondoesnotexist.com/image"
+              img={profileAdit}
               name="Adit Raharditya"
               ig="https://www.instagram.com/a.raharditya/"
               twitter="#"
@@ -67,7 +69,7 @@ export default function Medsos(props) {
             </MemberItem>
 
             <MemberItem
-              img="https://thispersondoesnotexist.com/image"
+              img={profileIklil}
               name="Iklil Mara"
               ig="https://www.instagram.com/iiklil/"
               twitter="#"
