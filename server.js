@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const CronJob = require("cron").CronJob;
 const path = require("path");
 require("dotenv").config();
+const cors = require("cors");
 
 const startScrape = require("./scrapers/startScrape");
 const covidScrape = require("./scrapers/covidScraper");
@@ -14,6 +15,8 @@ const login = require("./routes/api/login");
 const sosmed = require("./routes/api/sosmed");
 
 App.use(express.json());
+App.use(cors());
+
 const PORT = process.env.PORT || 4500;
 
 (async function dbConnect() {
@@ -49,6 +52,9 @@ const covidScrapeCron = new CronJob(
 );
 newsScrapeCron.start();
 covidScrapeCron.start();
+
+// startScrape();
+// covidScrape();
 
 // App.get("/", (req, res) => {
 //   res.send(
