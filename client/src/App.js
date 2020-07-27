@@ -42,7 +42,7 @@ function App() {
         {({ match }) => (
           <CSSTransition
             in={match != null}
-            timeout={800}
+            timeout={500}
             unmountOnExit
             classNames="page"
           >
@@ -54,7 +54,7 @@ function App() {
         {({ match }) => (
           <CSSTransition
             in={match != null}
-            timeout={800}
+            timeout={500}
             unmountOnExit
             classNames="page"
           >
@@ -66,7 +66,7 @@ function App() {
         {({ match }) => (
           <CSSTransition
             in={match != null}
-            timeout={800}
+            timeout={500}
             unmountOnExit
             classNames="page"
           >
