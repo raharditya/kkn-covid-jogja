@@ -18,7 +18,7 @@ const scrapeAll = [
 ];
 
 async function scrape() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ["--no-sandbox"] });
   console.log("Starting Covid-19 Scrape...");
 
   for (let curr = 0; curr < scrapeAll.length; curr++) {
@@ -73,9 +73,7 @@ async function scrape() {
     }
 
     try {
-      await CovidKab.findOneAndUpdate({ nameKab: kabData.nameKab }, kabData, {
-        upsert: true,
-      });
+      await CovidKab.findOneAndUpdate({ nameKab: kabData.nameKab }, kabData);
       console.log(`${kabData.nameKab} data updated to DB`);
     } catch (err) {
       console.error(err);

@@ -27,12 +27,6 @@ export default function Medsos(props) {
     props.setNav(false);
   }, [props]);
 
-  if (sosmed.length !== 0) {
-    const posts = sosmed.posts.split(" ");
-    const followers = sosmed.followers.split(" ");
-    const following = sosmed.following.split(" ");
-  }
-
   return (
     <div className="page-wrapper berita-subpage medsos-page">
       <SubpageHeader
