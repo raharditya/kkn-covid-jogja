@@ -21,7 +21,6 @@ function useFetch(url) {
 
 export default function Hoax(props) {
   const hoax = useFetch("/api/hoax");
-  console.log(hoax);
 
   useEffect(() => {
     props.setNav(false);

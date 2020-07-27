@@ -55,7 +55,7 @@ export default function News(props) {
             />
           );
         });
-        return detik;
+        return detik.slice(0, 10);
 
       case "cnbc":
         const cnbc = news[1].news.map((item) => {
@@ -70,7 +70,7 @@ export default function News(props) {
             />
           );
         });
-        return cnbc;
+        return cnbc.slice(0, 10);
 
       case "suara":
         const suara = news[2].news.map((item) => {
@@ -84,7 +84,7 @@ export default function News(props) {
             />
           );
         });
-        return suara;
+        return suara.slice(0, 10);
 
       case "kompas":
         const kompas = news[3].news.map((item) => {
@@ -98,7 +98,7 @@ export default function News(props) {
             />
           );
         });
-        return kompas;
+        return kompas.slice(0, 5);
 
       case "tribun":
         const tribun = news[4].news.map((item) => {
@@ -112,7 +112,7 @@ export default function News(props) {
             />
           );
         });
-        return tribun;
+        return tribun.slice(0, 10);
 
       default:
         return <p>Error</p>;
