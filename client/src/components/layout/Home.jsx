@@ -16,6 +16,7 @@ function useFetch(url) {
   useEffect(() => {
     async function getNews() {
       const data = await fetch(url).then((res) => res.json());
+      console.log(data);
       setCovid(data);
     }
 
@@ -39,8 +40,12 @@ function KabupatenOffline() {
 }
 
 export default function Home(props) {
-  const kabupatenData = useFetch("/api/covid/kabupaten");
-  const provinsiData = useFetch("/api/covid/provinsi");
+  const kabupatenData = useFetch(
+    "kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
+  );
+  const provinsiData = useFetch(
+    "kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
+  );
 
   const [homeMenu, setHomeMenu] = useState("province");
 
