@@ -35,8 +35,7 @@ function cnbcScraper() {
               source: "CNBC News",
               news: cnbcNews,
               timeFetched: new Date(),
-            },
-            { upsert: true }
+            }
           );
 
           console.log("CNBCNews saved to database");

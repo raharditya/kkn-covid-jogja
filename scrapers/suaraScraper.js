@@ -45,8 +45,7 @@ function suaraScraper() {
             source: "Suara News",
             news: suaraNews,
             timeFetched: new Date(),
-          },
-          { upsert: true }
+          }
         );
 
         console.log("SuaraNews saved to database");

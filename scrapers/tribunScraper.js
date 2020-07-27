@@ -42,8 +42,7 @@ function tribunScraper() {
               source: "Tribun News",
               news: tribunNews,
               timeFetched: new Date(),
-            },
-            { upsert: true }
+            }
           );
 
           console.log("TribunNews saved to database");

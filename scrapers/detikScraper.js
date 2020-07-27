@@ -37,8 +37,7 @@ function detikScraper() {
               source: "Detik News",
               news: detikNews,
               timeFetched: new Date(),
-            },
-            { upsert: true }
+            }
           );
 
           console.log("DetikNews saved to database");
