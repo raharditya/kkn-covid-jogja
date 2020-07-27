@@ -1,31 +1,54 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { ReactComponent as Divider } from "../assets/divider.svg";
-import Skeleton from "react-loading-skeleton";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 function ProvinceStats(props) {
-  console.log(props);
   return (
     <div className="provinsi-stats">
       <div className="provinsi-stats-data stats-flex">
         <div className="stats-item">
           <small>Kasus</small>
-          <h3>{props.active || <Skeleton width={30} />}</h3>
+          <h3>
+            {props.active || (
+              <SkeletonTheme color="#E4E4E4" highlightColor="#EBEBEB">
+                <Skeleton width={30} />
+              </SkeletonTheme>
+            )}
+          </h3>
         </div>
         <Divider />
         <div className="stats-item">
           <small>Sembuh</small>
-          <h3>{props.recovered || <Skeleton width={30} />}</h3>
+          <h3>
+            {props.recovered || (
+              <SkeletonTheme color="#E4E4E4" highlightColor="#EBEBEB">
+                <Skeleton width={30} />
+              </SkeletonTheme>
+            )}
+          </h3>
         </div>
         <Divider />
         <div className="stats-item">
           <small>Meninggal</small>
-          <h3>{props.deaths || <Skeleton width={30} />}</h3>
+          <h3>
+            {props.deaths || (
+              <SkeletonTheme color="#E4E4E4" highlightColor="#EBEBEB">
+                <Skeleton width={30} />
+              </SkeletonTheme>
+            )}
+          </h3>
         </div>
       </div>
       <p>
         Kasus hari ini:{" "}
-        {props.daily !== null ? props.daily : <Skeleton width={30} />}
+        {props.daily !== null ? (
+          props.daily
+        ) : (
+          <SkeletonTheme color="#E4E4E4" highlightColor="#EBEBEB">
+            <Skeleton width={30} />
+          </SkeletonTheme>
+        )}
       </p>
     </div>
   );

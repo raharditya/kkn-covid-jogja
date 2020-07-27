@@ -6,7 +6,14 @@ function RegencyStats(props) {
   return (
     <div className="kabupaten-stats-wrapper">
       <div className="kabupaten-title">
-        <h3>{props.area || <Skeleton />}</h3>
+        {props.area ? (
+          <h3>{props.area}</h3>
+        ) : (
+          <>
+            <Skeleton />
+            <Skeleton width="80%" />
+          </>
+        )}
       </div>
 
       <div className="kabupaten-stats">

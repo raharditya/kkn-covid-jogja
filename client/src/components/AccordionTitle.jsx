@@ -10,8 +10,12 @@ function AccordionTitle(props) {
       <p>
         {props.title || (
           <>
-            <Skeleton height={20} width={120} />
-            <Skeleton height={20} width={180} />
+            <div className="skeleton-wrapper">
+              <Skeleton height={20} width={120} />
+            </div>
+            <div className="skeleton-wrapper">
+              <Skeleton height={20} width={180} />
+            </div>
           </>
         )}
       </p>

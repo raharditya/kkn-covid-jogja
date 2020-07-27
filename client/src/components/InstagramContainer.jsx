@@ -16,27 +16,29 @@ function InstagramContainer(props) {
   return (
     <div className="instagram-wrapper">
       <div className="profile-name">
-        {<img src={props.img} alt="" style={{ height: 70 }} /> || (
+        {props.img ? (
+          <img src={props.img} alt="" style={{ height: 70 }} />
+        ) : (
           <Skeleton circle={true} width={70} height={70} />
         )}
-        <h4>{props.name || <Skeleton />}</h4>
+        <h4>{props.name || <Skeleton width="60%" />}</h4>
       </div>
 
       <div className="profile-stats">
         <p>
           {post[0] || <Skeleton />}
           <br />
-          {post[1] || <Skeleton />}
+          {post[1] || <Skeleton width="60%" />}
         </p>
         <p>
           {follower[0] || <Skeleton />}
           <br />
-          {follower[1] || <Skeleton />}
+          {follower[1] || <Skeleton width="60%" />}
         </p>
         <p>
           {following[0] || <Skeleton />}
           <br />
-          {following[1] || <Skeleton />}
+          {following[1] || <Skeleton width="60%" />}
         </p>
       </div>
 

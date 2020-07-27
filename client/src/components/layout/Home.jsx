@@ -6,7 +6,7 @@ import PageHeader from "../PageHeader";
 import SectionHeader from "../SectionHeader";
 import ProvinceStats from "../ProvinceStats";
 import RegencyStats from "../RegencyStats";
-import Skeleton from "react-loading-skeleton";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import Collapsible from "react-collapsible";
 import SubdistrictStats from "../SubdistrictStats";
 import HomeChart from "../HomeChart";
@@ -25,49 +25,22 @@ function useFetch(url) {
   return covidData;
 }
 
+function KabupatenOffline() {
+  return (
+    <Collapsible
+      trigger={<RegencyStats />}
+      triggerStyle={{ cursor: "pointer" }}
+      transitionTime={300}
+      easing="ease-in-out"
+    >
+      <SubdistrictStats />
+    </Collapsible>
+  );
+}
+
 export default function Home(props) {
   const kabupatenData = useFetch("/api/covid/kabupaten");
   const provinsiData = useFetch("/api/covid/provinsi");
-
-  function kabupatenOutput() {
-    if (!kabupatenData) {
-      return (
-        <>
-          <RegencyStats />
-          <RegencyStats />
-          <RegencyStats />
-          <RegencyStats />
-        </>
-      );
-    }
-
-    let kabupatenList;
-
-    if (kabupatenData) {
-      kabupatenList = kabupatenData.map((kab) => {
-        return (
-          <Collapsible
-            key={kab.nameKab}
-            trigger={
-              <RegencyStats
-                area={kab.nameKab}
-                active={kab.activeKab}
-                odp={kab.odpKab}
-                pdp={kab.pdpKab}
-              />
-            }
-            triggerStyle={{ cursor: "pointer" }}
-            transitionTime={300}
-            easing="ease-in-out"
-          >
-            <SubdistrictStats kecamatan={kab.kecamatan} />
-          </Collapsible>
-        );
-      });
-
-      return kabupatenList;
-    }
-  }
 
   const [homeMenu, setHomeMenu] = useState("province");
 
@@ -154,12 +127,41 @@ export default function Home(props) {
               />
 
               <div className="kabupaten-wrapper">
-                {kabupatenOutput()}
+                {kabupatenData.length !== 0
+                  ? kabupatenData.map((kab) => {
+                      return (
+                        <Collapsible
+                          key={kab.nameKab}
+                          trigger={
+                            <RegencyStats
+                              area={kab.nameKab}
+                              active={kab.activeKab}
+                              odp={kab.odpKab}
+                              pdp={kab.pdpKab}
+                            />
+                          }
+                          triggerStyle={{ cursor: "pointer" }}
+                          transitionTime={300}
+                          easing="ease-in-out"
+                        >
+                          <SubdistrictStats kecamatan={kab.kecamatan} />
+                        </Collapsible>
+                      );
+                    })
+                  : Array.from({ length: 5 }, (_, index) => (
+                      <KabupatenOffline key={index} />
+                    ))}
+
                 <small className="data-update" style={{ marginTop: "2rem" }}>
                   {kabupatenData.length !== 0 ? (
                     kabupatenData[0].lastUpdate
                   ) : (
-                    <Skeleton width={80} />
+                    <>
+                      <SkeletonTheme color="#E4E4E4" highlightColor="#EBEBEB">
+                        <span>Data Update </span>
+                        <Skeleton width={80} />
+                      </SkeletonTheme>
+                    </>
                   )}
                 </small>
               </div>
