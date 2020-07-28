@@ -6,6 +6,7 @@ import InstagramContainer from "../InstagramContainer";
 import MemberItem from "../MemberItem";
 import profileIklil from "../../assets/profile-iklil.jpg";
 import profileAdit from "../../assets/profile-adit.jpg";
+import { ReactComponent as Logo } from "../../assets/kkn-logo.svg";
 
 function useFetch(url) {
   const [socialData, setSocial] = useState([]);
@@ -78,6 +79,7 @@ export default function Medsos(props) {
             </MemberItem>
           </div>
 
+          <Logo />
           <small className="bottom-acknowledment">
             Dibuat sebagai media edukasi masyarakat dalam rangka KKN Covid UNS
           </small>
