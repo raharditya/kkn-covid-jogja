@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactGA from "react-ga";
 import "./style.scss";
 import Home from "./components/layout/Home";
@@ -20,7 +20,9 @@ function App() {
     setNavShow(arg);
   }
 
-  ReactGA.initialize("UA-165400154-2");
+  useEffect(() => {
+    ReactGA.initialize("UA-165400154-2");
+  }, []);
 
   const articleRoutes = articles.map((article) => {
     return (
@@ -34,6 +36,12 @@ function App() {
       </Route>
     );
   });
+
+  let beritaCache = [];
+
+  function setBeritaCache(news) {
+    beritaCache = news;
+  }
 
   return (
     <Router>
@@ -58,7 +66,11 @@ function App() {
             unmountOnExit
             classNames="page"
           >
-            <News setNav={setNav} />
+            <News
+              setNav={setNav}
+              setBeritaCache={setBeritaCache}
+              beritaCache={beritaCache}
+            />
           </CSSTransition>
         )}
       </Route>

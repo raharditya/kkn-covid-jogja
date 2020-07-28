@@ -6,16 +6,20 @@ import NewsMenu from "../NewsMenu";
 import NewsSelect from "../NewsSelect";
 import NewsItem from "../NewsItem";
 
-function useFetch(url) {
+function useFetch(url, cache) {
   const [newsData, setNews] = useState();
   useEffect(() => {
     async function getNews() {
-      const data = await fetch(url).then((res) => res.json());
-      setNews(data);
+      if (cache.length !== 0) {
+        setNews(cache);
+      } else {
+        const data = await fetch(url).then((res) => res.json());
+        setNews(data);
+      }
     }
 
     getNews();
-  }, [url]);
+  }, [url, cache]);
 
   return newsData;
 }
@@ -29,7 +33,10 @@ export default function News(props) {
     props.setNav(true);
   }, [props]);
 
-  const news = useFetch("//kkn-covid-jogja.herokuapp.com/api/berita");
+  const news = useFetch(
+    "//kkn-covid-jogja.herokuapp.com/api/berita",
+    props.beritaCache
+  );
   const [newsSource, setSource] = useState("detik");
 
   function changeNewsSource(event) {
@@ -46,6 +53,8 @@ export default function News(props) {
           <NewsItem />
         </>
       );
+
+    props.setBeritaCache(news);
 
     switch (newsSource) {
       case "detik":
