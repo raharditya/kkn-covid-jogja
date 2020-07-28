@@ -664,6 +664,10 @@ body {
   transform: translateX(-120%);
   transition: all 500ms ease;
 }
+.home-province-exit-done {
+  transform: translateX(-120%);
+  position: absolute;
+}
 
 .home-regency-enter {
   position: absolute;
@@ -681,6 +685,10 @@ body {
 .home-regency-exit-active {
   transform: translateX(120%);
   transition: all 500ms ease;
+}
+.home-regency-exit-done {
+  transform: translateX(120%);
+  position: absolute;
 }
 
 // Page transition
