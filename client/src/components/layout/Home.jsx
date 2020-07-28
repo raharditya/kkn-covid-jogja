@@ -41,10 +41,10 @@ function KabupatenOffline() {
 
 export default function Home(props) {
   const kabupatenData = useFetch(
-    "kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
+    "//kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
   );
   const provinsiData = useFetch(
-    "kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
+    "//kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
   );
 
   const [homeMenu, setHomeMenu] = useState("province");
@@ -68,7 +68,6 @@ export default function Home(props) {
           <CSSTransition
             in={homeMenu === "province"}
             timeout={500}
-            unmountOnExit
             classNames="home-province"
           >
             <div className="province">

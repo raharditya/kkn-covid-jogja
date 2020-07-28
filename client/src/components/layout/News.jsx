@@ -24,7 +24,7 @@ export default function News(props) {
     props.setNav(true);
   }, [props]);
 
-  const news = useFetch("/api/berita");
+  const news = useFetch("//kkn-covid-jogja.herokuapp.com/api/berita");
   const [newsSource, setSource] = useState("detik");
 
   function changeNewsSource(event) {

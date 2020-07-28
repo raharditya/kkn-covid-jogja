@@ -20,7 +20,7 @@ function useFetch(url) {
 }
 
 export default function Hoax(props) {
-  const hoax = useFetch("/api/hoax");
+  const hoax = useFetch("//kkn-covid-jogja.herokuapp.com/api/hoax");
 
   useEffect(() => {
     props.setNav(false);

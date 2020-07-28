@@ -21,7 +21,7 @@ function useFetch(url) {
 }
 
 export default function Medsos(props) {
-  const sosmed = useFetch("/api/sosmed");
+  const sosmed = useFetch("//kkn-covid-jogja.herokuapp.com/api/sosmed");
 
   useEffect(() => {
     props.setNav(false);
