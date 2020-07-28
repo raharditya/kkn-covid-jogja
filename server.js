@@ -53,8 +53,8 @@ const covidScrapeCron = new CronJob(
 newsScrapeCron.start();
 covidScrapeCron.start();
 
-startScrape();
-covidScrape();
+// startScrape();
+// covidScrape();
 
 // App.get("/", (req, res) => {
 //   res.send(

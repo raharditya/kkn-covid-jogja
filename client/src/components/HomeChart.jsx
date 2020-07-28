@@ -68,4 +68,4 @@ HomeChart.propTypes = {
   data: PropTypes.array,
 };
 
-export default HomeChart;
+export default React.memo(HomeChart);
