@@ -37,7 +37,7 @@ export default function Medsos(props) {
     <div className="page-wrapper berita-subpage medsos-page">
       <SubpageHeader
         title="Sosial Media"
-        subtitle="Sosial media dari KKN Covid Juwangen UNS dan anggota KKN ini."
+        subtitle="Sosial media dari KKN Covid UNS yang berlokasi di Dusun Juwangen RT 08, Sleman."
       />
 
       <div className="page-inner-wrapper">

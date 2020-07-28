@@ -11,9 +11,12 @@ router.get("/", async (req, res) => {
         try {
           const $ = cheerio.load(html);
 
-          const img = $("meta[property='og:image']").attr("content");
-          const desc = $("meta[property='og:description']").attr("content");
+          let img = "";
+          let desc = "";
+          img = $("meta[property='og:image']").attr("content");
+          desc = $("meta[property='og:description']").attr("content");
 
+          console.log(img, desc);
           const descSplit = desc.split("-");
           const profileInfo = descSplit[0].split(",");
 
