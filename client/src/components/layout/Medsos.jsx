@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
 
 import SubpageHeader from "../SubpageHeader";
 import InstagramContainer from "../InstagramContainer";
@@ -22,6 +23,10 @@ function useFetch(url) {
 
 export default function Medsos(props) {
   const sosmed = useFetch("//kkn-covid-jogja.herokuapp.com/api/sosmed");
+
+  useEffect(() => {
+    ReactGA.pageview("/medsos");
+  }, []);
 
   useEffect(() => {
     props.setNav(false);

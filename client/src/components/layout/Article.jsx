@@ -1,8 +1,13 @@
 import React, { useEffect } from "react";
+import ReactGA from "react-ga";
 
 import ArticleHeader from "../ArticleHeader";
 
 export default function Article(props) {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   useEffect(() => {
     props.setNav(false);
   }, [props]);

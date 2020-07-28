@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 
 import PageHeader from "../PageHeader";
 import NewsMenu from "../NewsMenu";
@@ -20,6 +21,10 @@ function useFetch(url) {
 }
 
 export default function News(props) {
+  useEffect(() => {
+    ReactGA.pageview("/berita");
+  }, []);
+
   useEffect(() => {
     props.setNav(true);
   }, [props]);

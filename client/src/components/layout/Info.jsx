@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ReactGA from "react-ga";
 
 import PageHeader from "../PageHeader";
 import InfoArticle from "../InfoArticle";
@@ -7,6 +8,10 @@ import articles from "../../articles/combineArticles";
 import { Link } from "react-router-dom";
 
 export default function Info(props) {
+  useEffect(() => {
+    ReactGA.pageview("/edukasi");
+  }, []);
+
   useEffect(() => {
     props.setNav(true);
   }, [props]);

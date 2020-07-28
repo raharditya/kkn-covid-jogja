@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import { CSSTransition } from "react-transition-group";
 
 import HomeNav from "../HomeNav";
@@ -52,6 +53,10 @@ export default function Home(props) {
   function homeNavHandle(pos) {
     setHomeMenu(pos);
   }
+
+  useEffect(() => {
+    ReactGA.pageview("/");
+  }, []);
 
   useEffect(() => {
     props.setNav(true);

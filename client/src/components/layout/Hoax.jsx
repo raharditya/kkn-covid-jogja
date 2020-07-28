@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
 import Collapsible from "react-collapsible";
 
 import SubpageHeader from "../SubpageHeader";
@@ -21,6 +22,10 @@ function useFetch(url) {
 
 export default function Hoax(props) {
   const hoax = useFetch("//kkn-covid-jogja.herokuapp.com/api/hoax");
+
+  useEffect(() => {
+    ReactGA.pageview("/hoax");
+  }, []);
 
   useEffect(() => {
     props.setNav(false);
