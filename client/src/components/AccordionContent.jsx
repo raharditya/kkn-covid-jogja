@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Skeleton from "react-loading-skeleton";
+import parse from "html-react-parser";
+import DOMPurify from "dompurify";
 
 function AccordionContent(props) {
   return (
     <div className="accordion-content">
       <p>
-        {props.children || (
+        {parse(DOMPurify.sanitize(props.children)) || (
           <>
             <Skeleton width="80%" />
             <Skeleton width="90%" />

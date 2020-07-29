@@ -494,6 +494,10 @@ body {
     position: relative;
     font-size: 0.9rem;
     z-index: 6;
+
+    p {
+      width: 90%;
+    }
   }
 
   .accordion-content {
