@@ -22,6 +22,7 @@ function App() {
 
   useEffect(() => {
     ReactGA.initialize("UA-165400154-2");
+    ReactGA.pageview(window.location.pathname);
   }, []);
 
   const articleRoutes = articles.map((article) => {
