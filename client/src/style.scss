@@ -551,10 +551,11 @@ body {
     .profile-cta {
       width: 80%;
       margin: 2rem auto 0 auto;
-      padding: 0.8rem 0;
+      padding: 0.7rem 0;
       color: $WHITE-TEXT;
       border-radius: 15px;
       background-color: $SOSMED-BTN-BG;
+      font-size: 0.9rem;
     }
   }
   .member-wrapper {
@@ -605,6 +606,7 @@ body {
 }
 
 .single-article {
+  padding-bottom: 0;
   header {
     background-color: $BORDERS;
     position: relative;
@@ -640,6 +642,9 @@ body {
     position: relative;
     z-index: 4;
     margin-top: 0;
+  }
+  .page-inner-wrapper {
+    padding-bottom: 3rem;
   }
 
   .article-wrapper {
@@ -819,6 +824,9 @@ body {
       .member-item {
         margin: 0.8em 0;
       }
+    }
+    .profile-cta {
+      width: 65%;
     }
   }
 }

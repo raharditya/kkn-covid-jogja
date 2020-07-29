@@ -1,49 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Skeleton from "react-loading-skeleton";
 
 function InstagramContainer(props) {
-  let post = [];
-  let follower = [];
-  let following = [];
-
-  if (props.post) {
-    post = props.post.split(" ");
-    follower = props.follower.split(" ");
-    following = props.following.split(" ");
-  }
-
   return (
     <div className="instagram-wrapper">
       <div className="profile-name">
-        {props.img ? (
-          <img src={props.img} alt="" style={{ height: 70 }} />
-        ) : (
-          <Skeleton circle={true} width={70} height={70} />
-        )}
-        <h4>{props.name || <Skeleton width="60%" />}</h4>
-      </div>
+        <img src={props.img} alt="" style={{ height: 70 }} />
 
-      <div className="profile-stats">
-        <p>
-          {post[0] || <Skeleton />}
-          <br />
-          {post[1] || <Skeleton width="60%" />}
-        </p>
-        <p>
-          {follower[0] || <Skeleton />}
-          <br />
-          {follower[1] || <Skeleton width="60%" />}
-        </p>
-        <p>
-          {following[0] || <Skeleton />}
-          <br />
-          {following[1] || <Skeleton width="60%" />}
-        </p>
+        <h4>{props.name}</h4>
+        <p style={{ fontSize: "0.9rem", color: "#a5a5a5" }}>{props.id}</p>
       </div>
 
       <a
-        href="https://www.instagram.com/kkncoviduns.jogja/"
+        href="https://www.instagram.com/kkncoviduns_jogja/"
         rel="noreferrer noopener"
         target="_blank"
       >

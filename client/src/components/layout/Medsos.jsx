@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 
 import SubpageHeader from "../SubpageHeader";
@@ -6,25 +6,10 @@ import InstagramContainer from "../InstagramContainer";
 import MemberItem from "../MemberItem";
 import profileIklil from "../../assets/profile-iklil.jpg";
 import profileAdit from "../../assets/profile-adit.jpg";
+import profileIg from "../../assets/profile-ig.jpg";
 import { ReactComponent as Logo } from "../../assets/kkn-logo.svg";
 
-function useFetch(url) {
-  const [socialData, setSocial] = useState([]);
-  useEffect(() => {
-    async function getNews() {
-      const data = await fetch(url).then((res) => res.json());
-      setSocial(data);
-    }
-
-    getNews();
-  }, [url]);
-
-  return socialData;
-}
-
 export default function Medsos(props) {
-  const sosmed = useFetch("//kkn-covid-jogja.herokuapp.com/api/sosmed");
-
   useEffect(() => {
     ReactGA.pageview("/medsos");
   }, []);
@@ -41,17 +26,11 @@ export default function Medsos(props) {
       />
 
       <div className="page-inner-wrapper">
-        {sosmed.length !== 0 ? (
-          <InstagramContainer
-            img={sosmed.img}
-            name="KKN Covid Juwangen"
-            post={sosmed.posts}
-            follower={sosmed.followers}
-            following={sosmed.following}
-          />
-        ) : (
-          <InstagramContainer />
-        )}
+        <InstagramContainer
+          img={profileIg}
+          name="KKN Covid Jogja"
+          id="kkncoviduns_jogja"
+        />
 
         <div className="member-wrapper">
           <h3>Anggota</h3>
