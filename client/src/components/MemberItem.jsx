@@ -11,15 +11,29 @@ function MemberItem(props) {
       {props.children}
 
       <div className="member-item-social">
-        <a href={props.ig}>
-          <i className="fab fa-instagram"></i>
-        </a>
-        <a href={props.twitter}>
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a href={props.linkedin}>
-          <i className="fab fa-linkedin"></i>
-        </a>
+        {props.ig && (
+          <a href={props.ig} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+        )}
+
+        {props.twitter && (
+          <a href={props.twitter} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+        )}
+
+        {props.linkedin && (
+          <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        )}
+
+        {props.github && (
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github"></i>
+          </a>
+        )}
       </div>
     </div>
   );

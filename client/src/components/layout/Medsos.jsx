@@ -40,8 +40,8 @@ export default function Medsos(props) {
               img={profileAdit}
               name="Adit Raharditya"
               ig="https://www.instagram.com/a.raharditya/"
-              twitter="#"
-              linkedin="#"
+              linkedin="https://www.linkedin.com/in/adit-raharditya-a17b201a9/"
+              github="https://github.com/Asebodi"
             >
               <small>Desainer UI/UX</small>
               <small>Developer Front & Back End</small>
@@ -51,8 +51,7 @@ export default function Medsos(props) {
               img={profileIklil}
               name="Iklil Mara"
               ig="https://www.instagram.com/iiklil/"
-              twitter="#"
-              linkedin="#"
+              twitter="https://www.twitter.com/iiklil/"
             >
               <small>Penulis Artikel</small>
             </MemberItem>
