@@ -1,7 +1,6 @@
-import article from "./article1_pencegahan-covid";
-import article2 from "./article2_menghindari";
-import article3 from "./article3_update-covid";
+import article1 from "./article1_apa-itu-new-normal";
+import article2 from "./article2_new-normal-di-tempat-ibadah";
 
-const articles = [article3, article2, article];
+const articles = [article2, article1];
 
 export default articles;
