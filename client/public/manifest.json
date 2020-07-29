@@ -1,11 +1,16 @@
 {
   "short_name": "KKN Covid Jogja",
-  "name": "KKN Covid Jogja | FISIP UNS",
+  "name": "KKN Covid Jogja - UNS",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "32x32 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
     },
     {
       "src": "logo192.png",
