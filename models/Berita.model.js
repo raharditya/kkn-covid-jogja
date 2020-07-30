@@ -3,6 +3,7 @@ const Berita = mongoose.Schema({
   source: String,
   news: [
     {
+      _id: false,
       title: String,
       date: String,
       label: String,
