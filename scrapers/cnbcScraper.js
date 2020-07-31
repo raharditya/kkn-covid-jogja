@@ -29,14 +29,12 @@ function cnbcScraper() {
         });
 
         try {
-          await Berita.findOneAndUpdate(
-            { source: "CNBC News" },
-            {
-              source: "CNBC News",
-              news: cnbcNews,
-              timeFetched: new Date(),
-            }
-          );
+          const update = await Berita.findOne({ source: "CNBC News" });
+
+          update.news = cnbcNews;
+          update.timeFetched = new Date();
+
+          await update.save();
 
           console.log("CNBCNews saved to database");
         } catch (err) {

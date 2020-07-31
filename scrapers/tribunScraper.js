@@ -36,14 +36,12 @@ function tribunScraper() {
         });
 
         try {
-          await Berita.findOneAndUpdate(
-            { source: "Tribun News" },
-            {
-              source: "Tribun News",
-              news: tribunNews,
-              timeFetched: new Date(),
-            }
-          );
+          const update = await Berita.findOne({ source: "Tribun News" });
+
+          update.news = tribunNews;
+          update.timeFetched = new Date();
+
+          update.save();
 
           console.log("TribunNews saved to database");
         } catch (err) {

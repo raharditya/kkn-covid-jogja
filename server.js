@@ -37,7 +37,7 @@ const PORT = process.env.PORT || 4500;
 })();
 
 const newsScrapeCron = new CronJob(
-  "0 0 */2 * * *",
+  "0 */5 * * * *",
   () => startScrape(),
   null,
   false,

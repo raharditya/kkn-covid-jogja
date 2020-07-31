@@ -48,14 +48,12 @@ function kompasScraper() {
         });
 
         try {
-          await Berita.findOneAndUpdate(
-            { source: "Kompas News" },
-            {
-              source: "Kompas News",
-              news: kompasNews,
-              timeFetched: new Date(),
-            }
-          );
+          const update = await Berita.findOne({ source: "Kompas News" });
+
+          update.news = kompasNews;
+          update.timeFetched = new Date();
+
+          update.save();
 
           console.log("KompasNews saved to database");
         } catch (err) {

@@ -39,14 +39,12 @@ function suaraScraper() {
       suaraNews.splice(21);
 
       try {
-        await Berita.findOneAndUpdate(
-          { source: "Suara News" },
-          {
-            source: "Suara News",
-            news: suaraNews,
-            timeFetched: new Date(),
-          }
-        );
+        const update = await Berita.findOne({ source: "Suara News" });
+
+        update.news = suaraNews;
+        update.timeFetched = new Date();
+
+        update.save();
 
         console.log("SuaraNews saved to database");
       } catch (err) {
