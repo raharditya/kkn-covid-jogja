@@ -13,6 +13,7 @@ const covid = require("./routes/api/covid");
 const hoax = require("./routes/api/hoax");
 const login = require("./routes/api/login");
 const sosmed = require("./routes/api/sosmed");
+const trigger = require("./routes/api/trigger");
 
 App.use(express.json());
 App.use(cors());
@@ -36,13 +37,13 @@ const PORT = process.env.PORT || 4500;
   }
 })();
 
-const newsScrapeCron = new CronJob(
-  "0 0 */2 * * *",
-  () => startScrape(),
-  null,
-  false,
-  "Asia/Jakarta"
-);
+// const newsScrapeCron = new CronJob(
+//   "0 0 */2 * * *",
+//   () => startScrape(),
+//   null,
+//   false,
+//   "Asia/Jakarta"
+// );
 const covidScrapeCron = new CronJob(
   "0 0 17 * * *",
   () => covidScrape(),
@@ -50,7 +51,7 @@ const covidScrapeCron = new CronJob(
   false,
   "Asia/Jakarta"
 );
-newsScrapeCron.start();
+// newsScrapeCron.start();
 covidScrapeCron.start();
 
 // startScrape();
@@ -75,6 +76,7 @@ App.use("/api/covid", covid);
 App.use("/api/hoax", hoax);
 App.use("/api/login", login);
 App.use("/api/sosmed", sosmed);
+App.use("/api/trigger", trigger);
 
 if (process.env.NODE_ENV === "production") {
   App.use(express.static("client/build"));
