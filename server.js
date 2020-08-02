@@ -37,21 +37,21 @@ const PORT = process.env.PORT || 4500;
   }
 })();
 
-// const newsScrapeCron = new CronJob(
-//   "0 0 */2 * * *",
-//   () => startScrape(),
-//   null,
-//   false,
-//   "Asia/Jakarta"
-// );
+const newsScrapeCron = new CronJob(
+  "0 0 */2 * * *",
+  () => startScrape(),
+  null,
+  false,
+  "Asia/Jakarta"
+);
 const covidScrapeCron = new CronJob(
-  "0 0 17 * * *",
+  "0 0 18 * * *",
   () => covidScrape(),
   null,
   false,
   "Asia/Jakarta"
 );
-// newsScrapeCron.start();
+newsScrapeCron.start();
 covidScrapeCron.start();
 
 // startScrape();
