@@ -9,9 +9,9 @@ function NewsSelect(props) {
       name="berita-select"
       id="berita-select"
     >
+      <option value="tribun">Tribun News (regional)</option>
       <option value="detik">Detik.com (regional)</option>
       <option value="suara">Suara (regional)</option>
-      <option value="tribun">Tribun News (regional)</option>
       <option value="kompas">Kompas (nasional)</option>
       <option value="cnbc">CNBC (internasonal)</option>
     </select>

@@ -37,7 +37,7 @@ export default function News(props) {
     "//kkn-covid-jogja.herokuapp.com/api/berita",
     props.beritaCache
   );
-  const [newsSource, setSource] = useState("detik");
+  const [newsSource, setSource] = useState("tribun");
 
   function changeNewsSource(event) {
     setSource(event.target.value);
