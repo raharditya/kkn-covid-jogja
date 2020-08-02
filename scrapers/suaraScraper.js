@@ -46,8 +46,10 @@ function suaraScraper() {
 
         update.save();
 
+        suaraNews = [];
         console.log("SuaraNews saved to database");
       } catch (err) {
+        suaraNews = [];
         console.error(err);
       }
     }

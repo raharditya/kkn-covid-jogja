@@ -43,8 +43,10 @@ function tribunScraper() {
 
           update.save();
 
+          tribunNews = [];
           console.log("TribunNews saved to database");
         } catch (err) {
+          tribunNews = [];
           console.error(err);
         }
       }

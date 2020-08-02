@@ -36,8 +36,10 @@ function cnbcScraper() {
 
           await update.save();
 
+          cnbcNews = [];
           console.log("CNBCNews saved to database");
         } catch (err) {
+          cnbcNews = [];
           console.error(err);
         }
       }

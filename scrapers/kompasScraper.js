@@ -55,8 +55,10 @@ function kompasScraper() {
 
           update.save();
 
+          kompasNews = [];
           console.log("KompasNews saved to database");
         } catch (err) {
+          kompasNews = [];
           console.error(err);
         }
       }

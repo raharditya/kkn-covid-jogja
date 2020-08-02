@@ -38,8 +38,10 @@ function detikScraper() {
 
           update.save();
 
+          detikNews = [];
           console.log("DetikNews saved to database");
         } catch (err) {
+          detikNews = [];
           console.error(err);
         }
       }
