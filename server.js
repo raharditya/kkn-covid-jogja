@@ -8,6 +8,7 @@ const cors = require("cors");
 
 const startScrape = require("./scrapers/startScrape");
 const covidScrape = require("./scrapers/covidScraper");
+const covidProvFetch = require("./scrapers/covidProvFetch");
 const berita = require("./routes/api/Berita" || "./routes/api/berita");
 const covid = require("./routes/api/covid");
 const hoax = require("./routes/api/hoax");
@@ -51,11 +52,25 @@ const covidScrapeCron = new CronJob(
   false,
   "Asia/Jakarta"
 );
+const provFetchCron = new CronJob(
+  "0 0 17 * * *",
+  () => covidProvFetch(),
+  null,
+  false,
+  "Asia/Jakarta"
+);
 newsScrapeCron.start();
 covidScrapeCron.start();
+provFetchCron.start();
+
+const now = new Date();
+console.log(
+  `Current time: ${now.getHours()}:${now.getMinutes()} ${now.getDate()}/${now.getMonth()}`
+);
 
 // startScrape();
 // covidScrape();
+// covidProvFetch();
 
 // App.get("/", (req, res) => {
 //   res.send(
