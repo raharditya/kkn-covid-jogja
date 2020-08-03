@@ -3,6 +3,7 @@ const router = express.Router();
 const auth = require("../../middleware/auth");
 const startScrape = require("../../scrapers/startScrape");
 const covidScrape = require("../../scrapers/covidScraper");
+const covidProvFetch = require("../../scrapers/covidProvFetch");
 
 router.post("/", auth, (req, res) => {
   switch (req.body.trigger) {
@@ -10,9 +11,13 @@ router.post("/", auth, (req, res) => {
       startScrape();
       res.send("News scraper is starting...");
 
-    case "covid":
+    case "covidKab":
       covidScrape();
-      res.send("Covid scraper is starting...");
+      res.send("Covid kabupaten scraper is starting...");
+
+    case "covidProv":
+      covidProvFetch();
+      res.send("Covid provinsi fetch is starting...");
 
     default:
     //   res.status(400).send("Trigger not specified!");
