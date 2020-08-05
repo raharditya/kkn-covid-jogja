@@ -18,7 +18,7 @@ function HomeChart(props) {
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={props.data}>
             <XAxis dataKey="date" tick={false} />
-            <YAxis width={35} />
+            <YAxis width={50} />
             <Tooltip />
             <Legend />
             <Line
