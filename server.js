@@ -53,7 +53,7 @@ const covidScrapeCron = new CronJob(
   "Asia/Jakarta"
 );
 const provFetchCron = new CronJob(
-  "0 0 17 * * *",
+  "0 15 17 * * *",
   () => covidProvFetch(),
   null,
   false,
