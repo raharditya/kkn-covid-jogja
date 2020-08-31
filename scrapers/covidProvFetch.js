@@ -1,16 +1,25 @@
 const request = require("request");
 const CovidProvModel = require("../models/CovidProv.model");
 
+// https://indonesia-covid-19.mathdro.id/api/provinsi
+let provNasional = {};
+let provData = {};
+
 const covidProvFetch = () => {
+  // const options = {
+  //   url:
+  //     "https://randommer.io/api/Text/Password?length=8&hasDigits=true&hasUppercase=true&hasSpecial=false",
+  //   headers: {
+  //     "X-Api-Key": "fd5c44f5bb314a5c87c7eba82d191e0f",
+  //   },
+  // };
   request(
     "https://indonesia-covid-19.mathdro.id/api/provinsi",
     async (err, res, html) => {
       if (!err && res.statusCode === 200) {
-        const provNasional = JSON.parse(res.body);
+        provNasional = JSON.parse(res.body);
 
-        const provData = provNasional.data.find(
-          (prov) => prov.kodeProvi === 34
-        );
+        provData = provNasional.data.find((prov) => prov.kodeProvi === 34);
 
         const monthName = [
           "Jan",
@@ -57,6 +66,8 @@ const covidProvFetch = () => {
 
             await covidData.save();
             dailyPush = {};
+            provNasional = {};
+            provData = {};
           } else {
             covidData.activeProv = provData.kasusPosi;
             covidData.recoveredProv = provData.kasusSemb;
@@ -66,6 +77,8 @@ const covidProvFetch = () => {
             await covidData.save();
             console.log("Covid Prov data updated to DB");
             dailyPush = {};
+            provNasional = {};
+            provData = {};
           }
         } catch (err) {
           console.error(err);
