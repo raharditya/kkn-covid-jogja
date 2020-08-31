@@ -4,6 +4,7 @@ const CovidProvModel = require("../models/CovidProv.model");
 // https://indonesia-covid-19.mathdro.id/api/provinsi
 let provNasional = {};
 let provData = {};
+let dailyPush = {};
 
 const covidProvFetch = () => {
   // const options = {
@@ -13,6 +14,7 @@ const covidProvFetch = () => {
   //     "X-Api-Key": "fd5c44f5bb314a5c87c7eba82d191e0f",
   //   },
   // };
+
   request(
     "https://indonesia-covid-19.mathdro.id/api/provinsi",
     async (err, res, html) => {
@@ -42,7 +44,7 @@ const covidProvFetch = () => {
         const now = new Date();
         const date = `${now.getDate()} ${monthName[now.getMonth()]} 20`;
 
-        let dailyPush = {
+        dailyPush = {
           activeDaily: provData.kasusPosi,
           recoveredDaily: provData.kasusSemb,
           deathDaily: provData.kasusMeni,
@@ -68,6 +70,7 @@ const covidProvFetch = () => {
             dailyPush = {};
             provNasional = {};
             provData = {};
+            console.log(dailyPush);
           } else {
             covidData.activeProv = provData.kasusPosi;
             covidData.recoveredProv = provData.kasusSemb;
@@ -83,6 +86,9 @@ const covidProvFetch = () => {
         } catch (err) {
           console.error(err);
           dailyPush = {};
+          provNasional = {};
+          provData = {};
+          console.log(dailyPush);
         }
       }
     }
