@@ -7,14 +7,7 @@ let provData = {};
 let dailyPush = {};
 
 const covidProvFetch = () => {
-  // const options = {
-  //   url:
-  //     "https://randommer.io/api/Text/Password?length=8&hasDigits=true&hasUppercase=true&hasSpecial=false",
-  //   headers: {
-  //     "X-Api-Key": "fd5c44f5bb314a5c87c7eba82d191e0f",
-  //   },
-  // };
-
+  console.log("Running Covid-Prov fetch");
   request(
     "https://indonesia-covid-19.mathdro.id/api/provinsi",
     async (err, res, html) => {
