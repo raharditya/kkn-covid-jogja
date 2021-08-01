@@ -12,19 +12,22 @@ import Collapsible from "react-collapsible";
 import SubdistrictStats from "../SubdistrictStats";
 import HomeChart from "../HomeChart";
 
-function useFetch(url) {
-  const [covidData, setCovid] = useState([]);
-  useEffect(() => {
-    async function getNews() {
-      const data = await fetch(url).then((res) => res.json());
-      setCovid(data);
-    }
+import kabupaten from "../../snapshot/kabupaten.json";
+import provinsi from "../../snapshot/provinsi.json";
 
-    getNews();
-  }, [url]);
+// function useFetch(url) {
+//   const [covidData, setCovid] = useState([]);
+//   useEffect(() => {
+//     async function getNews() {
+//       const data = await fetch(url).then((res) => res.json());
+//       setCovid(data);
+//     }
 
-  return covidData;
-}
+//     getNews();
+//   }, [url]);
+
+//   return covidData;
+// }
 
 function KabupatenOffline() {
   return (
@@ -40,12 +43,24 @@ function KabupatenOffline() {
 }
 
 export default function Home(props) {
-  const kabupatenData = useFetch(
-    "//kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
-  );
-  const provinsiData = useFetch(
-    "//kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
-  );
+  // const kabupatenData = useFetch(
+  //   "https://kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
+  // );
+  // const provinsiData = useFetch(
+  //   "https://kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
+  // );
+
+  const [kabupatenData, setKabupatenData] = useState([]);
+  const [provinsiData, setProvinsiData] = useState([]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setKabupatenData(kabupaten);
+    }, 500);
+    setTimeout(() => {
+      setProvinsiData(provinsi);
+    }, 1000);
+  }, []);
 
   const [homeMenu, setHomeMenu] = useState("province");
 
@@ -98,7 +113,7 @@ export default function Home(props) {
                 subtitle="Provinsi DIY"
               />
 
-              <HomeChart data={provinsiData.daily} />
+              <HomeChart data={provinsiData?.daily} />
 
               <div className="more-wrapper">
                 <a
@@ -113,7 +128,7 @@ export default function Home(props) {
 
               <small className="data-update">
                 Update terakhir:{" "}
-                {provinsiData.length !== 0 ? (
+                {provinsiData?.length !== 0 ? (
                   provinsiData.daily[provinsiData.daily.length - 1].date
                 ) : (
                   <Skeleton width={80} />

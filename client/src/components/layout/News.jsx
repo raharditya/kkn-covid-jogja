@@ -6,23 +6,25 @@ import NewsMenu from "../NewsMenu";
 import NewsSelect from "../NewsSelect";
 import NewsItem from "../NewsItem";
 
-function useFetch(url, cache) {
-  const [newsData, setNews] = useState();
-  useEffect(() => {
-    async function getNews() {
-      if (cache.length !== 0) {
-        setNews(cache);
-      } else {
-        const data = await fetch(url).then((res) => res.json());
-        setNews(data);
-      }
-    }
+import berita from "../../snapshot/berita.json";
 
-    getNews();
-  }, [url, cache]);
+// function useFetch(url, cache) {
+//   const [newsData, setNews] = useState();
+//   useEffect(() => {
+//     async function getNews() {
+//       if (cache.length !== 0) {
+//         setNews(cache);
+//       } else {
+//         const data = await fetch(url).then((res) => res.json());
+//         setNews(data);
+//       }
+//     }
 
-  return newsData;
-}
+//     getNews();
+//   }, [url, cache]);
+
+//   return newsData;
+// }
 
 export default function News(props) {
   useEffect(() => {
@@ -33,10 +35,19 @@ export default function News(props) {
     props.setNav(true);
   }, [props]);
 
-  const news = useFetch(
-    "//kkn-covid-jogja.herokuapp.com/api/berita",
-    props.beritaCache
-  );
+  // const news = useFetch(
+  //   "https://kkn-covid-jogja.herokuapp.com/api/berita",
+  //   props.beritaCache
+  // );
+
+  const [news, setNews] = useState();
+
+  useEffect(() => {
+    setTimeout(() => {
+      setNews(berita);
+    }, 1300);
+  }, []);
+
   const [newsSource, setSource] = useState("tribun");
 
   function changeNewsSource(event) {

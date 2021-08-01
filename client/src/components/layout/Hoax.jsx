@@ -6,22 +6,32 @@ import SubpageHeader from "../SubpageHeader";
 import AccordionContent from "../AccordionContent";
 import AccordionTitle from "../AccordionTitle";
 
-function useFetch(url) {
-  const [hoaxData, setHoax] = useState([]);
-  useEffect(() => {
-    async function getNews() {
-      const data = await fetch(url).then((res) => res.json());
-      setHoax(data);
-    }
+import hoaxData from "../../snapshot/hoax.json";
 
-    getNews();
-  }, [url]);
+// function useFetch(url) {
+//   const [hoaxData, setHoax] = useState([]);
+//   useEffect(() => {
+//     async function getNews() {
+//       const data = await fetch(url).then((res) => res.json());
+//       setHoax(data);
+//     }
 
-  return hoaxData;
-}
+//     getNews();
+//   }, [url]);
+
+//   return hoaxData;
+// }
 
 export default function Hoax(props) {
-  const hoax = useFetch("//kkn-covid-jogja.herokuapp.com/api/hoax");
+  // const hoax = useFetch("https://kkn-covid-jogja.herokuapp.com/api/hoax");
+
+  const [hoax, setHoax] = useState([]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setHoax(hoaxData);
+    }, 1000);
+  }, []);
 
   useEffect(() => {
     ReactGA.pageview("/hoax");
