@@ -21,7 +21,7 @@ function useFetch(url) {
 }
 
 export default function Hoax(props) {
-  const hoax = useFetch("//kkn-covid-jogja.herokuapp.com/api/hoax");
+  const hoax = useFetch("https://kkn-covid-jogja.herokuapp.com/api/hoax");
 
   useEffect(() => {
     ReactGA.pageview("/hoax");

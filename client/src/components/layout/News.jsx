@@ -34,7 +34,7 @@ export default function News(props) {
   }, [props]);
 
   const news = useFetch(
-    "//kkn-covid-jogja.herokuapp.com/api/berita",
+    "https://kkn-covid-jogja.herokuapp.com/api/berita",
     props.beritaCache
   );
   const [newsSource, setSource] = useState("tribun");

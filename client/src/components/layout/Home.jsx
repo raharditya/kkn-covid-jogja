@@ -41,10 +41,10 @@ function KabupatenOffline() {
 
 export default function Home(props) {
   const kabupatenData = useFetch(
-    "//kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
+    "https://kkn-covid-jogja.herokuapp.com/api/covid/kabupaten"
   );
   const provinsiData = useFetch(
-    "//kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
+    "https://kkn-covid-jogja.herokuapp.com/api/covid/provinsi"
   );
 
   const [homeMenu, setHomeMenu] = useState("province");
