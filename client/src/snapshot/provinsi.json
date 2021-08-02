@@ -1,1 +1,1866 @@
-{"_id":"5f199fb065a2cb774486f164","nameProv":"DIY","activeProv":38703,"daily":[{"_id":"5f1c27c506f6833ab00c395e","activeDaily":5,"recoveredDaily":1,"deathDaily":0,"patientDaily":4,"date":"21 Mar 20"},{"_id":"5f1c27f506f6833ab00c395f","activeDaily":5,"recoveredDaily":1,"deathDaily":0,"patientDaily":4,"date":"22 Mar 20"},{"_id":"5f1c280b06f6833ab00c3960","activeDaily":5,"recoveredDaily":1,"deathDaily":0,"patientDaily":4,"date":"23 Mar 20"},{"_id":"5f1c28cf06f6833ab00c3961","activeDaily":18,"recoveredDaily":1,"deathDaily":3,"patientDaily":14,"date":"25 Mar 20"},{"_id":"5f1c28e206f6833ab00c3962","activeDaily":18,"recoveredDaily":1,"deathDaily":3,"patientDaily":14,"date":"26 Mar 20"},{"_id":"5f1c290306f6833ab00c3963","activeDaily":19,"recoveredDaily":1,"deathDaily":3,"patientDaily":15,"date":"27 Mar 20"},{"_id":"5f1c292406f6833ab00c3964","activeDaily":19,"recoveredDaily":1,"deathDaily":3,"patientDaily":15,"date":"28 Mar 20"},{"_id":"5f1c292806f6833ab00c3965","activeDaily":19,"recoveredDaily":1,"deathDaily":3,"patientDaily":15,"date":"29 Mar 20"},{"_id":"5f1c293106f6833ab00c3966","activeDaily":19,"recoveredDaily":1,"deathDaily":3,"patientDaily":15,"date":"30 Mar 20"},{"_id":"5f1c295906f6833ab00c3967","activeDaily":24,"recoveredDaily":2,"deathDaily":3,"patientDaily":19,"date":"31 Mar 20"},{"_id":"5f1c299406f6833ab00c3968","activeDaily":28,"recoveredDaily":2,"deathDaily":3,"patientDaily":23,"date":"1 Apr 20"},{"_id":"5f1c29c606f6833ab00c3969","activeDaily":29,"recoveredDaily":3,"deathDaily":3,"patientDaily":23,"date":"2 Apr 20"},{"_id":"5f1c29dc06f6833ab00c396a","activeDaily":31,"recoveredDaily":3,"deathDaily":3,"patientDaily":25,"date":"3 Apr 20"},{"_id":"5f1c2a0f06f6833ab00c396b","activeDaily":34,"recoveredDaily":6,"deathDaily":3,"patientDaily":25,"date":"4 Apr 20"},{"_id":"5f1c2a4206f6833ab00c396c","activeDaily":35,"recoveredDaily":6,"deathDaily":4,"patientDaily":25,"date":"5 Apr 20"},{"_id":"5f1c2a5106f6833ab00c396d","activeDaily":37,"recoveredDaily":6,"deathDaily":4,"patientDaily":27,"date":"6 Apr 20"},{"_id":"5f1c2a7006f6833ab00c396e","activeDaily":38,"recoveredDaily":6,"deathDaily":7,"patientDaily":25,"date":"7 Apr 20"},{"_id":"5f1c2ac706f6833ab00c396f","activeDaily":38,"recoveredDaily":6,"deathDaily":6,"patientDaily":26,"date":"8 Apr 20"},{"_id":"5f1c2ade06f6833ab00c3970","activeDaily":40,"recoveredDaily":7,"deathDaily":6,"patientDaily":27,"date":"9 Apr 20"},{"_id":"5f1c2af406f6833ab00c3971","activeDaily":40,"recoveredDaily":10,"deathDaily":6,"patientDaily":24,"date":"10 Apr 20"},{"_id":"5f1c2b0206f6833ab00c3972","activeDaily":40,"recoveredDaily":10,"deathDaily":6,"patientDaily":24,"date":"11 Apr 20"},{"_id":"5f1c2b3806f6833ab00c3973","activeDaily":48,"recoveredDaily":13,"deathDaily":6,"patientDaily":29,"date":"12 Apr 20"},{"_id":"5f1c2b4d06f6833ab00c3974","activeDaily":55,"recoveredDaily":17,"deathDaily":6,"patientDaily":32,"date":"13 Apr 20"},{"_id":"5f1c2b6106f6833ab00c3975","activeDaily":61,"recoveredDaily":18,"deathDaily":6,"patientDaily":37,"date":"14 Apr 20"},{"_id":"5f1c2b7c06f6833ab00c3976","activeDaily":62,"recoveredDaily":22,"deathDaily":6,"patientDaily":34,"date":"15 Apr 20"},{"_id":"5f1c2b8b06f6833ab00c3977","activeDaily":63,"recoveredDaily":22,"deathDaily":6,"patientDaily":35,"date":"16 Apr 20"},{"_id":"5f1c2bac06f6833ab00c3978","activeDaily":64,"recoveredDaily":25,"deathDaily":7,"patientDaily":32,"date":"17 Apr 20"},{"_id":"5f1c2bbc06f6833ab00c3979","activeDaily":67,"recoveredDaily":27,"deathDaily":7,"patientDaily":33,"date":"18 Apr 20"},{"_id":"5f1c2bcb06f6833ab00c397a","activeDaily":67,"recoveredDaily":27,"deathDaily":7,"patientDaily":33,"date":"19 Apr 20"},{"_id":"5f1c2be606f6833ab00c397b","activeDaily":69,"recoveredDaily":28,"deathDaily":7,"patientDaily":34,"date":"20 Apr 20"},{"_id":"5f1c2c1d06f6833ab00c397c","activeDaily":72,"recoveredDaily":30,"deathDaily":7,"patientDaily":35,"date":"21 Apr 20"},{"_id":"5f1c2c2e06f6833ab00c397d","activeDaily":75,"recoveredDaily":30,"deathDaily":7,"patientDaily":38,"date":"22 Apr 20"},{"_id":"5f1c2c4406f6833ab00c397e","activeDaily":76,"recoveredDaily":32,"deathDaily":7,"patientDaily":37,"date":"23 Apr 20"},{"_id":"5f1c2c5706f6833ab00c397f","activeDaily":77,"recoveredDaily":36,"deathDaily":7,"patientDaily":34,"date":"24 Apr 20"},{"_id":"5f1c2c6606f6833ab00c3980","activeDaily":79,"recoveredDaily":36,"deathDaily":7,"patientDaily":36,"date":"25 Apr 20"},{"_id":"5f1c2c7806f6833ab00c3981","activeDaily":82,"recoveredDaily":36,"deathDaily":7,"patientDaily":39,"date":"26 Apr 20"},{"_id":"5f1c2c9106f6833ab00c3982","activeDaily":83,"recoveredDaily":39,"deathDaily":7,"patientDaily":37,"date":"27 Apr 20"},{"_id":"5f1c2ca906f6833ab00c3983","activeDaily":93,"recoveredDaily":39,"deathDaily":7,"patientDaily":47,"date":"28 Apr 20"},{"_id":"5f1c2cbe06f6833ab00c3984","activeDaily":94,"recoveredDaily":40,"deathDaily":7,"patientDaily":47,"date":"29 Apr 20"},{"_id":"5f1c2cd406f6833ab00c39c9","activeDaily":95,"recoveredDaily":43,"deathDaily":7,"patientDaily":45,"date":"30 Apr 20"},{"_id":"5f1c2cf906f6833ab00c39ca","activeDaily":104,"recoveredDaily":44,"deathDaily":7,"patientDaily":53,"date":"1 Mei 20"},{"_id":"5f1c2d0f06f6833ab00c39cb","activeDaily":114,"recoveredDaily":48,"deathDaily":7,"patientDaily":59,"date":"2 Mei 20"},{"_id":"5f1c2d2606f6833ab00c39cc","activeDaily":115,"recoveredDaily":49,"deathDaily":7,"patientDaily":59,"date":"3 Mei 20"},{"_id":"5f1c2d3506f6833ab00c39cd","activeDaily":115,"recoveredDaily":50,"deathDaily":7,"patientDaily":58,"date":"4 Mei 20"},{"_id":"5f1c2d4806f6833ab00c39ce","activeDaily":121,"recoveredDaily":52,"deathDaily":7,"patientDaily":62,"date":"5 Mei 20"},{"_id":"5f1c2d5c06f6833ab00c39cf","activeDaily":122,"recoveredDaily":53,"deathDaily":7,"patientDaily":62,"date":"6 Mei 20"},{"_id":"5f1c2d7a06f6833ab00c39d0","activeDaily":137,"recoveredDaily":57,"deathDaily":7,"patientDaily":73,"date":"7 Mei 20"},{"_id":"5f1c2d8d06f6833ab00c39d1","activeDaily":143,"recoveredDaily":59,"deathDaily":7,"patientDaily":77,"date":"8 Mei 20"},{"_id":"5f1c2dac06f6833ab00c39d2","activeDaily":146,"recoveredDaily":59,"deathDaily":7,"patientDaily":80,"date":"9 Mei 20"},{"_id":"5f1c2dbd06f6833ab00c39d3","activeDaily":153,"recoveredDaily":60,"deathDaily":7,"patientDaily":86,"date":"10 Mei 20"},{"_id":"5f1c2dcb06f6833ab00c39d4","activeDaily":159,"recoveredDaily":61,"deathDaily":7,"patientDaily":91,"date":"11 Mei 20"},{"_id":"5f1c2dd906f6833ab00c39d5","activeDaily":169,"recoveredDaily":63,"deathDaily":7,"patientDaily":99,"date":"12 Mei 20"},{"_id":"5f1c2dfa06f6833ab00c39d6","activeDaily":181,"recoveredDaily":68,"deathDaily":7,"patientDaily":106,"date":"13 Mei 20"},{"_id":"5f1c2e0806f6833ab00c39d7","activeDaily":185,"recoveredDaily":68,"deathDaily":7,"patientDaily":110,"date":"14 Mei 20"},{"_id":"5f1c2e1906f6833ab00c39d8","activeDaily":188,"recoveredDaily":71,"deathDaily":7,"patientDaily":110,"date":"15 Mei 20"},{"_id":"5f1c2e3506f6833ab00c39d9","activeDaily":194,"recoveredDaily":77,"deathDaily":8,"patientDaily":109,"date":"16 Mei 20"},{"_id":"5f1c2e4a06f6833ab00c39da","activeDaily":199,"recoveredDaily":85,"deathDaily":8,"patientDaily":106,"date":"17 Mei 20"},{"_id":"5f1c2e5906f6833ab00c39db","activeDaily":200,"recoveredDaily":90,"deathDaily":8,"patientDaily":102,"date":"18 Mei 20"},{"_id":"5f1c2e6e06f6833ab00c39dc","activeDaily":206,"recoveredDaily":95,"deathDaily":8,"patientDaily":103,"date":"19 Mei 20"},{"_id":"5f1c2e8206f6833ab00c39dd","activeDaily":209,"recoveredDaily":97,"deathDaily":8,"patientDaily":104,"date":"20 Mei 20"},{"_id":"5f1c2e9f06f6833ab00c39de","activeDaily":215,"recoveredDaily":105,"deathDaily":8,"patientDaily":102,"date":"21 Mei 20"},{"_id":"5f1c2eb906f6833ab00c39df","activeDaily":220,"recoveredDaily":118,"deathDaily":8,"patientDaily":94,"date":"22 Mei 20"},{"_id":"5f1c2ecf06f6833ab00c39e0","activeDaily":225,"recoveredDaily":122,"deathDaily":8,"patientDaily":95,"date":"23 Mei 20"},{"_id":"5f1c2ee306f6833ab00c39e1","activeDaily":226,"recoveredDaily":123,"deathDaily":8,"patientDaily":95,"date":"24 Mei 20"},{"_id":"5f1c2ef406f6833ab00c39e2","activeDaily":226,"recoveredDaily":125,"deathDaily":8,"patientDaily":93,"date":"25 Mei 20"},{"_id":"5f1c2f1106f6833ab00c39e3","activeDaily":226,"recoveredDaily":125,"deathDaily":8,"patientDaily":93,"date":"26 Mei 20"},{"_id":"5f1c2f2b06f6833ab00c39e4","activeDaily":228,"recoveredDaily":135,"deathDaily":8,"patientDaily":85,"date":"27 Mei 20"},{"_id":"5f1c2f5906f6833ab00c39e5","activeDaily":228,"recoveredDaily":143,"deathDaily":8,"patientDaily":77,"date":"28 Mei 20"},{"_id":"5f1c2f7106f6833ab00c39e6","activeDaily":230,"recoveredDaily":150,"deathDaily":8,"patientDaily":72,"date":"29 Mei 20"},{"_id":"5f1c2f9206f6833ab00c39e7","activeDaily":233,"recoveredDaily":159,"deathDaily":8,"patientDaily":66,"date":"30 Mei 20"},{"_id":"5f1c2fb006f6833ab00c39e8","activeDaily":236,"recoveredDaily":161,"deathDaily":8,"patientDaily":67,"date":"31 Mei 20"},{"_id":"5f1c2fc606f6833ab00c39e9","activeDaily":237,"recoveredDaily":167,"deathDaily":8,"patientDaily":62,"date":"1 Jun 20"},{"_id":"5f1c2fd806f6833ab00c39ea","activeDaily":237,"recoveredDaily":169,"deathDaily":8,"patientDaily":60,"date":"2 Jun 20"},{"_id":"5f1c2fea06f6833ab00c39eb","activeDaily":237,"recoveredDaily":171,"deathDaily":8,"patientDaily":58,"date":"3 Jun 20"},{"_id":"5f1c2ffc06f6833ab00c39ec","activeDaily":238,"recoveredDaily":175,"deathDaily":8,"patientDaily":55,"date":"4 Jun 20"},{"_id":"5f1c300606f6833ab00c39ed","activeDaily":238,"recoveredDaily":175,"deathDaily":8,"patientDaily":55,"date":"5 Jun 20"},{"_id":"5f1c301606f6833ab00c39ee","activeDaily":242,"recoveredDaily":179,"deathDaily":8,"patientDaily":55,"date":"6 Jun 20"},{"_id":"5f1c302506f6833ab00c39ef","activeDaily":244,"recoveredDaily":183,"deathDaily":8,"patientDaily":53,"date":"7 Jun 20"},{"_id":"5f1c303706f6833ab00c39f0","activeDaily":247,"recoveredDaily":185,"deathDaily":8,"patientDaily":54,"date":"8 Jun 20"},{"_id":"5f1c304d06f6833ab00c39f1","activeDaily":249,"recoveredDaily":191,"deathDaily":8,"patientDaily":50,"date":"9 Jun 20"},{"_id":"5f1c305c06f6833ab00c39f2","activeDaily":250,"recoveredDaily":194,"deathDaily":8,"patientDaily":48,"date":"10 Jun 20"},{"_id":"5f1c306b06f6833ab00c39f3","activeDaily":252,"recoveredDaily":195,"deathDaily":8,"patientDaily":49,"date":"11 Jun 20"},{"_id":"5f1c308a06f6833ab00c39f4","activeDaily":262,"recoveredDaily":192,"deathDaily":8,"patientDaily":62,"date":"12 Jun 20"},{"_id":"5f1c309b06f6833ab00c39f5","activeDaily":264,"recoveredDaily":204,"deathDaily":8,"patientDaily":52,"date":"13 Jun 20"},{"_id":"5f1c30ac06f6833ab00c39f6","activeDaily":269,"recoveredDaily":210,"deathDaily":8,"patientDaily":51,"date":"14 Jun 20"},{"_id":"5f1c30ba06f6833ab00c39f7","activeDaily":272,"recoveredDaily":211,"deathDaily":8,"patientDaily":53,"date":"15 Jun 20"},{"_id":"5f1c30c706f6833ab00c39f8","activeDaily":273,"recoveredDaily":213,"deathDaily":8,"patientDaily":52,"date":"16 Jun 20"},{"_id":"5f1c30c906f6833ab00c39f9","activeDaily":273,"recoveredDaily":213,"deathDaily":8,"patientDaily":52,"date":"16 Jun 20"},{"_id":"5f1c30da06f6833ab00c39fa","activeDaily":276,"recoveredDaily":216,"deathDaily":8,"patientDaily":52,"date":"17 Jun 20"},{"_id":"5f1c30e706f6833ab00c39fb","activeDaily":276,"recoveredDaily":219,"deathDaily":8,"patientDaily":49,"date":"18 Jun 20"},{"_id":"5f1c30f806f6833ab00c39fc","activeDaily":277,"recoveredDaily":226,"deathDaily":8,"patientDaily":43,"date":"19 Jun 20"},{"_id":"5f1c310d06f6833ab00c39fd","activeDaily":285,"recoveredDaily":231,"deathDaily":8,"patientDaily":46,"date":"20 Jun 20"},{"_id":"5f1c312206f6833ab00c39fe","activeDaily":288,"recoveredDaily":231,"deathDaily":8,"patientDaily":49,"date":"21 Jun 20"},{"_id":"5f1c313206f6833ab00c39ff","activeDaily":288,"recoveredDaily":238,"deathDaily":8,"patientDaily":42,"date":"22 Jun 20"},{"_id":"5f1c314406f6833ab00c3a00","activeDaily":291,"recoveredDaily":238,"deathDaily":8,"patientDaily":45,"date":"23 Jun 20"},{"_id":"5f1c315b06f6833ab00c3a01","activeDaily":292,"recoveredDaily":242,"deathDaily":8,"patientDaily":42,"date":"24 Jun 20"},{"_id":"5f1c316e06f6833ab00c3a02","activeDaily":299,"recoveredDaily":247,"deathDaily":8,"patientDaily":44,"date":"25 Jun 20"},{"_id":"5f1c318306f6833ab00c3a03","activeDaily":302,"recoveredDaily":252,"deathDaily":8,"patientDaily":42,"date":"26 Jun 20"},{"_id":"5f1c319406f6833ab00c3a04","activeDaily":304,"recoveredDaily":257,"deathDaily":8,"patientDaily":39,"date":"27 Jun 20"},{"_id":"5f1c31a606f6833ab00c3a05","activeDaily":306,"recoveredDaily":260,"deathDaily":8,"patientDaily":38,"date":"28 Jun 20"},{"_id":"5f1c31b606f6833ab00c3a06","activeDaily":306,"recoveredDaily":261,"deathDaily":8,"patientDaily":37,"date":"29 Jun 20"},{"_id":"5f1c31ce06f6833ab00c3a07","activeDaily":313,"recoveredDaily":263,"deathDaily":8,"patientDaily":42,"date":"30 Jun 20"},{"_id":"5f1c31fb06f6833ab00c3a08","activeDaily":314,"recoveredDaily":264,"deathDaily":8,"patientDaily":42,"date":"1 Jul 20"},{"_id":"5f1c320f06f6833ab00c3a09","activeDaily":320,"recoveredDaily":269,"deathDaily":8,"patientDaily":43,"date":"2 Jul 20"},{"_id":"5f1c322b06f6833ab00c3a0a","activeDaily":325,"recoveredDaily":271,"deathDaily":8,"patientDaily":46,"date":"3 Jul 20"},{"_id":"5f1c324206f6833ab00c3a0b","activeDaily":325,"recoveredDaily":275,"deathDaily":8,"patientDaily":42,"date":"4 Jul 20"},{"_id":"5f1c325506f6833ab00c3a0c","activeDaily":331,"recoveredDaily":276,"deathDaily":8,"patientDaily":47,"date":"5 Jul 20"},{"_id":"5f1c326506f6833ab00c3a0d","activeDaily":339,"recoveredDaily":278,"deathDaily":8,"patientDaily":53,"date":"6 Jul 20"},{"_id":"5f1c328406f6833ab00c3a0e","activeDaily":346,"recoveredDaily":282,"deathDaily":8,"patientDaily":56,"date":"7 Jul 20"},{"_id":"5f1c329406f6833ab00c3a0f","activeDaily":349,"recoveredDaily":285,"deathDaily":8,"patientDaily":56,"date":"8 Jul 20"},{"_id":"5f1c32aa06f6833ab00c3a10","activeDaily":357,"recoveredDaily":287,"deathDaily":9,"patientDaily":61,"date":"9 Jul 20"},{"_id":"5f1c32bc06f6833ab00c3a11","activeDaily":364,"recoveredDaily":288,"deathDaily":9,"patientDaily":67,"date":"10 Jul 20"},{"_id":"5f1c32cf06f6833ab00c3a12","activeDaily":370,"recoveredDaily":291,"deathDaily":9,"patientDaily":70,"date":"11 Jul 20"},{"_id":"5f1c32e306f6833ab00c3a13","activeDaily":371,"recoveredDaily":293,"deathDaily":9,"patientDaily":69,"date":"12 Jul 20"},{"_id":"5f1c32fd06f6833ab00c3a14","activeDaily":379,"recoveredDaily":295,"deathDaily":10,"patientDaily":74,"date":"13 Jul 20"},{"_id":"5f1c331106f6833ab00c3a15","activeDaily":387,"recoveredDaily":304,"deathDaily":10,"patientDaily":73,"date":"14 Jul 20"},{"_id":"5f1c332e06f6833ab00c3a16","activeDaily":396,"recoveredDaily":309,"deathDaily":11,"patientDaily":76,"date":"15 Jul 20"},{"_id":"5f1c335006f6833ab00c3a17","activeDaily":404,"recoveredDaily":313,"deathDaily":11,"patientDaily":80,"date":"16 Jul 20"},{"_id":"5f1c336406f6833ab00c3a18","activeDaily":408,"recoveredDaily":314,"deathDaily":11,"patientDaily":83,"date":"17 Jul 20"},{"_id":"5f1c337706f6833ab00c3a19","activeDaily":416,"recoveredDaily":316,"deathDaily":11,"patientDaily":89,"date":"18 Jul 20"},{"_id":"5f1c339406f6833ab00c3a1a","activeDaily":432,"recoveredDaily":324,"deathDaily":12,"patientDaily":96,"date":"19 Jul 20"},{"_id":"5f1c33a806f6833ab00c3a1b","activeDaily":438,"recoveredDaily":327,"deathDaily":12,"patientDaily":99,"date":"20 Jul 20"},{"_id":"5f1c33cc06f6833ab00c3a1c","activeDaily":465,"recoveredDaily":330,"deathDaily":13,"patientDaily":122,"date":"21 Jul 20"},{"_id":"5f1c33ec06f6833ab00c3a1d","activeDaily":486,"recoveredDaily":332,"deathDaily":14,"patientDaily":140,"date":"22 Jul 20"},{"_id":"5f1c340906f6833ab00c3a1e","activeDaily":496,"recoveredDaily":336,"deathDaily":15,"patientDaily":145,"date":"23 Jul 20"},{"_id":"5f1c341d06f6833ab00c3a1f","activeDaily":519,"recoveredDaily":337,"deathDaily":15,"patientDaily":167,"date":"24 Jul 20"},{"_id":"5f1c344006f6833ab00c3a20","activeDaily":536,"recoveredDaily":344,"deathDaily":16,"patientDaily":176,"date":"25 Jul 20"},{"_id":"5f1d72762da0520a70fb92f8","activeDaily":543,"recoveredDaily":347,"deathDaily":17,"patientDaily":179,"date":"26 Jul 20"},{"_id":"5f1ea73176ce4c2384390942","activeDaily":558,"recoveredDaily":350,"deathDaily":17,"patientDaily":191,"date":"27 Jul 20"},{"_id":"5f1ff904a4d3010017744a2f","activeDaily":572,"recoveredDaily":356,"deathDaily":19,"patientDaily":197,"date":"28 Jul 20"},{"_id":"5f214e0f194b7c0017f8d5b4","activeDaily":587,"recoveredDaily":368,"deathDaily":19,"patientDaily":200,"date":"29 Jul 20"},{"_id":"5f22a4d53a792d00174c7542","activeDaily":610,"recoveredDaily":382,"deathDaily":19,"patientDaily":209,"date":"30 Jul 20"},{"_id":"5f23faaf2812e400170c2c31","activeDaily":674,"recoveredDaily":399,"deathDaily":20,"patientDaily":255,"date":"31 Jul 20"},{"_id":"5f25482965e1a30017570123","activeDaily":741,"recoveredDaily":410,"deathDaily":21,"patientDaily":310,"date":"1 Aug 20"},{"_id":"5f26a02992bbaf00171adc90","activeDaily":760,"recoveredDaily":421,"deathDaily":21,"patientDaily":318,"date":"2 Aug 20"},{"_id":"5f27f150d66b9e00171d084e","activeDaily":772,"recoveredDaily":434,"deathDaily":21,"patientDaily":317,"date":"3 Aug 20"},{"_id":"5f2931a24d42570017f2e890","activeDaily":784,"recoveredDaily":448,"deathDaily":21,"patientDaily":317,"date":"4 Aug 20"},{"_id":"5f2aa409699d6300178beb81","activeDaily":801,"recoveredDaily":477,"deathDaily":21,"patientDaily":303,"date":"5 Aug 20"},{"_id":"5f2bd96112b1f30017245229","activeDaily":819,"recoveredDaily":497,"deathDaily":21,"patientDaily":301,"date":"6 Aug 20"},{"_id":"5f2d3ecf9ef648001717e738","activeDaily":838,"recoveredDaily":525,"deathDaily":21,"patientDaily":292,"date":"7 Aug 20"},{"_id":"5f2e91a441299b00177e268d","activeDaily":854,"recoveredDaily":552,"deathDaily":23,"patientDaily":279,"date":"8 Aug 20"},{"_id":"5f2feb1391d91d0017537471","activeDaily":862,"recoveredDaily":570,"deathDaily":24,"patientDaily":268,"date":"9 Aug 20"},{"_id":"5f313a071688ce0017c65efd","activeDaily":876,"recoveredDaily":593,"deathDaily":25,"patientDaily":258,"date":"10 Aug 20"},{"_id":"5f32726f648de20017aff073","activeDaily":880,"recoveredDaily":609,"deathDaily":25,"patientDaily":246,"date":"11 Aug 20"},{"_id":"5f34136d00e398001726d7f2","activeDaily":900,"recoveredDaily":633,"deathDaily":26,"patientDaily":241,"date":"12 Aug 20"},{"_id":"5f35826d05126300176a4dfe","activeDaily":911,"recoveredDaily":646,"deathDaily":26,"patientDaily":239,"date":"13 Aug 20"},{"_id":"5f36674f05126300176a4e00","activeDaily":946,"recoveredDaily":658,"deathDaily":28,"patientDaily":260,"date":"14 Aug 20"},{"_id":"5f37c15b7ea98d0017d8cf85","activeDaily":992,"recoveredDaily":662,"deathDaily":28,"patientDaily":302,"date":"15 Aug 20"},{"_id":"5f390b27c86e5a0017c9b7f8","activeDaily":1025,"recoveredDaily":675,"deathDaily":28,"patientDaily":322,"date":"16 Aug 20"},{"_id":"5f3a5ddefd0cc50017c967df","activeDaily":1041,"recoveredDaily":682,"deathDaily":28,"patientDaily":331,"date":"17 Aug 20"},{"_id":"5f3bfc6adc636900174e9e33","activeDaily":1059,"recoveredDaily":695,"deathDaily":29,"patientDaily":335,"date":"18 Aug 20"},{"_id":"5f3cfba682fb8300170fac75","activeDaily":1059,"recoveredDaily":695,"deathDaily":29,"patientDaily":335,"date":"19 Aug 20"},{"_id":"5f3dfcb7433fba00170255ef","activeDaily":1090,"recoveredDaily":713,"deathDaily":29,"patientDaily":348,"date":"20 Aug 20"},{"_id":"5f3e4d26433fba00170255f0","activeDaily":1090,"recoveredDaily":713,"deathDaily":29,"patientDaily":348,"date":"20 Aug 20"},{"_id":"5f3f9ea6bb504e0017d0fcc3","activeDaily":1138,"recoveredDaily":765,"deathDaily":31,"patientDaily":342,"date":"21 Aug 20"},{"_id":"5f40f025446ffd0017d4c15e","activeDaily":1163,"recoveredDaily":793,"deathDaily":32,"patientDaily":338,"date":"22 Aug 20"},{"_id":"5f4241a57ddfe00017df7a61","activeDaily":1178,"recoveredDaily":808,"deathDaily":33,"patientDaily":337,"date":"23 Aug 20"},{"_id":"5f4393279e6d8f00177a04a4","activeDaily":1193,"recoveredDaily":826,"deathDaily":33,"patientDaily":334,"date":"24 Aug 20"},{"_id":"5f44e4a64ec8e0001799482d","activeDaily":1207,"recoveredDaily":846,"deathDaily":34,"patientDaily":327,"date":"25 Aug 20"},{"_id":"5f463626231f7400173645d3","activeDaily":1248,"recoveredDaily":857,"deathDaily":34,"patientDaily":357,"date":"26 Aug 20"},{"_id":"5f4787a753005500170207aa","activeDaily":1264,"recoveredDaily":892,"deathDaily":36,"patientDaily":336,"date":"27 Aug 20"},{"_id":"5f48d926bfa5e400179a69bd","activeDaily":1306,"recoveredDaily":923,"deathDaily":36,"patientDaily":347,"date":"28 Aug 20"},{"_id":"5f4a2aa63674eb00175e10eb","activeDaily":1326,"recoveredDaily":947,"deathDaily":36,"patientDaily":343,"date":"29 Aug 20"},{"_id":"5f4b7c27871f8100175e6932","activeDaily":1373,"recoveredDaily":968,"deathDaily":37,"patientDaily":368,"date":"30 Aug 20"},{"_id":"5f4ccda7a99d1f0017c839a9","activeDaily":1397,"recoveredDaily":976,"deathDaily":37,"patientDaily":384,"date":"31 Aug 20"},{"_id":"5f4e1f2785cf3d00176fb816","activeDaily":1425,"recoveredDaily":1026,"deathDaily":39,"patientDaily":360,"date":"1 Sep 20"},{"_id":"5f4f70a7a582e90017d583fa","activeDaily":1445,"recoveredDaily":1036,"deathDaily":39,"patientDaily":370,"date":"2 Sep 20"},{"_id":"5f50c227a582e90017d58446","activeDaily":1474,"recoveredDaily":1061,"deathDaily":41,"patientDaily":372,"date":"3 Sep 20"},{"_id":"5f5213a701bcbc0017554b3c","activeDaily":1507,"recoveredDaily":1075,"deathDaily":43,"patientDaily":389,"date":"4 Sep 20"},{"_id":"5f536526f1596a001739a377","activeDaily":1525,"recoveredDaily":1096,"deathDaily":44,"patientDaily":385,"date":"5 Sep 20"},{"_id":"5f54b6a742934c0017e5a860","activeDaily":1546,"recoveredDaily":1116,"deathDaily":45,"patientDaily":385,"date":"6 Sep 20"},{"_id":"5f560827b5316100176c7f59","activeDaily":1546,"recoveredDaily":1116,"deathDaily":45,"patientDaily":385,"date":"7 Sep 20"},{"_id":"5f5759a760577f0017d1daa5","activeDaily":1571,"recoveredDaily":1189,"deathDaily":46,"patientDaily":336,"date":"8 Sep 20"},{"_id":"5f58ab295d70f9001791ed31","activeDaily":1595,"recoveredDaily":1216,"deathDaily":47,"patientDaily":332,"date":"9 Sep 20"},{"_id":"5f59fca7a9bffc0017b9222d","activeDaily":1645,"recoveredDaily":1268,"deathDaily":48,"patientDaily":329,"date":"10 Sep 20"},{"_id":"5f5b4e28c94b1b0017de3c5f","activeDaily":1744,"recoveredDaily":1313,"deathDaily":50,"patientDaily":381,"date":"11 Sep 20"},{"_id":"5f5c9fa70ffaa60017d891d7","activeDaily":1744,"recoveredDaily":1313,"deathDaily":50,"patientDaily":381,"date":"12 Sep 20"},{"_id":"5f5df1270a8f8700178aa4cc","activeDaily":1787,"recoveredDaily":1325,"deathDaily":50,"patientDaily":412,"date":"13 Sep 20"},{"_id":"5f5f42a70d3f520017a62ba6","activeDaily":1836,"recoveredDaily":1332,"deathDaily":52,"patientDaily":452,"date":"14 Sep 20"},{"_id":"5f609426392177001793868d","activeDaily":1869,"recoveredDaily":1355,"deathDaily":53,"patientDaily":461,"date":"15 Sep 20"},{"_id":"5f61e5a63f70e20017a6e254","activeDaily":1895,"recoveredDaily":1370,"deathDaily":53,"patientDaily":472,"date":"16 Sep 20"},{"_id":"5f63372638c35d0017ce5742","activeDaily":1895,"recoveredDaily":1370,"deathDaily":53,"patientDaily":472,"date":"17 Sep 20"},{"_id":"5f6488a6a9443f00170565e5","activeDaily":1984,"recoveredDaily":1440,"deathDaily":53,"patientDaily":491,"date":"18 Sep 20"},{"_id":"5f65da254f206600176ad0b3","activeDaily":2037,"recoveredDaily":1471,"deathDaily":53,"patientDaily":513,"date":"19 Sep 20"},{"_id":"5f672ba6c2b4820017fc79c6","activeDaily":2111,"recoveredDaily":1491,"deathDaily":54,"patientDaily":566,"date":"20 Sep 20"},{"_id":"5f687d2686387f0017121175","activeDaily":2181,"recoveredDaily":1506,"deathDaily":58,"patientDaily":617,"date":"21 Sep 20"},{"_id":"5f69cea66ca87d001797d18a","activeDaily":2245,"recoveredDaily":1543,"deathDaily":60,"patientDaily":642,"date":"22 Sep 20"},{"_id":"5f6b2026e842bb0017f77f9d","activeDaily":2312,"recoveredDaily":1578,"deathDaily":60,"patientDaily":674,"date":"23 Sep 20"},{"_id":"5f6c71a6aa6643001771bf99","activeDaily":2375,"recoveredDaily":1634,"deathDaily":61,"patientDaily":680,"date":"24 Sep 20"},{"_id":"5f6dc326ec70540017aff168","activeDaily":2397,"recoveredDaily":1652,"deathDaily":64,"patientDaily":681,"date":"25 Sep 20"},{"_id":"5f6f14a6bcea25001731837c","activeDaily":2458,"recoveredDaily":1677,"deathDaily":64,"patientDaily":717,"date":"26 Sep 20"},{"_id":"5f7066262e29d800178da505","activeDaily":2499,"recoveredDaily":1717,"deathDaily":64,"patientDaily":718,"date":"27 Sep 20"},{"_id":"5f71b7a81d849e00177c848a","activeDaily":2519,"recoveredDaily":1743,"deathDaily":65,"patientDaily":711,"date":"28 Sep 20"},{"_id":"5f73092694928c0017504921","activeDaily":2558,"recoveredDaily":1797,"deathDaily":65,"patientDaily":696,"date":"29 Sep 20"},{"_id":"5f745aa629b9dd0017c31d20","activeDaily":2607,"recoveredDaily":1856,"deathDaily":67,"patientDaily":684,"date":"30 Sep 20"},{"_id":"5f75ac268152e700173f6b33","activeDaily":2643,"recoveredDaily":1885,"deathDaily":67,"patientDaily":691,"date":"1 Okt 20"},{"_id":"5f76fda643cc450017f58ea3","activeDaily":2643,"recoveredDaily":1885,"deathDaily":67,"patientDaily":691,"date":"2 Okt 20"},{"_id":"5f784f262e71de001767042f","activeDaily":2700,"recoveredDaily":1957,"deathDaily":73,"patientDaily":670,"date":"3 Okt 20"},{"_id":"5f79a0a6c1d4a9001799506c","activeDaily":2772,"recoveredDaily":1976,"deathDaily":74,"patientDaily":722,"date":"4 Okt 20"},{"_id":"5f7af2268814220017e3bcc5","activeDaily":2791,"recoveredDaily":2046,"deathDaily":75,"patientDaily":670,"date":"5 Okt 20"},{"_id":"5f7c43a640a72c0017c3ba4f","activeDaily":2813,"recoveredDaily":2123,"deathDaily":75,"patientDaily":615,"date":"6 Okt 20"},{"_id":"5f7d9526bbf78a00176f760d","activeDaily":2833,"recoveredDaily":2163,"deathDaily":75,"patientDaily":595,"date":"7 Okt 20"},{"_id":"5f7ee6a6a1c7410017a230ea","activeDaily":2853,"recoveredDaily":2183,"deathDaily":75,"patientDaily":595,"date":"8 Okt 20"},{"_id":"5f803826f5352a00176c8a5d","activeDaily":2904,"recoveredDaily":2192,"deathDaily":76,"patientDaily":636,"date":"9 Okt 20"},{"_id":"5f8189a685830a0017154281","activeDaily":2960,"recoveredDaily":2223,"deathDaily":78,"patientDaily":659,"date":"10 Okt 20"},{"_id":"5f82db266c4ee80017c30ea2","activeDaily":2960,"recoveredDaily":2223,"deathDaily":78,"patientDaily":659,"date":"11 Okt 20"},{"_id":"5f842ca6937b970017a44373","activeDaily":3064,"recoveredDaily":2273,"deathDaily":79,"patientDaily":712,"date":"12 Okt 20"},{"_id":"5f857e279a7e9200175ced77","activeDaily":3145,"recoveredDaily":2396,"deathDaily":81,"patientDaily":668,"date":"13 Okt 20"},{"_id":"5f86cfa6d769860017da676b","activeDaily":3171,"recoveredDaily":2416,"deathDaily":83,"patientDaily":672,"date":"14 Okt 20"},{"_id":"5f882126bea349001706f70b","activeDaily":3171,"recoveredDaily":2416,"deathDaily":83,"patientDaily":672,"date":"15 Okt 20"},{"_id":"5f8972a6f9c228001702178c","activeDaily":3216,"recoveredDaily":2471,"deathDaily":85,"patientDaily":660,"date":"16 Okt 20"},{"_id":"5f8ac426ab729c0017f571fe","activeDaily":3216,"recoveredDaily":2471,"deathDaily":85,"patientDaily":660,"date":"17 Okt 20"},{"_id":"5f8c15a60c509e00178ae9a8","activeDaily":3325,"recoveredDaily":2615,"deathDaily":86,"patientDaily":624,"date":"18 Okt 20"},{"_id":"5f8d67272df256001741f3d1","activeDaily":3343,"recoveredDaily":2690,"deathDaily":86,"patientDaily":567,"date":"19 Okt 20"},{"_id":"5f8eb8a62df256001741f41d","activeDaily":3343,"recoveredDaily":2690,"deathDaily":86,"patientDaily":567,"date":"20 Okt 20"},{"_id":"5f900a267fefb100172e4cd6","activeDaily":3356,"recoveredDaily":2741,"deathDaily":86,"patientDaily":529,"date":"21 Okt 20"},{"_id":"5f915ba63a9d3f0017dc28c5","activeDaily":3389,"recoveredDaily":2762,"deathDaily":88,"patientDaily":539,"date":"22 Okt 20"},{"_id":"5f92ad275c44350017b8d50f","activeDaily":3434,"recoveredDaily":2781,"deathDaily":88,"patientDaily":565,"date":"23 Okt 20"},{"_id":"5f93fea645062b0017831a2a","activeDaily":3462,"recoveredDaily":2806,"deathDaily":88,"patientDaily":568,"date":"24 Okt 20"},{"_id":"5f955026b4360600173d786c","activeDaily":3506,"recoveredDaily":2842,"deathDaily":88,"patientDaily":576,"date":"25 Okt 20"},{"_id":"5f96a1a650b3c30017587b77","activeDaily":3550,"recoveredDaily":2910,"deathDaily":88,"patientDaily":552,"date":"26 Okt 20"},{"_id":"5f97f3262feecd00172a4251","activeDaily":3576,"recoveredDaily":2939,"deathDaily":88,"patientDaily":549,"date":"27 Okt 20"},{"_id":"5f9944a6d8ebb600171b1e1f","activeDaily":3617,"recoveredDaily":2971,"deathDaily":89,"patientDaily":557,"date":"28 Okt 20"},{"_id":"5f9a962648e331001714b291","activeDaily":3662,"recoveredDaily":3013,"deathDaily":90,"patientDaily":559,"date":"29 Okt 20"},{"_id":"5f9be7a65a74630017fa4065","activeDaily":3744,"recoveredDaily":3064,"deathDaily":91,"patientDaily":589,"date":"30 Okt 20"},{"_id":"5f9d3926a64b100017fb212a","activeDaily":3803,"recoveredDaily":3124,"deathDaily":92,"patientDaily":587,"date":"31 Okt 20"},{"_id":"5f9e8aa6504a2300170ef428","activeDaily":3835,"recoveredDaily":3147,"deathDaily":93,"patientDaily":595,"date":"1 Nov 20"},{"_id":"5f9fdc26570ddb0017cf32da","activeDaily":3851,"recoveredDaily":3160,"deathDaily":93,"patientDaily":598,"date":"2 Nov 20"},{"_id":"5fa12da619b3d30017ccf3e4","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"3 Nov 20"},{"_id":"5fa27f2600f800001799f8b3","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"4 Nov 20"},{"_id":"5fa3d0a6ea723a0017db8159","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"5 Nov 20"},{"_id":"5fa52226d9c8670017998d05","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"6 Nov 20"},{"_id":"5fa673a65e66c20017b7e294","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"7 Nov 20"},{"_id":"5fa7c525b873d70017eca37d","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"8 Nov 20"},{"_id":"5fa916a6e9083400175b9902","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"9 Nov 20"},{"_id":"5faa682630c321001762fbfb","activeDaily":4269,"recoveredDaily":3481,"deathDaily":105,"patientDaily":683,"date":"10 Nov 20"},{"_id":"5fabb9a6dec0db0017fe6c9c","activeDaily":4237,"recoveredDaily":3420,"deathDaily":103,"patientDaily":714,"date":"11 Nov 20"},{"_id":"5fad0b27095ca10017cd8ec4","activeDaily":4320,"recoveredDaily":3543,"deathDaily":106,"patientDaily":671,"date":"12 Nov 20"},{"_id":"5fae5ca67616390017db57c0","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"13 Nov 20"},{"_id":"5fafae26bf48a6001773e1b5","activeDaily":4460,"recoveredDaily":3597,"deathDaily":110,"patientDaily":753,"date":"14 Nov 20"},{"_id":"5fb0ffa59df8a80017380aa7","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"15 Nov 20"},{"_id":"5fb25126efbc9d00171e34f2","activeDaily":4518,"recoveredDaily":3627,"deathDaily":112,"patientDaily":779,"date":"16 Nov 20"},{"_id":"5fb3a2a6dbf7bf0017efaf39","activeDaily":4585,"recoveredDaily":3642,"deathDaily":112,"patientDaily":831,"date":"17 Nov 20"},{"_id":"5fb4f426fcc375001726359e","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"18 Nov 20"},{"_id":"5fb645a69bdcde001711582d","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"19 Nov 20"},{"_id":"5fb7972698a8750017787086","activeDaily":4936,"recoveredDaily":3762,"deathDaily":115,"patientDaily":1059,"date":"20 Nov 20"},{"_id":"5fb8e8a67e05440017d06b62","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"21 Nov 20"},{"_id":"5fba3a26c6262d0017d4299a","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"22 Nov 20"},{"_id":"5fbb8ba52c4deb00174de3db","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"23 Nov 20"},{"_id":"5fbcdd2667eb8500173b1d9d","activeDaily":5219,"recoveredDaily":3957,"deathDaily":127,"patientDaily":1135,"date":"24 Nov 20"},{"_id":"5fbe2ea6d38855001786821d","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"25 Nov 20"},{"_id":"5fbf80267cfeb10017e63d42","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"26 Nov 20"},{"_id":"5fc0d1a69d6fed001787499c","activeDaily":5556,"recoveredDaily":4200,"deathDaily":137,"patientDaily":1219,"date":"27 Nov 20"},{"_id":"5fc2232664c77600170c2eeb","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"28 Nov 20"},{"_id":"5fc374a6bff74a00174bdee0","activeDaily":5783,"recoveredDaily":4283,"deathDaily":144,"patientDaily":1356,"date":"29 Nov 20"},{"_id":"5fc4c626f268f6001761d170","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"30 Nov 20"},{"_id":"5fc617a6c5fd4a00174d5df7","activeDaily":5963,"recoveredDaily":4398,"deathDaily":145,"patientDaily":1420,"date":"1 Des 20"},{"_id":"5fc769266961a5001776300a","activeDaily":6073,"recoveredDaily":4466,"deathDaily":146,"patientDaily":1461,"date":"2 Des 20"},{"_id":"5fc8baa6660b350017b50134","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"3 Des 20"},{"_id":"5fca0c26660b350017b50180","activeDaily":6384,"recoveredDaily":4573,"deathDaily":148,"patientDaily":1663,"date":"4 Des 20"},{"_id":"5fcb5da6d9e3aa00171b2882","activeDaily":6565,"recoveredDaily":4649,"deathDaily":148,"patientDaily":1768,"date":"5 Des 20"},{"_id":"5fccaf266dc0d500177b4cf4","activeDaily":6732,"recoveredDaily":4733,"deathDaily":150,"patientDaily":1849,"date":"6 Des 20"},{"_id":"5fce00a6afe32b001729e0d1","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"7 Des 20"},{"_id":"5fcf52263f66b50017603a76","activeDaily":7055,"recoveredDaily":4875,"deathDaily":153,"patientDaily":2027,"date":"8 Des 20"},{"_id":"5fd0a3a679e15a001758d941","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"9 Des 20"},{"_id":"5fd1f526499d800017832053","activeDaily":7421,"recoveredDaily":5162,"deathDaily":155,"patientDaily":2104,"date":"10 Des 20"},{"_id":"5fd346a54f892f0017f5298b","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"11 Des 20"},{"_id":"5fd498254503f600172628d8","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"12 Des 20"},{"_id":"5fd5e9a6751d1400170c314d","activeDaily":7996,"recoveredDaily":5481,"deathDaily":166,"patientDaily":2349,"date":"13 Des 20"},{"_id":"5fd73b26226c960017fc3669","activeDaily":8147,"recoveredDaily":5611,"deathDaily":168,"patientDaily":2368,"date":"14 Des 20"},{"_id":"5fd88ca6a6c334001707f132","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"15 Des 20"},{"_id":"5fd9de26984b820017bd7381","activeDaily":8418,"recoveredDaily":5775,"deathDaily":172,"patientDaily":2471,"date":"16 Des 20"},{"_id":"5fdb2fa6d292d700176f603c","activeDaily":8636,"recoveredDaily":5845,"deathDaily":175,"patientDaily":2616,"date":"17 Des 20"},{"_id":"5fdc812616049f001731cb38","activeDaily":8860,"recoveredDaily":5905,"deathDaily":177,"patientDaily":2778,"date":"18 Des 20"},{"_id":"5fddd2a7907c4e001766ec19","activeDaily":9071,"recoveredDaily":6104,"deathDaily":179,"patientDaily":2788,"date":"19 Des 20"},{"_id":"5fdf2426388c930017e96cfb","activeDaily":9287,"recoveredDaily":6178,"deathDaily":182,"patientDaily":2927,"date":"20 Des 20"},{"_id":"5fe075a6b2a0bd00171706d2","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"21 Des 20"},{"_id":"5fe1c725f2ecef001730fc64","activeDaily":9683,"recoveredDaily":6557,"deathDaily":197,"patientDaily":2929,"date":"22 Des 20"},{"_id":"5fe318a646d2a40017f2b368","activeDaily":9925,"recoveredDaily":6704,"deathDaily":206,"patientDaily":3015,"date":"23 Des 20"},{"_id":"5fe46a250e01cc0017d97058","activeDaily":10144,"recoveredDaily":6747,"deathDaily":206,"patientDaily":3191,"date":"24 Des 20"},{"_id":"5fe5bba6969da400171b20ee","activeDaily":10397,"recoveredDaily":6912,"deathDaily":214,"patientDaily":3271,"date":"25 Des 20"},{"_id":"5fe70d267e4f0f001785b1e4","activeDaily":10653,"recoveredDaily":7067,"deathDaily":226,"patientDaily":3360,"date":"26 Des 20"},{"_id":"5fe85ea66b16760017e32e3f","activeDaily":10927,"recoveredDaily":7167,"deathDaily":232,"patientDaily":3528,"date":"27 Des 20"},{"_id":"5fe9b025bdd44a00171da9a8","activeDaily":11110,"recoveredDaily":7316,"deathDaily":235,"patientDaily":3559,"date":"28 Des 20"},{"_id":"5feb01a6adc9970017172c3d","activeDaily":11320,"recoveredDaily":7423,"deathDaily":239,"patientDaily":3658,"date":"29 Des 20"},{"_id":"5fec5326f0b8b50017750960","activeDaily":11602,"recoveredDaily":7718,"deathDaily":249,"patientDaily":3635,"date":"30 Des 20"},{"_id":"5feda4a5a3a7230017b0ff0f","activeDaily":11898,"recoveredDaily":8056,"deathDaily":260,"patientDaily":3582,"date":"31 Des 20"},{"_id":"5feef6262013850017830f34","activeDaily":12155,"recoveredDaily":8175,"deathDaily":260,"patientDaily":3720,"date":"1 Jan 20"},{"_id":"5ff047a6e0775d001752b9a3","activeDaily":12388,"recoveredDaily":8287,"deathDaily":273,"patientDaily":3828,"date":"2 Jan 20"},{"_id":"5ff19926f17bf600170c42d8","activeDaily":12679,"recoveredDaily":8503,"deathDaily":275,"patientDaily":3901,"date":"3 Jan 20"},{"_id":"5ff2eaa6b6d2eb0017e8bc80","activeDaily":12897,"recoveredDaily":8724,"deathDaily":288,"patientDaily":3885,"date":"4 Jan 20"},{"_id":"5ff43c260fbc2000179260b3","activeDaily":13043,"recoveredDaily":8857,"deathDaily":290,"patientDaily":3896,"date":"5 Jan 20"},{"_id":"5ff58da63c8f4d0017dd5b09","activeDaily":13340,"recoveredDaily":8902,"deathDaily":293,"patientDaily":4145,"date":"6 Jan 20"},{"_id":"5ff6df26ac600e0017cd1589","activeDaily":13612,"recoveredDaily":9192,"deathDaily":297,"patientDaily":4123,"date":"7 Jan 20"},{"_id":"5ff830a5c3519d001718d70d","activeDaily":13967,"recoveredDaily":9373,"deathDaily":301,"patientDaily":4293,"date":"8 Jan 20"},{"_id":"5ff9822658a6ec00177ddf9f","activeDaily":14346,"recoveredDaily":9521,"deathDaily":308,"patientDaily":4517,"date":"9 Jan 20"},{"_id":"5ffad3a635b06a0017e630bc","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"10 Jan 20"},{"_id":"5ffc2526e2b2090017cdaecc","activeDaily":14929,"recoveredDaily":9891,"deathDaily":324,"patientDaily":4714,"date":"11 Jan 20"},{"_id":"5ffd76a67aa8cf00170cdccc","activeDaily":15482,"recoveredDaily":10241,"deathDaily":336,"patientDaily":4905,"date":"12 Jan 20"},{"_id":"5ffec82677b30d0017c5590b","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"13 Jan 20"},{"_id":"600019a6070326001788dc39","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"14 Jan 20"},{"_id":"60016b266769c80017556071","activeDaily":16092,"recoveredDaily":10547,"deathDaily":349,"patientDaily":5196,"date":"15 Jan 20"},{"_id":"6002bca60b51fc0017ec7573","activeDaily":16354,"recoveredDaily":10795,"deathDaily":367,"patientDaily":5192,"date":"16 Jan 20"},{"_id":"60040e26eb9db10017738afe","activeDaily":16656,"recoveredDaily":11092,"deathDaily":379,"patientDaily":5185,"date":"17 Jan 20"},{"_id":"60055fa63fb0ed001779484f","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"18 Jan 20"},{"_id":"6006b12719326d0017c51ed6","activeDaily":17228,"recoveredDaily":11552,"deathDaily":394,"patientDaily":5282,"date":"19 Jan 20"},{"_id":"600802a66f959000173ddb0d","activeDaily":17515,"recoveredDaily":11659,"deathDaily":395,"patientDaily":5461,"date":"20 Jan 20"},{"_id":"6009542753ac4e0017eba007","activeDaily":18258,"recoveredDaily":12053,"deathDaily":417,"patientDaily":5788,"date":"21 Jan 20"},{"_id":"600aa5a7f69b2d001748d910","activeDaily":18258,"recoveredDaily":12053,"deathDaily":417,"patientDaily":5788,"date":"22 Jan 20"},{"_id":"600bf7254397450017fd7cdf","activeDaily":18736,"recoveredDaily":12427,"deathDaily":422,"patientDaily":5887,"date":"23 Jan 20"},{"_id":"600d48a6d77ff5001787f2ec","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"24 Jan 20"},{"_id":"600e9a268ad6e80017100d9e","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"25 Jan 20"},{"_id":"600feba6c58a37001775bf74","activeDaily":19729,"recoveredDaily":13138,"deathDaily":454,"patientDaily":6137,"date":"26 Jan 20"},{"_id":"60113d26e8fb6800179a7236","activeDaily":20054,"recoveredDaily":13449,"deathDaily":460,"patientDaily":6145,"date":"27 Jan 20"},{"_id":"60128ea63c2d95001705f209","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"28 Jan 20"},{"_id":"6013e02614263700173f6671","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"29 Jan 20"},{"_id":"601531a63995ae0017f1be12","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"30 Jan 20"},{"_id":"60168326f6940800176d65ff","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"31 Jan 20"},{"_id":"6017d4a693cbcc00175c908d","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"1 Feb 20"},{"_id":"601926279d51040017d1cd88","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"2 Feb 20"},{"_id":"601a77a641b19a0017f715d4","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"3 Feb 20"},{"_id":"601bc9264d370000174d1b3e","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"4 Feb 20"},{"_id":"601d1aa64c116300178cae6b","activeDaily":23186,"recoveredDaily":16310,"deathDaily":533,"patientDaily":6343,"date":"5 Feb 20"},{"_id":"601e6c258e33430017e4d5a4","activeDaily":23186,"recoveredDaily":16310,"deathDaily":533,"patientDaily":6343,"date":"6 Feb 20"},{"_id":"601fbda6a7998e0017f55051","activeDaily":23403,"recoveredDaily":16576,"deathDaily":537,"patientDaily":6290,"date":"7 Feb 20"},{"_id":"60210f26399937001703d501","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"8 Feb 20"},{"_id":"602260a58bd5a300179cc0ca","activeDaily":23754,"recoveredDaily":17044,"deathDaily":553,"patientDaily":6157,"date":"9 Feb 20"},{"_id":"6023b226cba40400173d865b","activeDaily":23982,"recoveredDaily":17370,"deathDaily":557,"patientDaily":6055,"date":"10 Feb 20"},{"_id":"602503a6472608001741faa1","activeDaily":24534,"recoveredDaily":17879,"deathDaily":567,"patientDaily":6088,"date":"11 Feb 20"},{"_id":"60265526ea19c20017eb9873","activeDaily":24534,"recoveredDaily":17879,"deathDaily":567,"patientDaily":6088,"date":"12 Feb 20"},{"_id":"6027a6a6b816090017b3a96a","activeDaily":24812,"recoveredDaily":18053,"deathDaily":575,"patientDaily":6184,"date":"13 Feb 20"},{"_id":"6028f826d929450017cbac2f","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"14 Feb 20"},{"_id":"602a49a6d929450017cbac30","activeDaily":25033,"recoveredDaily":18670,"deathDaily":590,"patientDaily":5773,"date":"15 Feb 20"},{"_id":"602b9b268099f400174a09ee","activeDaily":25168,"recoveredDaily":18810,"deathDaily":595,"patientDaily":5763,"date":"16 Feb 20"},{"_id":"602ceca64425b800179aea5e","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"17 Feb 20"},{"_id":"602e3e2628c5bf0017ef2f19","activeDaily":25562,"recoveredDaily":19340,"deathDaily":609,"patientDaily":5613,"date":"18 Feb 20"},{"_id":"602f8fa64b0cb7001722bf08","activeDaily":25817,"recoveredDaily":19458,"deathDaily":619,"patientDaily":5740,"date":"19 Feb 20"},{"_id":"6030e126d314e700176f605d","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"20 Feb 20"},{"_id":"603232a59ccd380017ff6844","activeDaily":26281,"recoveredDaily":19846,"deathDaily":627,"patientDaily":5808,"date":"21 Feb 20"},{"_id":"603384256e8e630017964975","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"22 Feb 20"},{"_id":"6034d5a5ba9a680017468997","activeDaily":26594,"recoveredDaily":20328,"deathDaily":642,"patientDaily":5624,"date":"23 Feb 20"},{"_id":"603627253a14660017d945b2","activeDaily":26822,"recoveredDaily":20567,"deathDaily":652,"patientDaily":5603,"date":"24 Feb 20"},{"_id":"603778a600bd5800174b66da","activeDaily":27023,"recoveredDaily":20820,"deathDaily":658,"patientDaily":5545,"date":"25 Feb 20"},{"_id":"6038ca26e4f68f001704bf37","activeDaily":27425,"recoveredDaily":21298,"deathDaily":665,"patientDaily":5462,"date":"26 Feb 20"},{"_id":"603a1ba6b7779d001710e0d7","activeDaily":27425,"recoveredDaily":21298,"deathDaily":665,"patientDaily":5462,"date":"27 Feb 20"},{"_id":"603b6d252644ff00177a9a31","activeDaily":27653,"recoveredDaily":3620,"deathDaily":674,"patientDaily":23359,"date":"28 Feb 20"},{"_id":"603cbea66bd1a7001714d6f7","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"1 Mar 20"},{"_id":"603e102689e30800177640eb","activeDaily":27967,"recoveredDaily":22049,"deathDaily":682,"patientDaily":5236,"date":"2 Mar 20"},{"_id":"603f61a55f93370017ca55ce","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"3 Mar 20"},{"_id":"6040b3260f683100179a1a44","activeDaily":28574,"recoveredDaily":22755,"deathDaily":698,"patientDaily":5121,"date":"4 Mar 20"},{"_id":"604204a824c0830017b6db40","activeDaily":28574,"recoveredDaily":22755,"deathDaily":698,"patientDaily":5121,"date":"5 Mar 20"},{"_id":"604356266c7dcd00177f2342","activeDaily":28838,"recoveredDaily":23099,"deathDaily":703,"patientDaily":5036,"date":"6 Mar 20"},{"_id":"6044a7a632282f00176c70ee","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"7 Mar 20"},{"_id":"6045f92627e7360017e663e9","activeDaily":28987,"recoveredDaily":23204,"deathDaily":707,"patientDaily":5076,"date":"8 Mar 20"},{"_id":"60474aa6250aac0017da8a48","activeDaily":29154,"recoveredDaily":23365,"deathDaily":713,"patientDaily":5076,"date":"9 Mar 20"},{"_id":"60489c26d7d0c50017388e70","activeDaily":29508,"recoveredDaily":23696,"deathDaily":721,"patientDaily":5091,"date":"10 Mar 20"},{"_id":"6049eda6ed345900175a44e3","activeDaily":29508,"recoveredDaily":23696,"deathDaily":721,"patientDaily":5091,"date":"11 Mar 20"},{"_id":"604b3f260257770017c031f6","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"12 Mar 20"},{"_id":"604c90a784089900171d22fe","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"13 Mar 20"},{"_id":"604de2266b00a60017cedb6f","activeDaily":4511,"recoveredDaily":3620,"deathDaily":111,"patientDaily":780,"date":"14 Mar 20"},{"_id":"604f33a6ce440d0017033d20","activeDaily":30117,"recoveredDaily":24686,"deathDaily":729,"patientDaily":4702,"date":"15 Mar 20"},{"_id":"60508526cd594700179b2a69","activeDaily":30257,"recoveredDaily":24837,"deathDaily":732,"patientDaily":4688,"date":"16 Mar 20"},{"_id":"6051d6a7c18cd40017bfdd1d","activeDaily":30697,"recoveredDaily":25125,"deathDaily":739,"patientDaily":4833,"date":"17 Mar 20"},{"_id":"605328260fdc8200173218dc","activeDaily":30954,"recoveredDaily":25249,"deathDaily":745,"patientDaily":4960,"date":"18 Mar 20"},{"_id":"605479a7307b0600175b8eeb","activeDaily":3883,"recoveredDaily":3209,"deathDaily":94,"patientDaily":580,"date":"19 Mar 20"},{"_id":"6055cb266bbe3500179d55c4","activeDaily":31115,"recoveredDaily":25449,"deathDaily":748,"patientDaily":4918,"date":"20 Mar 20"},{"_id":"60571ca77e61d500177e7bc3","activeDaily":31357,"recoveredDaily":25549,"deathDaily":753,"patientDaily":5055,"date":"21 Mar 20"},{"_id":"60586e274976120017c3cf7a","activeDaily":31357,"recoveredDaily":25549,"deathDaily":753,"patientDaily":5055,"date":"22 Mar 20"},{"_id":"6059bfa7f203ff00178bb527","activeDaily":31800,"recoveredDaily":26003,"deathDaily":764,"patientDaily":5033,"date":"23 Mar 20"},{"_id":"605b11252b1caf00177e228b","activeDaily":31800,"recoveredDaily":26003,"deathDaily":764,"patientDaily":5033,"date":"24 Mar 20"},{"_id":"605c62a6569de3001799473c","activeDaily":32054,"recoveredDaily":26153,"deathDaily":768,"patientDaily":5133,"date":"25 Mar 20"},{"_id":"605db4261eca4800171a0337","activeDaily":32312,"recoveredDaily":26346,"deathDaily":769,"patientDaily":5197,"date":"26 Mar 20"},{"_id":"605f05a61199d200174cb466","activeDaily":32544,"recoveredDaily":26486,"deathDaily":777,"patientDaily":5281,"date":"27 Mar 20"},{"_id":"60605726bd05400017ca61d3","activeDaily":32684,"recoveredDaily":26686,"deathDaily":788,"patientDaily":5210,"date":"28 Mar 20"},{"_id":"6061a8a69f46ad0017e22d9f","activeDaily":32917,"recoveredDaily":27037,"deathDaily":800,"patientDaily":5080,"date":"29 Mar 20"},{"_id":"6062fa271f73a40017501084","activeDaily":32917,"recoveredDaily":27037,"deathDaily":800,"patientDaily":5080,"date":"30 Mar 20"},{"_id":"60644ba680e8130017971027","activeDaily":32917,"recoveredDaily":27037,"deathDaily":800,"patientDaily":5080,"date":"31 Mar 20"},{"_id":"60659d27da031e0017aa6164","activeDaily":33648,"recoveredDaily":27786,"deathDaily":814,"patientDaily":5048,"date":"1 Apr 20"},{"_id":"6066eea6f1d01f00174ab3a7","activeDaily":33648,"recoveredDaily":27786,"deathDaily":814,"patientDaily":5048,"date":"2 Apr 20"},{"_id":"606840270186a8001725126d","activeDaily":33902,"recoveredDaily":27951,"deathDaily":817,"patientDaily":5134,"date":"3 Apr 20"},{"_id":"606991a6cfba9700179336a5","activeDaily":34020,"recoveredDaily":28182,"deathDaily":824,"patientDaily":5014,"date":"4 Apr 20"},{"_id":"606ae326739a6b0017019471","activeDaily":34020,"recoveredDaily":28182,"deathDaily":824,"patientDaily":5014,"date":"5 Apr 20"},{"_id":"606c34a722bc7600178229b6","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"6 Apr 20"},{"_id":"606d8627c9e9d70017eb6caa","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"7 Apr 20"},{"_id":"606ed7a7bbf13e00172a23ab","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"8 Apr 20"},{"_id":"60702927d1357c0017afe76b","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"9 Apr 20"},{"_id":"60717aa62091730017ff4e94","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"10 Apr 20"},{"_id":"6072cc27ca1e7e0017cae7b5","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"11 Apr 20"},{"_id":"60741da6bd93220017060035","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"12 Apr 20"},{"_id":"60756f2645b98c0017b2fbb8","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"13 Apr 20"},{"_id":"6076c0a6f09f85001748afbe","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"14 Apr 20"},{"_id":"607812269c70670017f342a2","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"15 Apr 20"},{"_id":"607963a645e432001776e72f","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"16 Apr 20"},{"_id":"607ab526bde9d200174de0e0","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"17 Apr 20"},{"_id":"607c06a6d9bc9f001755aa6e","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"18 Apr 20"},{"_id":"607d582687be7c0017c8c0b9","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"19 Apr 20"},{"_id":"607ea9a6cb30a20017dcf6d7","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"20 Apr 20"},{"_id":"607ffb262f260800175cb550","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"21 Apr 20"},{"_id":"60814ca579f34800175810ef","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"22 Apr 20"},{"_id":"60829e26dbccf40017566eb6","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"23 Apr 20"},{"_id":"6083efa62f2daa00175da032","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"24 Apr 20"},{"_id":"608541274bd9ef0017c07057","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"25 Apr 20"},{"_id":"608692a6d1cfe00017e20e85","activeDaily":34511,"recoveredDaily":28799,"deathDaily":834,"patientDaily":4878,"date":"26 Apr 20"},{"_id":"6087e4268ad3c70017893bae","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"27 Apr 20"},{"_id":"608935a6c13679001728ce80","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"28 Apr 20"},{"_id":"608a8725f4a5de0017fd0c60","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"29 Apr 20"},{"_id":"608bd8a7343f7800179ee676","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"30 Apr 20"},{"_id":"608d2a26343f7800179ee677","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"1 Mei 20"},{"_id":"608e7ba57191740017df5c7a","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"2 Mei 20"},{"_id":"608fcd2613d65f00176266c9","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"3 Mei 20"},{"_id":"60911ea6eda20a00172e8cab","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"4 Mei 20"},{"_id":"6092702602f258001784a95f","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"5 Mei 20"},{"_id":"6093c1a7beec140017688184","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"6 Mei 20"},{"_id":"60951326dfab7500175e7fd9","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"7 Mei 20"},{"_id":"609664a641df410017569c49","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"8 Mei 20"},{"_id":"6097b6279abef8001788425f","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"9 Mei 20"},{"_id":"609907a5ad973800174c390d","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"10 Mei 20"},{"_id":"609a5926f8e8530017f9e0aa","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"11 Mei 20"},{"_id":"609baaa6875add001744b807","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"12 Mei 20"},{"_id":"609cfc2631347100171e1b93","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"13 Mei 20"},{"_id":"609e4da63236f0001717b892","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"14 Mei 20"},{"_id":"609f9f26e421920017b85187","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"15 Mei 20"},{"_id":"60a0f0a759762c0017aacd3f","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"16 Mei 20"},{"_id":"60a24225d3393a00176455fd","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"17 Mei 20"},{"_id":"60a393a6b3ab2100171edc9c","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"18 Mei 20"},{"_id":"60a4e5298b59c90017a3fbd3","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"19 Mei 20"},{"_id":"60a636a5025b2900179171a6","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"20 Mei 20"},{"_id":"60a7882620e1c00017f7ccc0","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"21 Mei 20"},{"_id":"60a8d9a6651bdd0017496701","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"22 Mei 20"},{"_id":"60aa2b2690f8810017e5a4b3","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"23 Mei 20"},{"_id":"60ab7ca7ab7bac001711d3b2","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"24 Mei 20"},{"_id":"60acce26fdca6c0017cde1c3","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"25 Mei 20"},{"_id":"60ae1fa5e46b45001711e1e6","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"26 Mei 20"},{"_id":"60af71276a7fe5001741ace0","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"27 Mei 20"},{"_id":"60b0c2a674c0ac00172b06d2","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"28 Mei 20"},{"_id":"60b21426bfd0e50017fac3d7","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"29 Mei 20"},{"_id":"60b365a627001b001763efef","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"30 Mei 20"},{"_id":"60b4b726d9e0020017e2bb37","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"31 Mei 20"},{"_id":"60b608a6b96f960017fd8906","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"1 Jun 20"},{"_id":"60b75a2643aebb001784231b","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"2 Jun 20"},{"_id":"60b8aba62a77c40017d0cb44","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"3 Jun 20"},{"_id":"60b9fd26e40f240017626a5f","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"4 Jun 20"},{"_id":"60bb4ea5a02c26001722bbc4","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"5 Jun 20"},{"_id":"60bca0263eabd20017f943ca","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"6 Jun 20"},{"_id":"60bdf1a65c309b001762dcfe","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"7 Jun 20"},{"_id":"60bf432658d9a500174aed61","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"8 Jun 20"},{"_id":"60c094a53a147e0017e225d6","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"9 Jun 20"},{"_id":"60c1e62681054300171659fe","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"10 Jun 20"},{"_id":"60c337a6c3116b001737aa0e","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"11 Jun 20"},{"_id":"60c489268608680017c4dea4","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"12 Jun 20"},{"_id":"60c5daa63ed79f00179c3319","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"13 Jun 20"},{"_id":"60c72c26b1fd1d0017c8c8c2","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"14 Jun 20"},{"_id":"60c87da7a5cfce00178f0bf3","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"15 Jun 20"},{"_id":"60c9cf2689c8620017223d5a","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"16 Jun 20"},{"_id":"60cb20a6872a8c0017a9fdfc","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"17 Jun 20"},{"_id":"60cc72268261d900178d37f2","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"18 Jun 20"},{"_id":"60cdc3a69e4619001799ad63","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"19 Jun 20"},{"_id":"60cf152630929d0017537155","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"20 Jun 20"},{"_id":"60d066a6195d090017fd3f9e","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"21 Jun 20"},{"_id":"60d1b82594899d001761f82d","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"22 Jun 20"},{"_id":"60d309a62a06ea0017253739","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"23 Jun 20"},{"_id":"60d45b26cfe436001790ce4b","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"24 Jun 20"},{"_id":"60d5aca60c6fdd0017e2123b","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"25 Jun 20"},{"_id":"60d6fe26b6e4cb001716a984","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"26 Jun 20"},{"_id":"60d84fa6c552530017fa081d","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"27 Jun 20"},{"_id":"60d9a12603510f00170cde48","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"28 Jun 20"},{"_id":"60daf2a63493390017ed5451","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"29 Jun 20"},{"_id":"60dc44250a97c800179e29d9","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"30 Jun 20"},{"_id":"60dd95a609930e001722e71b","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"1 Jul 20"},{"_id":"60dee726c5ca7e001779ae3c","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"2 Jul 20"},{"_id":"60e038a65f379600170ff2cb","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"3 Jul 20"},{"_id":"60e18a27d9035e001711d7f4","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"4 Jul 20"},{"_id":"60e2dba645a9020017cb07f7","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"5 Jul 20"},{"_id":"60e42d2605f5b9001756a88a","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"6 Jul 20"},{"_id":"60e57ea7fc2b0b0017306f4a","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"7 Jul 20"},{"_id":"60e6d0268417b30017f3d9a2","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"8 Jul 20"},{"_id":"60e821a57e50630017709732","activeDaily":38703,"recoveredDaily":33636,"deathDaily":948,"patientDaily":4119,"date":"9 Jul 20"}],"deathProv":948,"recoveredProv":33636,"__v":509}
+{
+  "_id": "5f199fb065a2cb774486f164",
+  "nameProv": "DIY",
+  "activeProv": 7398,
+  "daily": [
+    {
+      "_id": "5f1c27c506f6833ab00c395e",
+      "activeDaily": 5,
+      "recoveredDaily": 1,
+      "deathDaily": 0,
+      "patientDaily": 4,
+      "date": "21 Mar 20"
+    },
+    {
+      "_id": "5f1c27f506f6833ab00c395f",
+      "activeDaily": 5,
+      "recoveredDaily": 1,
+      "deathDaily": 0,
+      "patientDaily": 4,
+      "date": "22 Mar 20"
+    },
+    {
+      "_id": "5f1c280b06f6833ab00c3960",
+      "activeDaily": 5,
+      "recoveredDaily": 1,
+      "deathDaily": 0,
+      "patientDaily": 4,
+      "date": "23 Mar 20"
+    },
+    {
+      "_id": "5f1c28cf06f6833ab00c3961",
+      "activeDaily": 18,
+      "recoveredDaily": 1,
+      "deathDaily": 3,
+      "patientDaily": 14,
+      "date": "25 Mar 20"
+    },
+    {
+      "_id": "5f1c28e206f6833ab00c3962",
+      "activeDaily": 18,
+      "recoveredDaily": 1,
+      "deathDaily": 3,
+      "patientDaily": 14,
+      "date": "26 Mar 20"
+    },
+    {
+      "_id": "5f1c290306f6833ab00c3963",
+      "activeDaily": 19,
+      "recoveredDaily": 1,
+      "deathDaily": 3,
+      "patientDaily": 15,
+      "date": "27 Mar 20"
+    },
+    {
+      "_id": "5f1c292406f6833ab00c3964",
+      "activeDaily": 19,
+      "recoveredDaily": 1,
+      "deathDaily": 3,
+      "patientDaily": 15,
+      "date": "28 Mar 20"
+    },
+    {
+      "_id": "5f1c292806f6833ab00c3965",
+      "activeDaily": 19,
+      "recoveredDaily": 1,
+      "deathDaily": 3,
+      "patientDaily": 15,
+      "date": "29 Mar 20"
+    },
+    {
+      "_id": "5f1c293106f6833ab00c3966",
+      "activeDaily": 19,
+      "recoveredDaily": 1,
+      "deathDaily": 3,
+      "patientDaily": 15,
+      "date": "30 Mar 20"
+    },
+    {
+      "_id": "5f1c295906f6833ab00c3967",
+      "activeDaily": 24,
+      "recoveredDaily": 2,
+      "deathDaily": 3,
+      "patientDaily": 19,
+      "date": "31 Mar 20"
+    },
+    {
+      "_id": "5f1c299406f6833ab00c3968",
+      "activeDaily": 28,
+      "recoveredDaily": 2,
+      "deathDaily": 3,
+      "patientDaily": 23,
+      "date": "1 Apr 20"
+    },
+    {
+      "_id": "5f1c29c606f6833ab00c3969",
+      "activeDaily": 29,
+      "recoveredDaily": 3,
+      "deathDaily": 3,
+      "patientDaily": 23,
+      "date": "2 Apr 20"
+    },
+    {
+      "_id": "5f1c29dc06f6833ab00c396a",
+      "activeDaily": 31,
+      "recoveredDaily": 3,
+      "deathDaily": 3,
+      "patientDaily": 25,
+      "date": "3 Apr 20"
+    },
+    {
+      "_id": "5f1c2a0f06f6833ab00c396b",
+      "activeDaily": 34,
+      "recoveredDaily": 6,
+      "deathDaily": 3,
+      "patientDaily": 25,
+      "date": "4 Apr 20"
+    },
+    {
+      "_id": "5f1c2a4206f6833ab00c396c",
+      "activeDaily": 35,
+      "recoveredDaily": 6,
+      "deathDaily": 4,
+      "patientDaily": 25,
+      "date": "5 Apr 20"
+    },
+    {
+      "_id": "5f1c2a5106f6833ab00c396d",
+      "activeDaily": 37,
+      "recoveredDaily": 6,
+      "deathDaily": 4,
+      "patientDaily": 27,
+      "date": "6 Apr 20"
+    },
+    {
+      "_id": "5f1c2a7006f6833ab00c396e",
+      "activeDaily": 38,
+      "recoveredDaily": 6,
+      "deathDaily": 7,
+      "patientDaily": 25,
+      "date": "7 Apr 20"
+    },
+    {
+      "_id": "5f1c2ac706f6833ab00c396f",
+      "activeDaily": 38,
+      "recoveredDaily": 6,
+      "deathDaily": 6,
+      "patientDaily": 26,
+      "date": "8 Apr 20"
+    },
+    {
+      "_id": "5f1c2ade06f6833ab00c3970",
+      "activeDaily": 40,
+      "recoveredDaily": 7,
+      "deathDaily": 6,
+      "patientDaily": 27,
+      "date": "9 Apr 20"
+    },
+    {
+      "_id": "5f1c2af406f6833ab00c3971",
+      "activeDaily": 40,
+      "recoveredDaily": 10,
+      "deathDaily": 6,
+      "patientDaily": 24,
+      "date": "10 Apr 20"
+    },
+    {
+      "_id": "5f1c2b0206f6833ab00c3972",
+      "activeDaily": 40,
+      "recoveredDaily": 10,
+      "deathDaily": 6,
+      "patientDaily": 24,
+      "date": "11 Apr 20"
+    },
+    {
+      "_id": "5f1c2b3806f6833ab00c3973",
+      "activeDaily": 48,
+      "recoveredDaily": 13,
+      "deathDaily": 6,
+      "patientDaily": 29,
+      "date": "12 Apr 20"
+    },
+    {
+      "_id": "5f1c2b4d06f6833ab00c3974",
+      "activeDaily": 55,
+      "recoveredDaily": 17,
+      "deathDaily": 6,
+      "patientDaily": 32,
+      "date": "13 Apr 20"
+    },
+    {
+      "_id": "5f1c2b6106f6833ab00c3975",
+      "activeDaily": 61,
+      "recoveredDaily": 18,
+      "deathDaily": 6,
+      "patientDaily": 37,
+      "date": "14 Apr 20"
+    },
+    {
+      "_id": "5f1c2b7c06f6833ab00c3976",
+      "activeDaily": 62,
+      "recoveredDaily": 22,
+      "deathDaily": 6,
+      "patientDaily": 34,
+      "date": "15 Apr 20"
+    },
+    {
+      "_id": "5f1c2b8b06f6833ab00c3977",
+      "activeDaily": 63,
+      "recoveredDaily": 22,
+      "deathDaily": 6,
+      "patientDaily": 35,
+      "date": "16 Apr 20"
+    },
+    {
+      "_id": "5f1c2bac06f6833ab00c3978",
+      "activeDaily": 64,
+      "recoveredDaily": 25,
+      "deathDaily": 7,
+      "patientDaily": 32,
+      "date": "17 Apr 20"
+    },
+    {
+      "_id": "5f1c2bbc06f6833ab00c3979",
+      "activeDaily": 67,
+      "recoveredDaily": 27,
+      "deathDaily": 7,
+      "patientDaily": 33,
+      "date": "18 Apr 20"
+    },
+    {
+      "_id": "5f1c2bcb06f6833ab00c397a",
+      "activeDaily": 67,
+      "recoveredDaily": 27,
+      "deathDaily": 7,
+      "patientDaily": 33,
+      "date": "19 Apr 20"
+    },
+    {
+      "_id": "5f1c2be606f6833ab00c397b",
+      "activeDaily": 69,
+      "recoveredDaily": 28,
+      "deathDaily": 7,
+      "patientDaily": 34,
+      "date": "20 Apr 20"
+    },
+    {
+      "_id": "5f1c2c1d06f6833ab00c397c",
+      "activeDaily": 72,
+      "recoveredDaily": 30,
+      "deathDaily": 7,
+      "patientDaily": 35,
+      "date": "21 Apr 20"
+    },
+    {
+      "_id": "5f1c2c2e06f6833ab00c397d",
+      "activeDaily": 75,
+      "recoveredDaily": 30,
+      "deathDaily": 7,
+      "patientDaily": 38,
+      "date": "22 Apr 20"
+    },
+    {
+      "_id": "5f1c2c4406f6833ab00c397e",
+      "activeDaily": 76,
+      "recoveredDaily": 32,
+      "deathDaily": 7,
+      "patientDaily": 37,
+      "date": "23 Apr 20"
+    },
+    {
+      "_id": "5f1c2c5706f6833ab00c397f",
+      "activeDaily": 77,
+      "recoveredDaily": 36,
+      "deathDaily": 7,
+      "patientDaily": 34,
+      "date": "24 Apr 20"
+    },
+    {
+      "_id": "5f1c2c6606f6833ab00c3980",
+      "activeDaily": 79,
+      "recoveredDaily": 36,
+      "deathDaily": 7,
+      "patientDaily": 36,
+      "date": "25 Apr 20"
+    },
+    {
+      "_id": "5f1c2c7806f6833ab00c3981",
+      "activeDaily": 82,
+      "recoveredDaily": 36,
+      "deathDaily": 7,
+      "patientDaily": 39,
+      "date": "26 Apr 20"
+    },
+    {
+      "_id": "5f1c2c9106f6833ab00c3982",
+      "activeDaily": 83,
+      "recoveredDaily": 39,
+      "deathDaily": 7,
+      "patientDaily": 37,
+      "date": "27 Apr 20"
+    },
+    {
+      "_id": "5f1c2ca906f6833ab00c3983",
+      "activeDaily": 93,
+      "recoveredDaily": 39,
+      "deathDaily": 7,
+      "patientDaily": 47,
+      "date": "28 Apr 20"
+    },
+    {
+      "_id": "5f1c2cbe06f6833ab00c3984",
+      "activeDaily": 94,
+      "recoveredDaily": 40,
+      "deathDaily": 7,
+      "patientDaily": 47,
+      "date": "29 Apr 20"
+    },
+    {
+      "_id": "5f1c2cd406f6833ab00c39c9",
+      "activeDaily": 95,
+      "recoveredDaily": 43,
+      "deathDaily": 7,
+      "patientDaily": 45,
+      "date": "30 Apr 20"
+    },
+    {
+      "_id": "5f1c2cf906f6833ab00c39ca",
+      "activeDaily": 104,
+      "recoveredDaily": 44,
+      "deathDaily": 7,
+      "patientDaily": 53,
+      "date": "1 Mei 20"
+    },
+    {
+      "_id": "5f1c2d0f06f6833ab00c39cb",
+      "activeDaily": 114,
+      "recoveredDaily": 48,
+      "deathDaily": 7,
+      "patientDaily": 59,
+      "date": "2 Mei 20"
+    },
+    {
+      "_id": "5f1c2d2606f6833ab00c39cc",
+      "activeDaily": 115,
+      "recoveredDaily": 49,
+      "deathDaily": 7,
+      "patientDaily": 59,
+      "date": "3 Mei 20"
+    },
+    {
+      "_id": "5f1c2d3506f6833ab00c39cd",
+      "activeDaily": 115,
+      "recoveredDaily": 50,
+      "deathDaily": 7,
+      "patientDaily": 58,
+      "date": "4 Mei 20"
+    },
+    {
+      "_id": "5f1c2d4806f6833ab00c39ce",
+      "activeDaily": 121,
+      "recoveredDaily": 52,
+      "deathDaily": 7,
+      "patientDaily": 62,
+      "date": "5 Mei 20"
+    },
+    {
+      "_id": "5f1c2d5c06f6833ab00c39cf",
+      "activeDaily": 122,
+      "recoveredDaily": 53,
+      "deathDaily": 7,
+      "patientDaily": 62,
+      "date": "6 Mei 20"
+    },
+    {
+      "_id": "5f1c2d7a06f6833ab00c39d0",
+      "activeDaily": 137,
+      "recoveredDaily": 57,
+      "deathDaily": 7,
+      "patientDaily": 73,
+      "date": "7 Mei 20"
+    },
+    {
+      "_id": "5f1c2d8d06f6833ab00c39d1",
+      "activeDaily": 143,
+      "recoveredDaily": 59,
+      "deathDaily": 7,
+      "patientDaily": 77,
+      "date": "8 Mei 20"
+    },
+    {
+      "_id": "5f1c2dac06f6833ab00c39d2",
+      "activeDaily": 146,
+      "recoveredDaily": 59,
+      "deathDaily": 7,
+      "patientDaily": 80,
+      "date": "9 Mei 20"
+    },
+    {
+      "_id": "5f1c2dbd06f6833ab00c39d3",
+      "activeDaily": 153,
+      "recoveredDaily": 60,
+      "deathDaily": 7,
+      "patientDaily": 86,
+      "date": "10 Mei 20"
+    },
+    {
+      "_id": "5f1c2dcb06f6833ab00c39d4",
+      "activeDaily": 159,
+      "recoveredDaily": 61,
+      "deathDaily": 7,
+      "patientDaily": 91,
+      "date": "11 Mei 20"
+    },
+    {
+      "_id": "5f1c2dd906f6833ab00c39d5",
+      "activeDaily": 169,
+      "recoveredDaily": 63,
+      "deathDaily": 7,
+      "patientDaily": 99,
+      "date": "12 Mei 20"
+    },
+    {
+      "_id": "5f1c2dfa06f6833ab00c39d6",
+      "activeDaily": 181,
+      "recoveredDaily": 68,
+      "deathDaily": 7,
+      "patientDaily": 106,
+      "date": "13 Mei 20"
+    },
+    {
+      "_id": "5f1c2e0806f6833ab00c39d7",
+      "activeDaily": 185,
+      "recoveredDaily": 68,
+      "deathDaily": 7,
+      "patientDaily": 110,
+      "date": "14 Mei 20"
+    },
+    {
+      "_id": "5f1c2e1906f6833ab00c39d8",
+      "activeDaily": 188,
+      "recoveredDaily": 71,
+      "deathDaily": 7,
+      "patientDaily": 110,
+      "date": "15 Mei 20"
+    },
+    {
+      "_id": "5f1c2e3506f6833ab00c39d9",
+      "activeDaily": 194,
+      "recoveredDaily": 77,
+      "deathDaily": 8,
+      "patientDaily": 109,
+      "date": "16 Mei 20"
+    },
+    {
+      "_id": "5f1c2e4a06f6833ab00c39da",
+      "activeDaily": 199,
+      "recoveredDaily": 85,
+      "deathDaily": 8,
+      "patientDaily": 106,
+      "date": "17 Mei 20"
+    },
+    {
+      "_id": "5f1c2e5906f6833ab00c39db",
+      "activeDaily": 200,
+      "recoveredDaily": 90,
+      "deathDaily": 8,
+      "patientDaily": 102,
+      "date": "18 Mei 20"
+    },
+    {
+      "_id": "5f1c2e6e06f6833ab00c39dc",
+      "activeDaily": 206,
+      "recoveredDaily": 95,
+      "deathDaily": 8,
+      "patientDaily": 103,
+      "date": "19 Mei 20"
+    },
+    {
+      "_id": "5f1c2e8206f6833ab00c39dd",
+      "activeDaily": 209,
+      "recoveredDaily": 97,
+      "deathDaily": 8,
+      "patientDaily": 104,
+      "date": "20 Mei 20"
+    },
+    {
+      "_id": "5f1c2e9f06f6833ab00c39de",
+      "activeDaily": 215,
+      "recoveredDaily": 105,
+      "deathDaily": 8,
+      "patientDaily": 102,
+      "date": "21 Mei 20"
+    },
+    {
+      "_id": "5f1c2eb906f6833ab00c39df",
+      "activeDaily": 220,
+      "recoveredDaily": 118,
+      "deathDaily": 8,
+      "patientDaily": 94,
+      "date": "22 Mei 20"
+    },
+    {
+      "_id": "5f1c2ecf06f6833ab00c39e0",
+      "activeDaily": 225,
+      "recoveredDaily": 122,
+      "deathDaily": 8,
+      "patientDaily": 95,
+      "date": "23 Mei 20"
+    },
+    {
+      "_id": "5f1c2ee306f6833ab00c39e1",
+      "activeDaily": 226,
+      "recoveredDaily": 123,
+      "deathDaily": 8,
+      "patientDaily": 95,
+      "date": "24 Mei 20"
+    },
+    {
+      "_id": "5f1c2ef406f6833ab00c39e2",
+      "activeDaily": 226,
+      "recoveredDaily": 125,
+      "deathDaily": 8,
+      "patientDaily": 93,
+      "date": "25 Mei 20"
+    },
+    {
+      "_id": "5f1c2f1106f6833ab00c39e3",
+      "activeDaily": 226,
+      "recoveredDaily": 125,
+      "deathDaily": 8,
+      "patientDaily": 93,
+      "date": "26 Mei 20"
+    },
+    {
+      "_id": "5f1c2f2b06f6833ab00c39e4",
+      "activeDaily": 228,
+      "recoveredDaily": 135,
+      "deathDaily": 8,
+      "patientDaily": 85,
+      "date": "27 Mei 20"
+    },
+    {
+      "_id": "5f1c2f5906f6833ab00c39e5",
+      "activeDaily": 228,
+      "recoveredDaily": 143,
+      "deathDaily": 8,
+      "patientDaily": 77,
+      "date": "28 Mei 20"
+    },
+    {
+      "_id": "5f1c2f7106f6833ab00c39e6",
+      "activeDaily": 230,
+      "recoveredDaily": 150,
+      "deathDaily": 8,
+      "patientDaily": 72,
+      "date": "29 Mei 20"
+    },
+    {
+      "_id": "5f1c2f9206f6833ab00c39e7",
+      "activeDaily": 233,
+      "recoveredDaily": 159,
+      "deathDaily": 8,
+      "patientDaily": 66,
+      "date": "30 Mei 20"
+    },
+    {
+      "_id": "5f1c2fb006f6833ab00c39e8",
+      "activeDaily": 236,
+      "recoveredDaily": 161,
+      "deathDaily": 8,
+      "patientDaily": 67,
+      "date": "31 Mei 20"
+    },
+    {
+      "_id": "5f1c2fc606f6833ab00c39e9",
+      "activeDaily": 237,
+      "recoveredDaily": 167,
+      "deathDaily": 8,
+      "patientDaily": 62,
+      "date": "1 Jun 20"
+    },
+    {
+      "_id": "5f1c2fd806f6833ab00c39ea",
+      "activeDaily": 237,
+      "recoveredDaily": 169,
+      "deathDaily": 8,
+      "patientDaily": 60,
+      "date": "2 Jun 20"
+    },
+    {
+      "_id": "5f1c2fea06f6833ab00c39eb",
+      "activeDaily": 237,
+      "recoveredDaily": 171,
+      "deathDaily": 8,
+      "patientDaily": 58,
+      "date": "3 Jun 20"
+    },
+    {
+      "_id": "5f1c2ffc06f6833ab00c39ec",
+      "activeDaily": 238,
+      "recoveredDaily": 175,
+      "deathDaily": 8,
+      "patientDaily": 55,
+      "date": "4 Jun 20"
+    },
+    {
+      "_id": "5f1c300606f6833ab00c39ed",
+      "activeDaily": 238,
+      "recoveredDaily": 175,
+      "deathDaily": 8,
+      "patientDaily": 55,
+      "date": "5 Jun 20"
+    },
+    {
+      "_id": "5f1c301606f6833ab00c39ee",
+      "activeDaily": 242,
+      "recoveredDaily": 179,
+      "deathDaily": 8,
+      "patientDaily": 55,
+      "date": "6 Jun 20"
+    },
+    {
+      "_id": "5f1c302506f6833ab00c39ef",
+      "activeDaily": 244,
+      "recoveredDaily": 183,
+      "deathDaily": 8,
+      "patientDaily": 53,
+      "date": "7 Jun 20"
+    },
+    {
+      "_id": "5f1c303706f6833ab00c39f0",
+      "activeDaily": 247,
+      "recoveredDaily": 185,
+      "deathDaily": 8,
+      "patientDaily": 54,
+      "date": "8 Jun 20"
+    },
+    {
+      "_id": "5f1c304d06f6833ab00c39f1",
+      "activeDaily": 249,
+      "recoveredDaily": 191,
+      "deathDaily": 8,
+      "patientDaily": 50,
+      "date": "9 Jun 20"
+    },
+    {
+      "_id": "5f1c305c06f6833ab00c39f2",
+      "activeDaily": 250,
+      "recoveredDaily": 194,
+      "deathDaily": 8,
+      "patientDaily": 48,
+      "date": "10 Jun 20"
+    },
+    {
+      "_id": "5f1c306b06f6833ab00c39f3",
+      "activeDaily": 252,
+      "recoveredDaily": 195,
+      "deathDaily": 8,
+      "patientDaily": 49,
+      "date": "11 Jun 20"
+    },
+    {
+      "_id": "5f1c308a06f6833ab00c39f4",
+      "activeDaily": 262,
+      "recoveredDaily": 192,
+      "deathDaily": 8,
+      "patientDaily": 62,
+      "date": "12 Jun 20"
+    },
+    {
+      "_id": "5f1c309b06f6833ab00c39f5",
+      "activeDaily": 264,
+      "recoveredDaily": 204,
+      "deathDaily": 8,
+      "patientDaily": 52,
+      "date": "13 Jun 20"
+    },
+    {
+      "_id": "5f1c30ac06f6833ab00c39f6",
+      "activeDaily": 269,
+      "recoveredDaily": 210,
+      "deathDaily": 8,
+      "patientDaily": 51,
+      "date": "14 Jun 20"
+    },
+    {
+      "_id": "5f1c30ba06f6833ab00c39f7",
+      "activeDaily": 272,
+      "recoveredDaily": 211,
+      "deathDaily": 8,
+      "patientDaily": 53,
+      "date": "15 Jun 20"
+    },
+    {
+      "_id": "5f1c30c706f6833ab00c39f8",
+      "activeDaily": 273,
+      "recoveredDaily": 213,
+      "deathDaily": 8,
+      "patientDaily": 52,
+      "date": "16 Jun 20"
+    },
+    {
+      "_id": "5f1c30c906f6833ab00c39f9",
+      "activeDaily": 273,
+      "recoveredDaily": 213,
+      "deathDaily": 8,
+      "patientDaily": 52,
+      "date": "16 Jun 20"
+    },
+    {
+      "_id": "5f1c30da06f6833ab00c39fa",
+      "activeDaily": 276,
+      "recoveredDaily": 216,
+      "deathDaily": 8,
+      "patientDaily": 52,
+      "date": "17 Jun 20"
+    },
+    {
+      "_id": "5f1c30e706f6833ab00c39fb",
+      "activeDaily": 276,
+      "recoveredDaily": 219,
+      "deathDaily": 8,
+      "patientDaily": 49,
+      "date": "18 Jun 20"
+    },
+    {
+      "_id": "5f1c30f806f6833ab00c39fc",
+      "activeDaily": 277,
+      "recoveredDaily": 226,
+      "deathDaily": 8,
+      "patientDaily": 43,
+      "date": "19 Jun 20"
+    },
+    {
+      "_id": "5f1c310d06f6833ab00c39fd",
+      "activeDaily": 285,
+      "recoveredDaily": 231,
+      "deathDaily": 8,
+      "patientDaily": 46,
+      "date": "20 Jun 20"
+    },
+    {
+      "_id": "5f1c312206f6833ab00c39fe",
+      "activeDaily": 288,
+      "recoveredDaily": 231,
+      "deathDaily": 8,
+      "patientDaily": 49,
+      "date": "21 Jun 20"
+    },
+    {
+      "_id": "5f1c313206f6833ab00c39ff",
+      "activeDaily": 288,
+      "recoveredDaily": 238,
+      "deathDaily": 8,
+      "patientDaily": 42,
+      "date": "22 Jun 20"
+    },
+    {
+      "_id": "5f1c314406f6833ab00c3a00",
+      "activeDaily": 291,
+      "recoveredDaily": 238,
+      "deathDaily": 8,
+      "patientDaily": 45,
+      "date": "23 Jun 20"
+    },
+    {
+      "_id": "5f1c315b06f6833ab00c3a01",
+      "activeDaily": 292,
+      "recoveredDaily": 242,
+      "deathDaily": 8,
+      "patientDaily": 42,
+      "date": "24 Jun 20"
+    },
+    {
+      "_id": "5f1c316e06f6833ab00c3a02",
+      "activeDaily": 299,
+      "recoveredDaily": 247,
+      "deathDaily": 8,
+      "patientDaily": 44,
+      "date": "25 Jun 20"
+    },
+    {
+      "_id": "5f1c318306f6833ab00c3a03",
+      "activeDaily": 302,
+      "recoveredDaily": 252,
+      "deathDaily": 8,
+      "patientDaily": 42,
+      "date": "26 Jun 20"
+    },
+    {
+      "_id": "5f1c319406f6833ab00c3a04",
+      "activeDaily": 304,
+      "recoveredDaily": 257,
+      "deathDaily": 8,
+      "patientDaily": 39,
+      "date": "27 Jun 20"
+    },
+    {
+      "_id": "5f1c31a606f6833ab00c3a05",
+      "activeDaily": 306,
+      "recoveredDaily": 260,
+      "deathDaily": 8,
+      "patientDaily": 38,
+      "date": "28 Jun 20"
+    },
+    {
+      "_id": "5f1c31b606f6833ab00c3a06",
+      "activeDaily": 306,
+      "recoveredDaily": 261,
+      "deathDaily": 8,
+      "patientDaily": 37,
+      "date": "29 Jun 20"
+    },
+    {
+      "_id": "5f1c31ce06f6833ab00c3a07",
+      "activeDaily": 313,
+      "recoveredDaily": 263,
+      "deathDaily": 8,
+      "patientDaily": 42,
+      "date": "30 Jun 20"
+    },
+    {
+      "_id": "5f1c31fb06f6833ab00c3a08",
+      "activeDaily": 314,
+      "recoveredDaily": 264,
+      "deathDaily": 8,
+      "patientDaily": 42,
+      "date": "1 Jul 20"
+    },
+    {
+      "_id": "5f1c320f06f6833ab00c3a09",
+      "activeDaily": 320,
+      "recoveredDaily": 269,
+      "deathDaily": 8,
+      "patientDaily": 43,
+      "date": "2 Jul 20"
+    },
+    {
+      "_id": "5f1c322b06f6833ab00c3a0a",
+      "activeDaily": 325,
+      "recoveredDaily": 271,
+      "deathDaily": 8,
+      "patientDaily": 46,
+      "date": "3 Jul 20"
+    },
+    {
+      "_id": "5f1c324206f6833ab00c3a0b",
+      "activeDaily": 325,
+      "recoveredDaily": 275,
+      "deathDaily": 8,
+      "patientDaily": 42,
+      "date": "4 Jul 20"
+    },
+    {
+      "_id": "5f1c325506f6833ab00c3a0c",
+      "activeDaily": 331,
+      "recoveredDaily": 276,
+      "deathDaily": 8,
+      "patientDaily": 47,
+      "date": "5 Jul 20"
+    },
+    {
+      "_id": "5f1c326506f6833ab00c3a0d",
+      "activeDaily": 339,
+      "recoveredDaily": 278,
+      "deathDaily": 8,
+      "patientDaily": 53,
+      "date": "6 Jul 20"
+    },
+    {
+      "_id": "5f1c328406f6833ab00c3a0e",
+      "activeDaily": 346,
+      "recoveredDaily": 282,
+      "deathDaily": 8,
+      "patientDaily": 56,
+      "date": "7 Jul 20"
+    },
+    {
+      "_id": "5f1c329406f6833ab00c3a0f",
+      "activeDaily": 349,
+      "recoveredDaily": 285,
+      "deathDaily": 8,
+      "patientDaily": 56,
+      "date": "8 Jul 20"
+    },
+    {
+      "_id": "5f1c32aa06f6833ab00c3a10",
+      "activeDaily": 357,
+      "recoveredDaily": 287,
+      "deathDaily": 9,
+      "patientDaily": 61,
+      "date": "9 Jul 20"
+    },
+    {
+      "_id": "5f1c32bc06f6833ab00c3a11",
+      "activeDaily": 364,
+      "recoveredDaily": 288,
+      "deathDaily": 9,
+      "patientDaily": 67,
+      "date": "10 Jul 20"
+    },
+    {
+      "_id": "5f1c32cf06f6833ab00c3a12",
+      "activeDaily": 370,
+      "recoveredDaily": 291,
+      "deathDaily": 9,
+      "patientDaily": 70,
+      "date": "11 Jul 20"
+    },
+    {
+      "_id": "5f1c32e306f6833ab00c3a13",
+      "activeDaily": 371,
+      "recoveredDaily": 293,
+      "deathDaily": 9,
+      "patientDaily": 69,
+      "date": "12 Jul 20"
+    },
+    {
+      "_id": "5f1c32fd06f6833ab00c3a14",
+      "activeDaily": 379,
+      "recoveredDaily": 295,
+      "deathDaily": 10,
+      "patientDaily": 74,
+      "date": "13 Jul 20"
+    },
+    {
+      "_id": "5f1c331106f6833ab00c3a15",
+      "activeDaily": 387,
+      "recoveredDaily": 304,
+      "deathDaily": 10,
+      "patientDaily": 73,
+      "date": "14 Jul 20"
+    },
+    {
+      "_id": "5f1c332e06f6833ab00c3a16",
+      "activeDaily": 396,
+      "recoveredDaily": 309,
+      "deathDaily": 11,
+      "patientDaily": 76,
+      "date": "15 Jul 20"
+    },
+    {
+      "_id": "5f1c335006f6833ab00c3a17",
+      "activeDaily": 404,
+      "recoveredDaily": 313,
+      "deathDaily": 11,
+      "patientDaily": 80,
+      "date": "16 Jul 20"
+    },
+    {
+      "_id": "5f1c336406f6833ab00c3a18",
+      "activeDaily": 408,
+      "recoveredDaily": 314,
+      "deathDaily": 11,
+      "patientDaily": 83,
+      "date": "17 Jul 20"
+    },
+    {
+      "_id": "5f1c337706f6833ab00c3a19",
+      "activeDaily": 416,
+      "recoveredDaily": 316,
+      "deathDaily": 11,
+      "patientDaily": 89,
+      "date": "18 Jul 20"
+    },
+    {
+      "_id": "5f1c339406f6833ab00c3a1a",
+      "activeDaily": 432,
+      "recoveredDaily": 324,
+      "deathDaily": 12,
+      "patientDaily": 96,
+      "date": "19 Jul 20"
+    },
+    {
+      "_id": "5f1c33a806f6833ab00c3a1b",
+      "activeDaily": 438,
+      "recoveredDaily": 327,
+      "deathDaily": 12,
+      "patientDaily": 99,
+      "date": "20 Jul 20"
+    },
+    {
+      "_id": "5f1c33cc06f6833ab00c3a1c",
+      "activeDaily": 465,
+      "recoveredDaily": 330,
+      "deathDaily": 13,
+      "patientDaily": 122,
+      "date": "21 Jul 20"
+    },
+    {
+      "_id": "5f1c33ec06f6833ab00c3a1d",
+      "activeDaily": 486,
+      "recoveredDaily": 332,
+      "deathDaily": 14,
+      "patientDaily": 140,
+      "date": "22 Jul 20"
+    },
+    {
+      "_id": "5f1c340906f6833ab00c3a1e",
+      "activeDaily": 496,
+      "recoveredDaily": 336,
+      "deathDaily": 15,
+      "patientDaily": 145,
+      "date": "23 Jul 20"
+    },
+    {
+      "_id": "5f1c341d06f6833ab00c3a1f",
+      "activeDaily": 519,
+      "recoveredDaily": 337,
+      "deathDaily": 15,
+      "patientDaily": 167,
+      "date": "24 Jul 20"
+    },
+    {
+      "_id": "5f1c344006f6833ab00c3a20",
+      "activeDaily": 536,
+      "recoveredDaily": 344,
+      "deathDaily": 16,
+      "patientDaily": 176,
+      "date": "25 Jul 20"
+    },
+    {
+      "_id": "5f1d72762da0520a70fb92f8",
+      "activeDaily": 543,
+      "recoveredDaily": 347,
+      "deathDaily": 17,
+      "patientDaily": 179,
+      "date": "26 Jul 20"
+    },
+    {
+      "_id": "5f1ea73176ce4c2384390942",
+      "activeDaily": 558,
+      "recoveredDaily": 350,
+      "deathDaily": 17,
+      "patientDaily": 191,
+      "date": "27 Jul 20"
+    },
+    {
+      "_id": "5f1ff904a4d3010017744a2f",
+      "activeDaily": 572,
+      "recoveredDaily": 356,
+      "deathDaily": 19,
+      "patientDaily": 197,
+      "date": "28 Jul 20"
+    },
+    {
+      "_id": "5f214e0f194b7c0017f8d5b4",
+      "activeDaily": 587,
+      "recoveredDaily": 368,
+      "deathDaily": 19,
+      "patientDaily": 200,
+      "date": "29 Jul 20"
+    },
+    {
+      "_id": "5f22a4d53a792d00174c7542",
+      "activeDaily": 610,
+      "recoveredDaily": 382,
+      "deathDaily": 19,
+      "patientDaily": 209,
+      "date": "30 Jul 20"
+    },
+    {
+      "_id": "5f23faaf2812e400170c2c31",
+      "activeDaily": 674,
+      "recoveredDaily": 399,
+      "deathDaily": 20,
+      "patientDaily": 255,
+      "date": "31 Jul 20"
+    },
+    {
+      "_id": "5f25482965e1a30017570123",
+      "activeDaily": 741,
+      "recoveredDaily": 410,
+      "deathDaily": 21,
+      "patientDaily": 310,
+      "date": "1 Aug 20"
+    },
+    {
+      "_id": "5f26a02992bbaf00171adc90",
+      "activeDaily": 760,
+      "recoveredDaily": 421,
+      "deathDaily": 21,
+      "patientDaily": 318,
+      "date": "2 Aug 20"
+    },
+    {
+      "_id": "5f27f150d66b9e00171d084e",
+      "activeDaily": 772,
+      "recoveredDaily": 434,
+      "deathDaily": 21,
+      "patientDaily": 317,
+      "date": "3 Aug 20"
+    },
+    {
+      "_id": "5f2931a24d42570017f2e890",
+      "activeDaily": 784,
+      "recoveredDaily": 448,
+      "deathDaily": 21,
+      "patientDaily": 317,
+      "date": "4 Aug 20"
+    },
+    {
+      "_id": "5f2aa409699d6300178beb81",
+      "activeDaily": 801,
+      "recoveredDaily": 477,
+      "deathDaily": 21,
+      "patientDaily": 303,
+      "date": "5 Aug 20"
+    },
+    {
+      "_id": "5f2bd96112b1f30017245229",
+      "activeDaily": 819,
+      "recoveredDaily": 497,
+      "deathDaily": 21,
+      "patientDaily": 301,
+      "date": "6 Aug 20"
+    },
+    {
+      "_id": "5f2d3ecf9ef648001717e738",
+      "activeDaily": 838,
+      "recoveredDaily": 525,
+      "deathDaily": 21,
+      "patientDaily": 292,
+      "date": "7 Aug 20"
+    },
+    {
+      "_id": "5f2e91a441299b00177e268d",
+      "activeDaily": 854,
+      "recoveredDaily": 552,
+      "deathDaily": 23,
+      "patientDaily": 279,
+      "date": "8 Aug 20"
+    },
+    {
+      "_id": "5f2feb1391d91d0017537471",
+      "activeDaily": 862,
+      "recoveredDaily": 570,
+      "deathDaily": 24,
+      "patientDaily": 268,
+      "date": "9 Aug 20"
+    },
+    {
+      "_id": "5f313a071688ce0017c65efd",
+      "activeDaily": 876,
+      "recoveredDaily": 593,
+      "deathDaily": 25,
+      "patientDaily": 258,
+      "date": "10 Aug 20"
+    },
+    {
+      "_id": "5f32726f648de20017aff073",
+      "activeDaily": 880,
+      "recoveredDaily": 609,
+      "deathDaily": 25,
+      "patientDaily": 246,
+      "date": "11 Aug 20"
+    },
+    {
+      "_id": "5f34136d00e398001726d7f2",
+      "activeDaily": 900,
+      "recoveredDaily": 633,
+      "deathDaily": 26,
+      "patientDaily": 241,
+      "date": "12 Aug 20"
+    },
+    {
+      "_id": "5f35826d05126300176a4dfe",
+      "activeDaily": 911,
+      "recoveredDaily": 646,
+      "deathDaily": 26,
+      "patientDaily": 239,
+      "date": "13 Aug 20"
+    },
+    {
+      "_id": "5f36674f05126300176a4e00",
+      "activeDaily": 946,
+      "recoveredDaily": 658,
+      "deathDaily": 28,
+      "patientDaily": 260,
+      "date": "14 Aug 20"
+    },
+    {
+      "_id": "5f37c15b7ea98d0017d8cf85",
+      "activeDaily": 992,
+      "recoveredDaily": 662,
+      "deathDaily": 28,
+      "patientDaily": 302,
+      "date": "15 Aug 20"
+    },
+    {
+      "_id": "5f390b27c86e5a0017c9b7f8",
+      "activeDaily": 1025,
+      "recoveredDaily": 675,
+      "deathDaily": 28,
+      "patientDaily": 322,
+      "date": "16 Aug 20"
+    },
+    {
+      "_id": "5f3a5ddefd0cc50017c967df",
+      "activeDaily": 1041,
+      "recoveredDaily": 682,
+      "deathDaily": 28,
+      "patientDaily": 331,
+      "date": "17 Aug 20"
+    },
+    {
+      "_id": "5f3bfc6adc636900174e9e33",
+      "activeDaily": 1059,
+      "recoveredDaily": 695,
+      "deathDaily": 29,
+      "patientDaily": 335,
+      "date": "18 Aug 20"
+    },
+    {
+      "_id": "5f3cfba682fb8300170fac75",
+      "activeDaily": 1059,
+      "recoveredDaily": 695,
+      "deathDaily": 29,
+      "patientDaily": 335,
+      "date": "19 Aug 20"
+    },
+    {
+      "_id": "5f3dfcb7433fba00170255ef",
+      "activeDaily": 1090,
+      "recoveredDaily": 713,
+      "deathDaily": 29,
+      "patientDaily": 348,
+      "date": "20 Aug 20"
+    },
+    {
+      "_id": "5f3e4d26433fba00170255f0",
+      "activeDaily": 1090,
+      "recoveredDaily": 713,
+      "deathDaily": 29,
+      "patientDaily": 348,
+      "date": "20 Aug 20"
+    },
+    {
+      "_id": "5f3f9ea6bb504e0017d0fcc3",
+      "activeDaily": 1138,
+      "recoveredDaily": 765,
+      "deathDaily": 31,
+      "patientDaily": 342,
+      "date": "21 Aug 20"
+    },
+    {
+      "_id": "5f40f025446ffd0017d4c15e",
+      "activeDaily": 1163,
+      "recoveredDaily": 793,
+      "deathDaily": 32,
+      "patientDaily": 338,
+      "date": "22 Aug 20"
+    },
+    {
+      "_id": "5f4241a57ddfe00017df7a61",
+      "activeDaily": 1178,
+      "recoveredDaily": 808,
+      "deathDaily": 33,
+      "patientDaily": 337,
+      "date": "23 Aug 20"
+    },
+    {
+      "_id": "5f4393279e6d8f00177a04a4",
+      "activeDaily": 1193,
+      "recoveredDaily": 826,
+      "deathDaily": 33,
+      "patientDaily": 334,
+      "date": "24 Aug 20"
+    },
+    {
+      "_id": "5f44e4a64ec8e0001799482d",
+      "activeDaily": 1207,
+      "recoveredDaily": 846,
+      "deathDaily": 34,
+      "patientDaily": 327,
+      "date": "25 Aug 20"
+    },
+    {
+      "_id": "5f463626231f7400173645d3",
+      "activeDaily": 1248,
+      "recoveredDaily": 857,
+      "deathDaily": 34,
+      "patientDaily": 357,
+      "date": "26 Aug 20"
+    },
+    {
+      "_id": "5f4787a753005500170207aa",
+      "activeDaily": 1264,
+      "recoveredDaily": 892,
+      "deathDaily": 36,
+      "patientDaily": 336,
+      "date": "27 Aug 20"
+    },
+    {
+      "_id": "5f48d926bfa5e400179a69bd",
+      "activeDaily": 1306,
+      "recoveredDaily": 923,
+      "deathDaily": 36,
+      "patientDaily": 347,
+      "date": "28 Aug 20"
+    },
+    {
+      "_id": "5f4a2aa63674eb00175e10eb",
+      "activeDaily": 1326,
+      "recoveredDaily": 947,
+      "deathDaily": 36,
+      "patientDaily": 343,
+      "date": "29 Aug 20"
+    },
+    {
+      "_id": "5f4b7c27871f8100175e6932",
+      "activeDaily": 1373,
+      "recoveredDaily": 968,
+      "deathDaily": 37,
+      "patientDaily": 368,
+      "date": "30 Aug 20"
+    },
+    {
+      "_id": "5f4ccda7a99d1f0017c839a9",
+      "activeDaily": 1397,
+      "recoveredDaily": 976,
+      "deathDaily": 37,
+      "patientDaily": 384,
+      "date": "31 Aug 20"
+    },
+    {
+      "_id": "5f4e1f2785cf3d00176fb816",
+      "activeDaily": 1425,
+      "recoveredDaily": 1026,
+      "deathDaily": 39,
+      "patientDaily": 360,
+      "date": "1 Sep 20"
+    },
+    {
+      "_id": "5f4f70a7a582e90017d583fa",
+      "activeDaily": 1445,
+      "recoveredDaily": 1036,
+      "deathDaily": 39,
+      "patientDaily": 370,
+      "date": "2 Sep 20"
+    },
+    {
+      "_id": "5f50c227a582e90017d58446",
+      "activeDaily": 1474,
+      "recoveredDaily": 1061,
+      "deathDaily": 41,
+      "patientDaily": 372,
+      "date": "3 Sep 20"
+    },
+    {
+      "_id": "5f5213a701bcbc0017554b3c",
+      "activeDaily": 1507,
+      "recoveredDaily": 1075,
+      "deathDaily": 43,
+      "patientDaily": 389,
+      "date": "4 Sep 20"
+    },
+    {
+      "_id": "5f536526f1596a001739a377",
+      "activeDaily": 1525,
+      "recoveredDaily": 1096,
+      "deathDaily": 44,
+      "patientDaily": 385,
+      "date": "5 Sep 20"
+    },
+    {
+      "_id": "5f54b6a742934c0017e5a860",
+      "activeDaily": 1546,
+      "recoveredDaily": 1116,
+      "deathDaily": 45,
+      "patientDaily": 385,
+      "date": "6 Sep 20"
+    },
+    {
+      "_id": "5f560827b5316100176c7f59",
+      "activeDaily": 1546,
+      "recoveredDaily": 1116,
+      "deathDaily": 45,
+      "patientDaily": 385,
+      "date": "7 Sep 20"
+    },
+    {
+      "_id": "5f5759a760577f0017d1daa5",
+      "activeDaily": 1571,
+      "recoveredDaily": 1189,
+      "deathDaily": 46,
+      "patientDaily": 336,
+      "date": "8 Sep 20"
+    },
+    {
+      "_id": "5f58ab295d70f9001791ed31",
+      "activeDaily": 1595,
+      "recoveredDaily": 1216,
+      "deathDaily": 47,
+      "patientDaily": 332,
+      "date": "9 Sep 20"
+    },
+    {
+      "_id": "5f59fca7a9bffc0017b9222d",
+      "activeDaily": 1645,
+      "recoveredDaily": 1268,
+      "deathDaily": 48,
+      "patientDaily": 329,
+      "date": "10 Sep 20"
+    },
+    {
+      "_id": "5f5b4e28c94b1b0017de3c5f",
+      "activeDaily": 1744,
+      "recoveredDaily": 1313,
+      "deathDaily": 50,
+      "patientDaily": 381,
+      "date": "11 Sep 20"
+    },
+    {
+      "_id": "5f5c9fa70ffaa60017d891d7",
+      "activeDaily": 1744,
+      "recoveredDaily": 1313,
+      "deathDaily": 50,
+      "patientDaily": 381,
+      "date": "12 Sep 20"
+    },
+    {
+      "_id": "5f5df1270a8f8700178aa4cc",
+      "activeDaily": 1787,
+      "recoveredDaily": 1325,
+      "deathDaily": 50,
+      "patientDaily": 412,
+      "date": "13 Sep 20"
+    },
+    {
+      "_id": "5f5f42a70d3f520017a62ba6",
+      "activeDaily": 1836,
+      "recoveredDaily": 1332,
+      "deathDaily": 52,
+      "patientDaily": 452,
+      "date": "14 Sep 20"
+    },
+    {
+      "_id": "5f609426392177001793868d",
+      "activeDaily": 1869,
+      "recoveredDaily": 1355,
+      "deathDaily": 53,
+      "patientDaily": 461,
+      "date": "15 Sep 20"
+    },
+    {
+      "_id": "5f61e5a63f70e20017a6e254",
+      "activeDaily": 1895,
+      "recoveredDaily": 1370,
+      "deathDaily": 53,
+      "patientDaily": 472,
+      "date": "16 Sep 20"
+    },
+    {
+      "_id": "5f63372638c35d0017ce5742",
+      "activeDaily": 1895,
+      "recoveredDaily": 1370,
+      "deathDaily": 53,
+      "patientDaily": 472,
+      "date": "17 Sep 20"
+    },
+    {
+      "_id": "5f6488a6a9443f00170565e5",
+      "activeDaily": 1984,
+      "recoveredDaily": 1440,
+      "deathDaily": 53,
+      "patientDaily": 491,
+      "date": "18 Sep 20"
+    },
+    {
+      "_id": "5f65da254f206600176ad0b3",
+      "activeDaily": 2037,
+      "recoveredDaily": 1471,
+      "deathDaily": 53,
+      "patientDaily": 513,
+      "date": "19 Sep 20"
+    },
+    {
+      "_id": "5f672ba6c2b4820017fc79c6",
+      "activeDaily": 2111,
+      "recoveredDaily": 1491,
+      "deathDaily": 54,
+      "patientDaily": 566,
+      "date": "20 Sep 20"
+    },
+    {
+      "_id": "5f687d2686387f0017121175",
+      "activeDaily": 2181,
+      "recoveredDaily": 1506,
+      "deathDaily": 58,
+      "patientDaily": 617,
+      "date": "21 Sep 20"
+    },
+    {
+      "_id": "5f69cea66ca87d001797d18a",
+      "activeDaily": 2245,
+      "recoveredDaily": 1543,
+      "deathDaily": 60,
+      "patientDaily": 642,
+      "date": "22 Sep 20"
+    },
+    {
+      "_id": "5f6b2026e842bb0017f77f9d",
+      "activeDaily": 2312,
+      "recoveredDaily": 1578,
+      "deathDaily": 60,
+      "patientDaily": 674,
+      "date": "23 Sep 20"
+    },
+    {
+      "_id": "5f6c71a6aa6643001771bf99",
+      "activeDaily": 2375,
+      "recoveredDaily": 1634,
+      "deathDaily": 61,
+      "patientDaily": 680,
+      "date": "24 Sep 20"
+    },
+    {
+      "_id": "5f6dc326ec70540017aff168",
+      "activeDaily": 2397,
+      "recoveredDaily": 1652,
+      "deathDaily": 64,
+      "patientDaily": 681,
+      "date": "25 Sep 20"
+    },
+    {
+      "_id": "5f6f14a6bcea25001731837c",
+      "activeDaily": 2458,
+      "recoveredDaily": 1677,
+      "deathDaily": 64,
+      "patientDaily": 717,
+      "date": "26 Sep 20"
+    },
+    {
+      "_id": "5f7066262e29d800178da505",
+      "activeDaily": 2499,
+      "recoveredDaily": 1717,
+      "deathDaily": 64,
+      "patientDaily": 718,
+      "date": "27 Sep 20"
+    },
+    {
+      "_id": "5f71b7a81d849e00177c848a",
+      "activeDaily": 2519,
+      "recoveredDaily": 1743,
+      "deathDaily": 65,
+      "patientDaily": 711,
+      "date": "28 Sep 20"
+    },
+    {
+      "_id": "5f73092694928c0017504921",
+      "activeDaily": 2558,
+      "recoveredDaily": 1797,
+      "deathDaily": 65,
+      "patientDaily": 696,
+      "date": "29 Sep 20"
+    },
+    {
+      "_id": "5f745aa629b9dd0017c31d20",
+      "activeDaily": 2607,
+      "recoveredDaily": 1856,
+      "deathDaily": 67,
+      "patientDaily": 684,
+      "date": "30 Sep 20"
+    },
+    {
+      "_id": "5f75ac268152e700173f6b33",
+      "activeDaily": 2643,
+      "recoveredDaily": 1885,
+      "deathDaily": 67,
+      "patientDaily": 691,
+      "date": "1 Okt 20"
+    },
+    {
+      "_id": "5f76fda643cc450017f58ea3",
+      "activeDaily": 2643,
+      "recoveredDaily": 1885,
+      "deathDaily": 67,
+      "patientDaily": 691,
+      "date": "2 Okt 20"
+    },
+    {
+      "_id": "5f784f262e71de001767042f",
+      "activeDaily": 2700,
+      "recoveredDaily": 1957,
+      "deathDaily": 73,
+      "patientDaily": 670,
+      "date": "3 Okt 20"
+    },
+    {
+      "_id": "5f79a0a6c1d4a9001799506c",
+      "activeDaily": 2772,
+      "recoveredDaily": 1976,
+      "deathDaily": 74,
+      "patientDaily": 722,
+      "date": "4 Okt 20"
+    },
+    {
+      "_id": "5f7af2268814220017e3bcc5",
+      "activeDaily": 2791,
+      "recoveredDaily": 2046,
+      "deathDaily": 75,
+      "patientDaily": 670,
+      "date": "5 Okt 20"
+    },
+    {
+      "_id": "5f7c43a640a72c0017c3ba4f",
+      "activeDaily": 2813,
+      "recoveredDaily": 2123,
+      "deathDaily": 75,
+      "patientDaily": 615,
+      "date": "6 Okt 20"
+    },
+    {
+      "_id": "5f7d9526bbf78a00176f760d",
+      "activeDaily": 2833,
+      "recoveredDaily": 2163,
+      "deathDaily": 75,
+      "patientDaily": 595,
+      "date": "7 Okt 20"
+    },
+    {
+      "_id": "5f7ee6a6a1c7410017a230ea",
+      "activeDaily": 2853,
+      "recoveredDaily": 2183,
+      "deathDaily": 75,
+      "patientDaily": 595,
+      "date": "8 Okt 20"
+    },
+    {
+      "_id": "5f803826f5352a00176c8a5d",
+      "activeDaily": 2904,
+      "recoveredDaily": 2192,
+      "deathDaily": 76,
+      "patientDaily": 636,
+      "date": "9 Okt 20"
+    },
+    {
+      "_id": "5f8189a685830a0017154281",
+      "activeDaily": 2960,
+      "recoveredDaily": 2223,
+      "deathDaily": 78,
+      "patientDaily": 659,
+      "date": "10 Okt 20"
+    },
+    {
+      "_id": "5f82db266c4ee80017c30ea2",
+      "activeDaily": 2960,
+      "recoveredDaily": 2223,
+      "deathDaily": 78,
+      "patientDaily": 659,
+      "date": "11 Okt 20"
+    },
+    {
+      "_id": "5f842ca6937b970017a44373",
+      "activeDaily": 3064,
+      "recoveredDaily": 2273,
+      "deathDaily": 79,
+      "patientDaily": 712,
+      "date": "12 Okt 20"
+    },
+    {
+      "_id": "5f857e279a7e9200175ced77",
+      "activeDaily": 3145,
+      "recoveredDaily": 2396,
+      "deathDaily": 81,
+      "patientDaily": 668,
+      "date": "13 Okt 20"
+    },
+    {
+      "_id": "5f86cfa6d769860017da676b",
+      "activeDaily": 3171,
+      "recoveredDaily": 2416,
+      "deathDaily": 83,
+      "patientDaily": 672,
+      "date": "14 Okt 20"
+    },
+    {
+      "_id": "5f882126bea349001706f70b",
+      "activeDaily": 3171,
+      "recoveredDaily": 2416,
+      "deathDaily": 83,
+      "patientDaily": 672,
+      "date": "15 Okt 20"
+    },
+    {
+      "_id": "5f8972a6f9c228001702178c",
+      "activeDaily": 3216,
+      "recoveredDaily": 2471,
+      "deathDaily": 85,
+      "patientDaily": 660,
+      "date": "16 Okt 20"
+    },
+    {
+      "_id": "5f8ac426ab729c0017f571fe",
+      "activeDaily": 3216,
+      "recoveredDaily": 2471,
+      "deathDaily": 85,
+      "patientDaily": 660,
+      "date": "17 Okt 20"
+    },
+    {
+      "_id": "5f8c15a60c509e00178ae9a8",
+      "activeDaily": 3325,
+      "recoveredDaily": 2615,
+      "deathDaily": 86,
+      "patientDaily": 624,
+      "date": "18 Okt 20"
+    },
+    {
+      "_id": "5f8d67272df256001741f3d1",
+      "activeDaily": 3343,
+      "recoveredDaily": 2690,
+      "deathDaily": 86,
+      "patientDaily": 567,
+      "date": "19 Okt 20"
+    },
+    {
+      "_id": "5f8eb8a62df256001741f41d",
+      "activeDaily": 3343,
+      "recoveredDaily": 2690,
+      "deathDaily": 86,
+      "patientDaily": 567,
+      "date": "20 Okt 20"
+    },
+    {
+      "_id": "5f900a267fefb100172e4cd6",
+      "activeDaily": 3356,
+      "recoveredDaily": 2741,
+      "deathDaily": 86,
+      "patientDaily": 529,
+      "date": "21 Okt 20"
+    },
+    {
+      "_id": "5f915ba63a9d3f0017dc28c5",
+      "activeDaily": 3389,
+      "recoveredDaily": 2762,
+      "deathDaily": 88,
+      "patientDaily": 539,
+      "date": "22 Okt 20"
+    },
+    {
+      "_id": "5f92ad275c44350017b8d50f",
+      "activeDaily": 3434,
+      "recoveredDaily": 2781,
+      "deathDaily": 88,
+      "patientDaily": 565,
+      "date": "23 Okt 20"
+    },
+    {
+      "_id": "5f93fea645062b0017831a2a",
+      "activeDaily": 3462,
+      "recoveredDaily": 2806,
+      "deathDaily": 88,
+      "patientDaily": 568,
+      "date": "24 Okt 20"
+    },
+    {
+      "_id": "5f955026b4360600173d786c",
+      "activeDaily": 3506,
+      "recoveredDaily": 2842,
+      "deathDaily": 88,
+      "patientDaily": 576,
+      "date": "25 Okt 20"
+    },
+    {
+      "_id": "5f96a1a650b3c30017587b77",
+      "activeDaily": 3550,
+      "recoveredDaily": 2910,
+      "deathDaily": 88,
+      "patientDaily": 552,
+      "date": "26 Okt 20"
+    },
+    {
+      "_id": "5f97f3262feecd00172a4251",
+      "activeDaily": 3576,
+      "recoveredDaily": 2939,
+      "deathDaily": 88,
+      "patientDaily": 549,
+      "date": "27 Okt 20"
+    },
+    {
+      "_id": "5f9944a6d8ebb600171b1e1f",
+      "activeDaily": 3617,
+      "recoveredDaily": 2971,
+      "deathDaily": 89,
+      "patientDaily": 557,
+      "date": "28 Okt 20"
+    },
+    {
+      "_id": "5f9a962648e331001714b291",
+      "activeDaily": 3662,
+      "recoveredDaily": 3013,
+      "deathDaily": 90,
+      "patientDaily": 559,
+      "date": "29 Okt 20"
+    },
+    {
+      "_id": "5f9be7a65a74630017fa4065",
+      "activeDaily": 3744,
+      "recoveredDaily": 3064,
+      "deathDaily": 91,
+      "patientDaily": 589,
+      "date": "30 Okt 20"
+    },
+    {
+      "_id": "5f9d3926a64b100017fb212a",
+      "activeDaily": 3803,
+      "recoveredDaily": 3124,
+      "deathDaily": 92,
+      "patientDaily": 587,
+      "date": "31 Okt 20"
+    },
+    {
+      "_id": "5f9e8aa6504a2300170ef428",
+      "activeDaily": 3835,
+      "recoveredDaily": 3147,
+      "deathDaily": 93,
+      "patientDaily": 595,
+      "date": "1 Nov 20"
+    },
+    {
+      "_id": "5f9fdc26570ddb0017cf32da",
+      "activeDaily": 3851,
+      "recoveredDaily": 3160,
+      "deathDaily": 93,
+      "patientDaily": 598,
+      "date": "2 Nov 20"
+    },
+    {
+      "_id": "5fa12da619b3d30017ccf3e4",
+      "activeDaily": 3883,
+      "recoveredDaily": 3209,
+      "deathDaily": 94,
+      "patientDaily": 580,
+      "date": "3 Nov 20"
+    },
+    {
+      "_id": "5fa27f2600f800001799f8b3",
+      "activeDaily": 3902,
+      "recoveredDaily": 3259,
+      "deathDaily": 94,
+      "patientDaily": 643,
+      "date": "4 Nov 20"
+    },
+    {
+      "_id": "5fa3d0a6ea723a0017db8159",
+      "activeDaily": 3932,
+      "recoveredDaily": 3298,
+      "deathDaily": 95,
+      "patientDaily": 634,
+      "date": "5 Nov 20"
+    },
+    {
+      "_id": "5fa52226d9c8670017998d05",
+      "activeDaily": 3974,
+      "recoveredDaily": 3328,
+      "deathDaily": 96,
+      "patientDaily": 644,
+      "date": "6 Nov 20"
+    }
+  ],
+  "deathProv": 96,
+  "recoveredProv": 3328,
+  "__v": 509
+}

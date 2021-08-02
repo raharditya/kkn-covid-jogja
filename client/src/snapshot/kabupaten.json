@@ -1,1 +1,587 @@
-[{"_id":"5eef1a18fe3b6dd616a6869a","nameKab":"Kabupaten Bantul","__v":0,"activeKab":487,"kecamatan":[{"_id":"601930d29d51040017d1cd89","nameKec":"Bambang Lipuro","activeKec":9,"odpKec":34,"pdpKec":23},{"_id":"601930d29d51040017d1cd8a","nameKec":"Banguntapan","activeKec":97,"odpKec":196,"pdpKec":85},{"_id":"601930d29d51040017d1cd8b","nameKec":"Bantul","activeKec":49,"odpKec":148,"pdpKec":62},{"_id":"601930d29d51040017d1cd8c","nameKec":"Dlingo","activeKec":2,"odpKec":15,"pdpKec":10},{"_id":"601930d29d51040017d1cd8d","nameKec":"Imogiri","activeKec":28,"odpKec":173,"pdpKec":20},{"_id":"601930d29d51040017d1cd8e","nameKec":"Jetis","activeKec":21,"odpKec":75,"pdpKec":29},{"_id":"601930d29d51040017d1cd8f","nameKec":"Kasihan","activeKec":93,"odpKec":55,"pdpKec":52},{"_id":"601930d29d51040017d1cd90","nameKec":"Kretek","activeKec":11,"odpKec":52,"pdpKec":10},{"_id":"601930d29d51040017d1cd91","nameKec":"Pajangan","activeKec":7,"odpKec":34,"pdpKec":15},{"_id":"601930d29d51040017d1cd92","nameKec":"Pandak","activeKec":14,"odpKec":38,"pdpKec":12},{"_id":"601930d29d51040017d1cd93","nameKec":"Piyungan","activeKec":18,"odpKec":25,"pdpKec":21},{"_id":"601930d29d51040017d1cd94","nameKec":"Pleret","activeKec":25,"odpKec":73,"pdpKec":23},{"_id":"601930d29d51040017d1cd95","nameKec":"Pundong","activeKec":5,"odpKec":42,"pdpKec":16},{"_id":"601930d29d51040017d1cd96","nameKec":"Sanden","activeKec":7,"odpKec":42,"pdpKec":17},{"_id":"601930d29d51040017d1cd97","nameKec":"Sedayu","activeKec":12,"odpKec":23,"pdpKec":15},{"_id":"601930d29d51040017d1cd98","nameKec":"Sewon","activeKec":80,"odpKec":132,"pdpKec":45},{"_id":"601930d29d51040017d1cd99","nameKec":"Srandakan","activeKec":9,"odpKec":69,"pdpKec":14}],"odpKab":1226,"pdpKab":469,"lastUpdate":"Data Update 12/12/2020","timeFetched":"2021-02-02T11:00:02.689Z"},{"_id":"5eef1aa0fe3b6dd616a6988f","nameKab":"Kabupaten Gunung Kidul","__v":0,"activeKab":146,"kecamatan":[{"_id":"601930e89d51040017d1cd9a","nameKec":"Gedangsari","activeKec":4,"odpKec":141,"pdpKec":1},{"_id":"601930e89d51040017d1cd9b","nameKec":"Girisubo","activeKec":6,"odpKec":41,"pdpKec":5},{"_id":"601930e89d51040017d1cd9c","nameKec":"Karangmojo","activeKec":18,"odpKec":269,"pdpKec":33},{"_id":"601930e89d51040017d1cd9d","nameKec":"Ngawen","activeKec":4,"odpKec":122,"pdpKec":2},{"_id":"601930e89d51040017d1cd9e","nameKec":"Nglipar","activeKec":10,"odpKec":91,"pdpKec":7},{"_id":"601930e89d51040017d1cd9f","nameKec":"Paliyan","activeKec":1,"odpKec":65,"pdpKec":10},{"_id":"601930e89d51040017d1cda0","nameKec":"Panggang","activeKec":1,"odpKec":19,"pdpKec":3},{"_id":"601930e89d51040017d1cda1","nameKec":"Patuk","activeKec":16,"odpKec":79,"pdpKec":4},{"_id":"601930e89d51040017d1cda2","nameKec":"Playen","activeKec":21,"odpKec":75,"pdpKec":19},{"_id":"601930e89d51040017d1cda3","nameKec":"Ponjong","activeKec":13,"odpKec":124,"pdpKec":24},{"_id":"601930e89d51040017d1cda4","nameKec":"Purwosari","activeKec":1,"odpKec":19,"pdpKec":3},{"_id":"601930e89d51040017d1cda5","nameKec":"Semanu","activeKec":12,"odpKec":168,"pdpKec":20},{"_id":"601930e89d51040017d1cda6","nameKec":"Semin","activeKec":10,"odpKec":55,"pdpKec":15},{"_id":"601930e89d51040017d1cda7","nameKec":"Tanjungsari","activeKec":2,"odpKec":30,"pdpKec":6},{"_id":"601930e89d51040017d1cda8","nameKec":"Wonosari","activeKec":27,"odpKec":111,"pdpKec":37}],"odpKab":1409,"pdpKab":189,"lastUpdate":"Data Update 12/12/2020","timeFetched":"2021-02-02T11:00:34.363Z"},{"_id":"5eef1ab1fe3b6dd616a69af3","nameKab":"Kabupaten Kulon Progo","__v":0,"activeKab":266,"kecamatan":[{"_id":"601930fa9d51040017d1cda9","nameKec":"Galur","activeKec":22,"odpKec":82,"pdpKec":4},{"_id":"601930fa9d51040017d1cdaa","nameKec":"Girimulyo","activeKec":4,"odpKec":100,"pdpKec":7},{"_id":"601930fa9d51040017d1cdab","nameKec":"Kalibawang","activeKec":1,"odpKec":91,"pdpKec":9},{"_id":"601930fa9d51040017d1cdac","nameKec":"Kokap","activeKec":9,"odpKec":193,"pdpKec":5},{"_id":"601930fa9d51040017d1cdad","nameKec":"Lendah","activeKec":11,"odpKec":181,"pdpKec":8},{"_id":"601930fa9d51040017d1cdae","nameKec":"Nanggulan","activeKec":26,"odpKec":113,"pdpKec":12},{"_id":"601930fa9d51040017d1cdaf","nameKec":"Panjatan","activeKec":21,"odpKec":263,"pdpKec":3},{"_id":"601930fa9d51040017d1cdb0","nameKec":"Pengasih","activeKec":52,"odpKec":115,"pdpKec":15},{"_id":"601930fa9d51040017d1cdb1","nameKec":"Samigaluh","activeKec":4,"odpKec":199,"pdpKec":4},{"_id":"601930fa9d51040017d1cdb2","nameKec":"Sentolo","activeKec":44,"odpKec":162,"pdpKec":14},{"_id":"601930fa9d51040017d1cdb3","nameKec":"Temon","activeKec":12,"odpKec":192,"pdpKec":10},{"_id":"601930fa9d51040017d1cdb4","nameKec":"Wates","activeKec":60,"odpKec":209,"pdpKec":7}],"odpKab":1900,"pdpKab":98,"lastUpdate":"Data Update 12/12/2020","timeFetched":"2021-02-02T11:00:56.693Z"},{"_id":"5eef1acafe3b6dd616a69f00","nameKab":"Kabupaten Sleman","__v":0,"activeKab":1203,"kecamatan":[{"_id":"601931139d51040017d1cdb5","nameKec":"Berbah","activeKec":72,"odpKec":54,"pdpKec":42},{"_id":"601931139d51040017d1cdb6","nameKec":"Cangkringan","activeKec":19,"odpKec":52,"pdpKec":22},{"_id":"601931139d51040017d1cdb7","nameKec":"Depok","activeKec":230,"odpKec":533,"pdpKec":135},{"_id":"601931139d51040017d1cdb8","nameKec":"Gamping","activeKec":146,"odpKec":213,"pdpKec":64},{"_id":"601931139d51040017d1cdb9","nameKec":"Godean","activeKec":73,"odpKec":107,"pdpKec":28},{"_id":"601931139d51040017d1cdba","nameKec":"Kalasan","activeKec":76,"odpKec":214,"pdpKec":40},{"_id":"601931139d51040017d1cdbb","nameKec":"Minggir","activeKec":33,"odpKec":72,"pdpKec":11},{"_id":"601931139d51040017d1cdbc","nameKec":"Mlati","activeKec":87,"odpKec":262,"pdpKec":83},{"_id":"601931139d51040017d1cdbd","nameKec":"Moyudan","activeKec":14,"odpKec":129,"pdpKec":17},{"_id":"601931139d51040017d1cdbe","nameKec":"Ngaglik","activeKec":86,"odpKec":348,"pdpKec":100},{"_id":"601931139d51040017d1cdbf","nameKec":"Ngemplak","activeKec":81,"odpKec":232,"pdpKec":35},{"_id":"601931139d51040017d1cdc0","nameKec":"Pakem","activeKec":24,"odpKec":47,"pdpKec":25},{"_id":"601931139d51040017d1cdc1","nameKec":"Prambanan","activeKec":29,"odpKec":88,"pdpKec":18},{"_id":"601931139d51040017d1cdc2","nameKec":"Seyegan","activeKec":78,"odpKec":105,"pdpKec":24},{"_id":"601931139d51040017d1cdc3","nameKec":"Sleman","activeKec":58,"odpKec":132,"pdpKec":45},{"_id":"601931139d51040017d1cdc4","nameKec":"Tempel","activeKec":61,"odpKec":167,"pdpKec":24},{"_id":"601931139d51040017d1cdc5","nameKec":"Turi","activeKec":36,"odpKec":43,"pdpKec":18}],"odpKab":2798,"pdpKab":731,"lastUpdate":"Data Update 12/12/2020","timeFetched":"2021-02-02T11:01:14.342Z"},{"_id":"5eef1adffe3b6dd616a6a2b9","nameKab":"Kota Yogyakarta","__v":0,"activeKab":437,"kecamatan":[{"_id":"601931279d51040017d1cdc6","nameKec":"Danurejan","activeKec":19,"odpKec":54,"pdpKec":15},{"_id":"601931279d51040017d1cdc7","nameKec":"Gedong Tengen","activeKec":12,"odpKec":56,"pdpKec":7},{"_id":"601931279d51040017d1cdc8","nameKec":"Gondokusuman","activeKec":62,"odpKec":125,"pdpKec":41},{"_id":"601931279d51040017d1cdc9","nameKec":"Gondomanan","activeKec":21,"odpKec":27,"pdpKec":9},{"_id":"601931279d51040017d1cdca","nameKec":"Jetis","activeKec":57,"odpKec":129,"pdpKec":57},{"_id":"601931279d51040017d1cdcb","nameKec":"Kotagede","activeKec":25,"odpKec":83,"pdpKec":17},{"_id":"601931279d51040017d1cdcc","nameKec":"Kraton","activeKec":22,"odpKec":51,"pdpKec":10},{"_id":"601931279d51040017d1cdcd","nameKec":"Mantrijeron","activeKec":30,"odpKec":76,"pdpKec":16},{"_id":"601931279d51040017d1cdce","nameKec":"Mergangsan","activeKec":42,"odpKec":111,"pdpKec":29},{"_id":"601931279d51040017d1cdcf","nameKec":"Ngampilan","activeKec":15,"odpKec":37,"pdpKec":9},{"_id":"601931279d51040017d1cdd0","nameKec":"Pakualaman","activeKec":14,"odpKec":23,"pdpKec":8},{"_id":"601931279d51040017d1cdd1","nameKec":"Tegalrejo","activeKec":31,"odpKec":61,"pdpKec":23},{"_id":"601931279d51040017d1cdd2","nameKec":"Umbulharjo","activeKec":67,"odpKec":183,"pdpKec":34},{"_id":"601931279d51040017d1cdd3","nameKec":"Wirobrajan","activeKec":20,"odpKec":54,"pdpKec":17}],"odpKab":1070,"pdpKab":292,"lastUpdate":"Data Update 12/12/2020","timeFetched":"2021-02-02T11:01:39.556Z"}]
+[
+  {
+    "_id": "5eef1a18fe3b6dd616a6869a",
+    "nameKab": "Kabupaten Bantul",
+    "__v": 0,
+    "activeKab": 487,
+    "kecamatan": [
+      {
+        "_id": "601930d29d51040017d1cd89",
+        "nameKec": "Bambang Lipuro",
+        "activeKec": 9,
+        "odpKec": 34,
+        "pdpKec": 23
+      },
+      {
+        "_id": "601930d29d51040017d1cd8a",
+        "nameKec": "Banguntapan",
+        "activeKec": 97,
+        "odpKec": 196,
+        "pdpKec": 85
+      },
+      {
+        "_id": "601930d29d51040017d1cd8b",
+        "nameKec": "Bantul",
+        "activeKec": 49,
+        "odpKec": 148,
+        "pdpKec": 62
+      },
+      {
+        "_id": "601930d29d51040017d1cd8c",
+        "nameKec": "Dlingo",
+        "activeKec": 2,
+        "odpKec": 15,
+        "pdpKec": 10
+      },
+      {
+        "_id": "601930d29d51040017d1cd8d",
+        "nameKec": "Imogiri",
+        "activeKec": 28,
+        "odpKec": 173,
+        "pdpKec": 20
+      },
+      {
+        "_id": "601930d29d51040017d1cd8e",
+        "nameKec": "Jetis",
+        "activeKec": 21,
+        "odpKec": 75,
+        "pdpKec": 29
+      },
+      {
+        "_id": "601930d29d51040017d1cd8f",
+        "nameKec": "Kasihan",
+        "activeKec": 93,
+        "odpKec": 55,
+        "pdpKec": 52
+      },
+      {
+        "_id": "601930d29d51040017d1cd90",
+        "nameKec": "Kretek",
+        "activeKec": 11,
+        "odpKec": 52,
+        "pdpKec": 10
+      },
+      {
+        "_id": "601930d29d51040017d1cd91",
+        "nameKec": "Pajangan",
+        "activeKec": 7,
+        "odpKec": 34,
+        "pdpKec": 15
+      },
+      {
+        "_id": "601930d29d51040017d1cd92",
+        "nameKec": "Pandak",
+        "activeKec": 14,
+        "odpKec": 38,
+        "pdpKec": 12
+      },
+      {
+        "_id": "601930d29d51040017d1cd93",
+        "nameKec": "Piyungan",
+        "activeKec": 18,
+        "odpKec": 25,
+        "pdpKec": 21
+      },
+      {
+        "_id": "601930d29d51040017d1cd94",
+        "nameKec": "Pleret",
+        "activeKec": 25,
+        "odpKec": 73,
+        "pdpKec": 23
+      },
+      {
+        "_id": "601930d29d51040017d1cd95",
+        "nameKec": "Pundong",
+        "activeKec": 5,
+        "odpKec": 42,
+        "pdpKec": 16
+      },
+      {
+        "_id": "601930d29d51040017d1cd96",
+        "nameKec": "Sanden",
+        "activeKec": 7,
+        "odpKec": 42,
+        "pdpKec": 17
+      },
+      {
+        "_id": "601930d29d51040017d1cd97",
+        "nameKec": "Sedayu",
+        "activeKec": 12,
+        "odpKec": 23,
+        "pdpKec": 15
+      },
+      {
+        "_id": "601930d29d51040017d1cd98",
+        "nameKec": "Sewon",
+        "activeKec": 80,
+        "odpKec": 132,
+        "pdpKec": 45
+      },
+      {
+        "_id": "601930d29d51040017d1cd99",
+        "nameKec": "Srandakan",
+        "activeKec": 9,
+        "odpKec": 69,
+        "pdpKec": 14
+      }
+    ],
+    "odpKab": 1226,
+    "pdpKab": 469,
+    "lastUpdate": "Data Update 12/12/2020",
+    "timeFetched": "2021-02-02T11:00:02.689Z"
+  },
+  {
+    "_id": "5eef1aa0fe3b6dd616a6988f",
+    "nameKab": "Kabupaten Gunung Kidul",
+    "__v": 0,
+    "activeKab": 146,
+    "kecamatan": [
+      {
+        "_id": "601930e89d51040017d1cd9a",
+        "nameKec": "Gedangsari",
+        "activeKec": 4,
+        "odpKec": 141,
+        "pdpKec": 1
+      },
+      {
+        "_id": "601930e89d51040017d1cd9b",
+        "nameKec": "Girisubo",
+        "activeKec": 6,
+        "odpKec": 41,
+        "pdpKec": 5
+      },
+      {
+        "_id": "601930e89d51040017d1cd9c",
+        "nameKec": "Karangmojo",
+        "activeKec": 18,
+        "odpKec": 269,
+        "pdpKec": 33
+      },
+      {
+        "_id": "601930e89d51040017d1cd9d",
+        "nameKec": "Ngawen",
+        "activeKec": 4,
+        "odpKec": 122,
+        "pdpKec": 2
+      },
+      {
+        "_id": "601930e89d51040017d1cd9e",
+        "nameKec": "Nglipar",
+        "activeKec": 10,
+        "odpKec": 91,
+        "pdpKec": 7
+      },
+      {
+        "_id": "601930e89d51040017d1cd9f",
+        "nameKec": "Paliyan",
+        "activeKec": 1,
+        "odpKec": 65,
+        "pdpKec": 10
+      },
+      {
+        "_id": "601930e89d51040017d1cda0",
+        "nameKec": "Panggang",
+        "activeKec": 1,
+        "odpKec": 19,
+        "pdpKec": 3
+      },
+      {
+        "_id": "601930e89d51040017d1cda1",
+        "nameKec": "Patuk",
+        "activeKec": 16,
+        "odpKec": 79,
+        "pdpKec": 4
+      },
+      {
+        "_id": "601930e89d51040017d1cda2",
+        "nameKec": "Playen",
+        "activeKec": 21,
+        "odpKec": 75,
+        "pdpKec": 19
+      },
+      {
+        "_id": "601930e89d51040017d1cda3",
+        "nameKec": "Ponjong",
+        "activeKec": 13,
+        "odpKec": 124,
+        "pdpKec": 24
+      },
+      {
+        "_id": "601930e89d51040017d1cda4",
+        "nameKec": "Purwosari",
+        "activeKec": 1,
+        "odpKec": 19,
+        "pdpKec": 3
+      },
+      {
+        "_id": "601930e89d51040017d1cda5",
+        "nameKec": "Semanu",
+        "activeKec": 12,
+        "odpKec": 168,
+        "pdpKec": 20
+      },
+      {
+        "_id": "601930e89d51040017d1cda6",
+        "nameKec": "Semin",
+        "activeKec": 10,
+        "odpKec": 55,
+        "pdpKec": 15
+      },
+      {
+        "_id": "601930e89d51040017d1cda7",
+        "nameKec": "Tanjungsari",
+        "activeKec": 2,
+        "odpKec": 30,
+        "pdpKec": 6
+      },
+      {
+        "_id": "601930e89d51040017d1cda8",
+        "nameKec": "Wonosari",
+        "activeKec": 27,
+        "odpKec": 111,
+        "pdpKec": 37
+      }
+    ],
+    "odpKab": 1409,
+    "pdpKab": 189,
+    "lastUpdate": "Data Update 12/12/2020",
+    "timeFetched": "2021-02-02T11:00:34.363Z"
+  },
+  {
+    "_id": "5eef1ab1fe3b6dd616a69af3",
+    "nameKab": "Kabupaten Kulon Progo",
+    "__v": 0,
+    "activeKab": 266,
+    "kecamatan": [
+      {
+        "_id": "601930fa9d51040017d1cda9",
+        "nameKec": "Galur",
+        "activeKec": 22,
+        "odpKec": 82,
+        "pdpKec": 4
+      },
+      {
+        "_id": "601930fa9d51040017d1cdaa",
+        "nameKec": "Girimulyo",
+        "activeKec": 4,
+        "odpKec": 100,
+        "pdpKec": 7
+      },
+      {
+        "_id": "601930fa9d51040017d1cdab",
+        "nameKec": "Kalibawang",
+        "activeKec": 1,
+        "odpKec": 91,
+        "pdpKec": 9
+      },
+      {
+        "_id": "601930fa9d51040017d1cdac",
+        "nameKec": "Kokap",
+        "activeKec": 9,
+        "odpKec": 193,
+        "pdpKec": 5
+      },
+      {
+        "_id": "601930fa9d51040017d1cdad",
+        "nameKec": "Lendah",
+        "activeKec": 11,
+        "odpKec": 181,
+        "pdpKec": 8
+      },
+      {
+        "_id": "601930fa9d51040017d1cdae",
+        "nameKec": "Nanggulan",
+        "activeKec": 26,
+        "odpKec": 113,
+        "pdpKec": 12
+      },
+      {
+        "_id": "601930fa9d51040017d1cdaf",
+        "nameKec": "Panjatan",
+        "activeKec": 21,
+        "odpKec": 263,
+        "pdpKec": 3
+      },
+      {
+        "_id": "601930fa9d51040017d1cdb0",
+        "nameKec": "Pengasih",
+        "activeKec": 52,
+        "odpKec": 115,
+        "pdpKec": 15
+      },
+      {
+        "_id": "601930fa9d51040017d1cdb1",
+        "nameKec": "Samigaluh",
+        "activeKec": 4,
+        "odpKec": 199,
+        "pdpKec": 4
+      },
+      {
+        "_id": "601930fa9d51040017d1cdb2",
+        "nameKec": "Sentolo",
+        "activeKec": 44,
+        "odpKec": 162,
+        "pdpKec": 14
+      },
+      {
+        "_id": "601930fa9d51040017d1cdb3",
+        "nameKec": "Temon",
+        "activeKec": 12,
+        "odpKec": 192,
+        "pdpKec": 10
+      },
+      {
+        "_id": "601930fa9d51040017d1cdb4",
+        "nameKec": "Wates",
+        "activeKec": 60,
+        "odpKec": 209,
+        "pdpKec": 7
+      }
+    ],
+    "odpKab": 1900,
+    "pdpKab": 98,
+    "lastUpdate": "Data Update 12/12/2020",
+    "timeFetched": "2021-02-02T11:00:56.693Z"
+  },
+  {
+    "_id": "5eef1acafe3b6dd616a69f00",
+    "nameKab": "Kabupaten Sleman",
+    "__v": 0,
+    "activeKab": 1203,
+    "kecamatan": [
+      {
+        "_id": "601931139d51040017d1cdb5",
+        "nameKec": "Berbah",
+        "activeKec": 72,
+        "odpKec": 54,
+        "pdpKec": 42
+      },
+      {
+        "_id": "601931139d51040017d1cdb6",
+        "nameKec": "Cangkringan",
+        "activeKec": 19,
+        "odpKec": 52,
+        "pdpKec": 22
+      },
+      {
+        "_id": "601931139d51040017d1cdb7",
+        "nameKec": "Depok",
+        "activeKec": 230,
+        "odpKec": 533,
+        "pdpKec": 135
+      },
+      {
+        "_id": "601931139d51040017d1cdb8",
+        "nameKec": "Gamping",
+        "activeKec": 146,
+        "odpKec": 213,
+        "pdpKec": 64
+      },
+      {
+        "_id": "601931139d51040017d1cdb9",
+        "nameKec": "Godean",
+        "activeKec": 73,
+        "odpKec": 107,
+        "pdpKec": 28
+      },
+      {
+        "_id": "601931139d51040017d1cdba",
+        "nameKec": "Kalasan",
+        "activeKec": 76,
+        "odpKec": 214,
+        "pdpKec": 40
+      },
+      {
+        "_id": "601931139d51040017d1cdbb",
+        "nameKec": "Minggir",
+        "activeKec": 33,
+        "odpKec": 72,
+        "pdpKec": 11
+      },
+      {
+        "_id": "601931139d51040017d1cdbc",
+        "nameKec": "Mlati",
+        "activeKec": 87,
+        "odpKec": 262,
+        "pdpKec": 83
+      },
+      {
+        "_id": "601931139d51040017d1cdbd",
+        "nameKec": "Moyudan",
+        "activeKec": 14,
+        "odpKec": 129,
+        "pdpKec": 17
+      },
+      {
+        "_id": "601931139d51040017d1cdbe",
+        "nameKec": "Ngaglik",
+        "activeKec": 86,
+        "odpKec": 348,
+        "pdpKec": 100
+      },
+      {
+        "_id": "601931139d51040017d1cdbf",
+        "nameKec": "Ngemplak",
+        "activeKec": 81,
+        "odpKec": 232,
+        "pdpKec": 35
+      },
+      {
+        "_id": "601931139d51040017d1cdc0",
+        "nameKec": "Pakem",
+        "activeKec": 24,
+        "odpKec": 47,
+        "pdpKec": 25
+      },
+      {
+        "_id": "601931139d51040017d1cdc1",
+        "nameKec": "Prambanan",
+        "activeKec": 29,
+        "odpKec": 88,
+        "pdpKec": 18
+      },
+      {
+        "_id": "601931139d51040017d1cdc2",
+        "nameKec": "Seyegan",
+        "activeKec": 78,
+        "odpKec": 105,
+        "pdpKec": 24
+      },
+      {
+        "_id": "601931139d51040017d1cdc3",
+        "nameKec": "Sleman",
+        "activeKec": 58,
+        "odpKec": 132,
+        "pdpKec": 45
+      },
+      {
+        "_id": "601931139d51040017d1cdc4",
+        "nameKec": "Tempel",
+        "activeKec": 61,
+        "odpKec": 167,
+        "pdpKec": 24
+      },
+      {
+        "_id": "601931139d51040017d1cdc5",
+        "nameKec": "Turi",
+        "activeKec": 36,
+        "odpKec": 43,
+        "pdpKec": 18
+      }
+    ],
+    "odpKab": 2798,
+    "pdpKab": 731,
+    "lastUpdate": "Data Update 12/12/2020",
+    "timeFetched": "2021-02-02T11:01:14.342Z"
+  },
+  {
+    "_id": "5eef1adffe3b6dd616a6a2b9",
+    "nameKab": "Kota Yogyakarta",
+    "__v": 0,
+    "activeKab": 437,
+    "kecamatan": [
+      {
+        "_id": "601931279d51040017d1cdc6",
+        "nameKec": "Danurejan",
+        "activeKec": 19,
+        "odpKec": 54,
+        "pdpKec": 15
+      },
+      {
+        "_id": "601931279d51040017d1cdc7",
+        "nameKec": "Gedong Tengen",
+        "activeKec": 12,
+        "odpKec": 56,
+        "pdpKec": 7
+      },
+      {
+        "_id": "601931279d51040017d1cdc8",
+        "nameKec": "Gondokusuman",
+        "activeKec": 62,
+        "odpKec": 125,
+        "pdpKec": 41
+      },
+      {
+        "_id": "601931279d51040017d1cdc9",
+        "nameKec": "Gondomanan",
+        "activeKec": 21,
+        "odpKec": 27,
+        "pdpKec": 9
+      },
+      {
+        "_id": "601931279d51040017d1cdca",
+        "nameKec": "Jetis",
+        "activeKec": 57,
+        "odpKec": 129,
+        "pdpKec": 57
+      },
+      {
+        "_id": "601931279d51040017d1cdcb",
+        "nameKec": "Kotagede",
+        "activeKec": 25,
+        "odpKec": 83,
+        "pdpKec": 17
+      },
+      {
+        "_id": "601931279d51040017d1cdcc",
+        "nameKec": "Kraton",
+        "activeKec": 22,
+        "odpKec": 51,
+        "pdpKec": 10
+      },
+      {
+        "_id": "601931279d51040017d1cdcd",
+        "nameKec": "Mantrijeron",
+        "activeKec": 30,
+        "odpKec": 76,
+        "pdpKec": 16
+      },
+      {
+        "_id": "601931279d51040017d1cdce",
+        "nameKec": "Mergangsan",
+        "activeKec": 42,
+        "odpKec": 111,
+        "pdpKec": 29
+      },
+      {
+        "_id": "601931279d51040017d1cdcf",
+        "nameKec": "Ngampilan",
+        "activeKec": 15,
+        "odpKec": 37,
+        "pdpKec": 9
+      },
+      {
+        "_id": "601931279d51040017d1cdd0",
+        "nameKec": "Pakualaman",
+        "activeKec": 14,
+        "odpKec": 23,
+        "pdpKec": 8
+      },
+      {
+        "_id": "601931279d51040017d1cdd1",
+        "nameKec": "Tegalrejo",
+        "activeKec": 31,
+        "odpKec": 61,
+        "pdpKec": 23
+      },
+      {
+        "_id": "601931279d51040017d1cdd2",
+        "nameKec": "Umbulharjo",
+        "activeKec": 67,
+        "odpKec": 183,
+        "pdpKec": 34
+      },
+      {
+        "_id": "601931279d51040017d1cdd3",
+        "nameKec": "Wirobrajan",
+        "activeKec": 20,
+        "odpKec": 54,
+        "pdpKec": 17
+      }
+    ],
+    "odpKab": 1070,
+    "pdpKab": 292,
+    "lastUpdate": "Data Update 12/12/2020",
+    "timeFetched": "2021-02-02T11:01:39.556Z"
+  }
+]
